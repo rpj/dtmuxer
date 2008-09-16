@@ -9,6 +9,9 @@
 #define YES (1)
 #define NO	(0)
 
+#define FTYP_ATOM_ID			"ftyp"
+#define M4A_FILE_ID				"M4A "
+
 typedef char BOOL;
 
 typedef struct mpeg4atom {
@@ -21,9 +24,6 @@ typedef struct mpeg4atom {
 } mpeg4atom_t;
 
 // dtM4ARead.c
-BOOL dataHasValidM4AHeader(char*);
-ssize_t readFileIntoBuffer(int, void**);
-
 mpeg4atom_t* readMPEG4FileFromPath(const char*);
 
 // dtM4AWrite.c
@@ -32,8 +32,9 @@ BOOL writeMPEG4FileToPath(mpeg4atom_t*, const char*);
 // dtM4AProc.c
 BOOL removeAtomFromMPEG4(mpeg4atom_t*, char*);
 
+// dtM4AUtil.c
+BOOL fileIsValidM4AFile(int filedes);
+BOOL atomCodeIsKnownParent(uint32_t code);
+
 void printMPEG4AtomToStdout(mpeg4atom_t* atom, const char* tabs);
 void printMPEG4StructureToStdout(mpeg4atom_t* m4a, const char*);
-
-// util?
-// void freeMPEG4File(mpeg4file_t* fileToFree); ??

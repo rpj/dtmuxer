@@ -11,6 +11,7 @@
 		9472E96C0E7DF699009BEC66 /* dtM4ARead.c in Sources */ = {isa = PBXBuildFile; fileRef = 9472E96B0E7DF699009BEC66 /* dtM4ARead.c */; };
 		9472E9710E7DF6AD009BEC66 /* dtM4AProc.c in Sources */ = {isa = PBXBuildFile; fileRef = 9472E9700E7DF6AD009BEC66 /* dtM4AProc.c */; };
 		9472E9750E7DF6C9009BEC66 /* dtM4AWrite.c in Sources */ = {isa = PBXBuildFile; fileRef = 9472E9740E7DF6C9009BEC66 /* dtM4AWrite.c */; };
+		94B5019B0E806F2D00896C92 /* dtM4AUtil.c in Sources */ = {isa = PBXBuildFile; fileRef = 94B5019A0E806F2D00896C92 /* dtM4AUtil.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -32,6 +33,7 @@
 		9472E96B0E7DF699009BEC66 /* dtM4ARead.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = dtM4ARead.c; sourceTree = "<group>"; };
 		9472E9700E7DF6AD009BEC66 /* dtM4AProc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = dtM4AProc.c; sourceTree = "<group>"; };
 		9472E9740E7DF6C9009BEC66 /* dtM4AWrite.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = dtM4AWrite.c; sourceTree = "<group>"; };
+		94B5019A0E806F2D00896C92 /* dtM4AUtil.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = dtM4AUtil.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 			children = (
 				9472E96B0E7DF699009BEC66 /* dtM4ARead.c */,
 				9472E9700E7DF6AD009BEC66 /* dtM4AProc.c */,
+				94B5019A0E806F2D00896C92 /* dtM4AUtil.c */,
 				9472E9740E7DF6C9009BEC66 /* dtM4AWrite.c */,
 				9472E9670E7DF658009BEC66 /* dtM4AMuxer.h */,
 				08FB7796FE84155DC02AAC07 /* main.c */,
@@ -129,6 +132,7 @@
 				9472E96C0E7DF699009BEC66 /* dtM4ARead.c in Sources */,
 				9472E9710E7DF6AD009BEC66 /* dtM4AProc.c in Sources */,
 				9472E9750E7DF6C9009BEC66 /* dtM4AWrite.c in Sources */,
+				94B5019B0E806F2D00896C92 /* dtM4AUtil.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
