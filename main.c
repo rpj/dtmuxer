@@ -12,7 +12,11 @@ int main (int argc, const char * argv[]) {
 			printMPEG4StructureToStdout(m4a, "");
 			printf("\n\n");
 			
-			if (removeAtomFromMPEG4(m4a, "meta")) {
+			if (removeAtomFromMPEG4(m4a, "meta")) {				
+				printf("\nMPEG4 structure after remove:\n\n");
+				printMPEG4StructureToStdout(m4a, "");
+				printf("\n\n");
+				
 				printf("Writing.\n");
 				writeMPEG4FileToPath(m4a, "OUT.m4a");
 			}
