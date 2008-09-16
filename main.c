@@ -10,6 +10,7 @@ int main (int argc, const char * argv[]) {
 		if (m4a) { 
 			printf("\nMPEG4 structure:\n\n");
 			printMPEG4StructureToStdout(m4a, "");
+			printf("\n\n");
 			
 			if (removeAtomFromMPEG4(m4a, "meta")) {
 				printf("Writing.\n");

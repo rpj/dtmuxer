@@ -94,11 +94,8 @@ mpeg4atom_t* readMPEG4FileFromPath(const char* path)
 		if (fileIsValidM4AFile(filedes)) {
 			printf("Valid M4A; reading...\n");
 			
-			if ((fileLength = readFileIntoBuffer(filedes, (void**)&fileData))) {
-				printf("starting parse(0x%x, %d)\n", fileData, (uint32_t)fileLength);
+			if ((fileLength = readFileIntoBuffer(filedes, (void**)&fileData)))
 				root = parseMPEG4Data(fileData, fileLength);
-				printf("got root atom 0x%x\n", root);
-			}
 		}
 		else {
 			fprintf(stderr, "Not a MPEG-4 audio file; exiting.\n");
