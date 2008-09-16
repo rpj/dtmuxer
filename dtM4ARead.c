@@ -1,7 +1,22 @@
 #include "dtM4AMuxer.h"
 
 #define STATIC_BUFFER_SIZE		4096
+
 static char gStaticBuffer[STATIC_BUFFER_SIZE];
+
+static char* gKnownParentCodes[] = { "moov", "udta", NULL };
+
+BOOL atomCodeIsKnownParent(uint32_t code) 
+{
+	BOOL retVal = NO;
+	char* cPtr = *gKnownParentCodes;
+	uint32_t count = 1;
+	
+	for (; !retVal && cPtr; cPtr = *(gKnownParentCodes + count++))
+		retVal = !memcmp((void*)cPtr, &code, sizeof(uint32_t));
+	
+	return retVal;
+}
 
 ssize_t readFileIntoBuffer(int filedes, void** buffer)
 {
@@ -41,13 +56,47 @@ mpeg4atom_t* parseMPEG4DataRec(void* data, ssize_t dataLen, ssize_t lastLen, mpe
 		atom->code = *(((uint32_t*)data) + 1);
 		atom->data = (uint32_t*)data + 2;
 		
-		if (previous) previous->next = atom;
+		char code[5];
+		memcpy(code, &atom->code, 4);
+		code[4] = '\0';
+		printf("new atom 0x%x: p 0x%x, l 0x%x, c '%s', d 0x%x\n", atom, atom->parent, atom->length, code, atom->data);
 		
-		printf("new atom 0x%x: p 0x%x, l 0x%x, c 0x%x, d 0x%x\n", atom, atom->parent, atom->length, atom->code, atom->data);
+		if (previous) previous->next = atom;
 		
 		void* nextDataPtr = ((char*)data) + atom->length;
 		ssize_t newDataLen = dataLen - atom->length;
 		
+		if (atomCodeIsKnownParent(atom->code)) {
+			printf("parent atom: parse(0x%x, %d, %d, 0x%x, NULL)\n", atom->data, dataLen - (sizeof(uint32_t) * 2), lastLen + 1, atom);
+			atom->firstChild = parseMPEG4DataRec(atom->data, dataLen - (sizeof(uint32_t) * 2), lastLen + 1, atom, NULL);
+		}
+		else {
+			printf("content atom: parse(0x%x, %d, %d, 0x%x, 0x%x)\n", nextDataPtr, newDataLen, lastLen, parent, atom);
+			atom->next = parseMPEG4DataRec(nextDataPtr, newDataLen, lastLen, parent, atom);
+		}
+			
+		/*
+		uint32_t nextAtomLength = 0;
+		
+		if (atom->length < dataLen) {
+			nextAtomLength = ntohl(*(uint32_t*)(((char*)data) + atom->length));
+			printf("Next atom length is 0x%x\n", nextAtomLength);
+		}
+		
+		if (lastLen < 3) {
+			if (nextAtomLength < atom->length) {
+				printf("parent atom: parse(0x%x, %d, %d, 0x%x, NULL)\n", atom->data, atom->length, lastLen + 1, atom);
+				atom->firstChild = parseMPEG4DataRec(atom->data, atom->length, lastLen + 1, atom, NULL);
+			} else {
+				
+				//if (nextAtomLength > atom->length) {
+				printf("content atom: parse(0x%x, %d, %d, 0x%x, 0x%x)\n", nextDataPtr, newDataLen, lastLen, parent, atom);
+				atom->next = parseMPEG4DataRec(nextDataPtr, newDataLen, lastLen, parent, atom);
+			}
+		}
+
+		
+		 
 		if (atom->length > lastLen) {
 			// first atom, ftyp, is a special case
 			if (!lastLen && !memcmp("ftyp", (void*)&atom->code, sizeof(uint32_t))) {
@@ -66,8 +115,10 @@ mpeg4atom_t* parseMPEG4DataRec(void* data, ssize_t dataLen, ssize_t lastLen, mpe
 			printf("content atom: parse(0x%x, %d, %d, 0x%x, 0x%x)\n", nextDataPtr, newDataLen, atom->length, parent, atom);
 			atom->next = parseMPEG4DataRec(nextDataPtr, newDataLen, atom->length, parent, atom);
 		}
+		 */
 	}
 	
+	printf("\nparse returning with: 0x%x, %d, %d, 0x%x, 0x%x\n", data, dataLen, lastLen, parent, previous);
 	return atom;
 }
 

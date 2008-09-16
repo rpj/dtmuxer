@@ -21,16 +21,18 @@ typedef struct mpeg4atom {
 } mpeg4atom_t;
 
 // dtM4ARead.c
-BOOL dataHasValidM4AHeader(char* data);
-ssize_t readFileIntoBuffer(int filedes, void** buffer);
+BOOL dataHasValidM4AHeader(char*);
+ssize_t readFileIntoBuffer(int, void**);
 
-mpeg4atom_t* readMPEG4FileFromPath(const char* path);
+mpeg4atom_t* readMPEG4FileFromPath(const char*);
 
 // dtM4AWrite.c
-// BOOL writeMPEG4ToPath(mpeg4file_t* mfile, char* path);
+BOOL writeMPEG4FileToPath(mpeg4atom_t*, const char*);
 
 // dtM4AProc.c
-// BOOL removeAtomNamed(char* name);
+BOOL removeAtomFromMPEG4(mpeg4atom_t*, char*);
+
+void printMPEG4StructureToStdout(mpeg4atom_t* m4a, const char*);
 
 // util?
 // void freeMPEG4File(mpeg4file_t* fileToFree); ??
