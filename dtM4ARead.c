@@ -28,7 +28,6 @@ mpeg4atom_t* parseMPEG4DataRec(void* data, ssize_t dataLen, ssize_t lastLen, mpe
 	mpeg4atom_t* atom = NULL;
 	
 	if (data && dataLen) {
-		printf("\nparse started with: 0x%x, %d, %d, 0x%x, 0x%x\n", data, dataLen, lastLen, parent, previous);
 		atom = (mpeg4atom_t*)malloc(sizeof(mpeg4atom_t));
 		
 		atom->parent = parent;
@@ -36,15 +35,9 @@ mpeg4atom_t* parseMPEG4DataRec(void* data, ssize_t dataLen, ssize_t lastLen, mpe
 		atom->code = *(((uint32_t*)data) + 1);
 		atom->data = (uint32_t*)data + 2;
 		
-		printMPEG4AtomToStdout(atom, "");
-		
-		if (previous && previous != parent) {
-			printf("Setting previous[0x%x]->next = 0x%x\n", previous, atom);
+		// setup the sibling chain, if given a previous atom that is not the parent atom
+		if (previous && previous != parent)
 			previous->next = atom;
-		}
-		
-		void* nextDataPtr = ((char*)data) + atom->length;
-		ssize_t newDataLen = dataLen - atom->length;
 		
 		// The call to atomCodeIsKnownParent() is here to provide a preset mapping of what atoms should be considered
 		// parents. I've done things this way because of the fact that MPEG-4 audio files tend to break the "an atom
@@ -54,36 +47,32 @@ mpeg4atom_t* parseMPEG4DataRec(void* data, ssize_t dataLen, ssize_t lastLen, mpe
 		// Ensuring that the 'udta' atom is a known parent allows us to be sure that we will discover and parse
 		// the 'meta' atom (since it is a direct child of 'udta'), which for the purposes of this program is "good enough."
 		if (atomCodeIsKnownParent(atom->code)) {
-			printf("parent atom: parse(0x%x, %d, %d, 0x%x, NULL)\n", atom->data, dataLen - (sizeof(uint32_t) * 2), atom->length - (sizeof(uint32_t) * 2), atom);
-			atom->firstChild = parseMPEG4DataRec(atom->data, dataLen - (sizeof(uint32_t) * 2), atom->length - (sizeof(uint32_t) * 2), atom, atom);
+			uint32_t adjSize = sizeof(uint32_t) * 2;
+			// since we pass in (atom->length - adjSize) here for the lastLen parameter, we are limiting the
+			// children of this atom to only the data given for this atom; as it should be.
+			atom->firstChild = parseMPEG4DataRec(atom->data, dataLen - adjSize, atom->length - adjSize, atom, atom);
 		}
 		else {
-			mpeg4atom_t* newParent = parent;
-			mpeg4atom_t* newBro = atom;
-			uint32_t newLen = lastLen - atom->length;
+			void* newDataPtr		= ((char*)data) + atom->length;
+			ssize_t newDataLen		= dataLen - atom->length;
+			mpeg4atom_t* newParent	= parent;
+			mpeg4atom_t* newBro		= atom;
 			
-			// if the length after this atom for this sub-tree is non-positive, then we've run out of data space
+			// If the length of data after this atom for this sub-tree is non-positive, then we've run out of data space
 			// in this subtree and the next atom parsed will be a sibling of the curent atom's parent.
-			if (newLen <= 0 && parent) {
-				printf("Adjusting parent and siblings from 0x%x and 0x%x...", newParent, newBro);
+			if ((lastLen - atom->length) <= 0 && parent) {
 				newBro = parent->parent;
 				newParent = newBro ? newBro->parent : NULL;
-				printf(" to 0x%x and 0x%x\n", newParent, newBro);
-				newLen = atom->length;
 			}
 			
-			printf("content atom: parse(0x%x, %d, %d, 0x%x, 0x%x)\n", nextDataPtr, newDataLen, newLen, newParent, newBro);
-			mpeg4atom_t* new = parseMPEG4DataRec(nextDataPtr, newDataLen, lastLen, newParent, newBro);
+			mpeg4atom_t* new = parseMPEG4DataRec(newDataPtr, newDataLen, lastLen, newParent, newBro);
 			
 			// if we haven't adjusted the sibling and parent pointers, the new node is the current atom's sibling
-			if (newBro == atom && newParent == parent) {
+			if (newBro == atom && newParent == parent)
 				atom->next = new;
-				printf("Set [0x%x]->next = 0x%x\n", atom, atom->next);
-			}
 		}
 	}
 	
-	printf("parse returning with: 0x%x, %d, %d, 0x%x, 0x%x\n", data, dataLen, lastLen, parent, previous);
 	return atom;
 }
 
