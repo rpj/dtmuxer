@@ -20,13 +20,14 @@ void printMPEG4StructureToStdout(mpeg4atom_t* m4a, const char* tabs)
 	printMPEG4AtomToStdout(m4a, tabs);
 	
 	if (m4a->next) {
+		printf("Siblings of <0x%x>:\n", m4a);
 		printMPEG4StructureToStdout(m4a->next, tabs);
 	}
 	
 	if (m4a->firstChild) {
-		printf("\tChildren:\n");
-		char* moreTabs = (char*)malloc(strlen(tabs) + 1 + 2);
-		sprintf(moreTabs, "%s\t", tabs);
-		printMPEG4StructureToStdout(m4a->firstChild, moreTabs);
+		printf("Children of <0x%x>:\n", m4a);
+		//char* moreTabs = (char*)malloc(strlen(tabs) + 1 + 2);
+		//sprintf(moreTabs, "%s\t", tabs);
+		printMPEG4StructureToStdout(m4a->firstChild, tabs);
 	}
 }

@@ -32,6 +32,7 @@ BOOL writeMPEG4FileToPath(mpeg4atom_t*, const char*);
 // dtM4AProc.c
 BOOL removeAtomFromMPEG4(mpeg4atom_t*, char*);
 
+void printMPEG4AtomToStdout(mpeg4atom_t* atom, const char* tabs);
 void printMPEG4StructureToStdout(mpeg4atom_t* m4a, const char*);
 
 // util?

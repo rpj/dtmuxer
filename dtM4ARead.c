@@ -18,6 +18,19 @@ BOOL atomCodeIsKnownParent(uint32_t code)
 	return retVal;
 }
 
+mpeg4atom_t* lastChildOf(mpeg4atom_t* atom)
+{
+	printf("\nlastChildOf\n"); printMPEG4AtomToStdout(atom, "\t\t"); printf("\n\n");
+	mpeg4atom_t* kid = atom->firstChild;
+	
+	printf("lastChildOf 0x%x, starting with 0x%x\n", atom, kid);
+	for(; kid && kid->next; kid = kid->next) {
+		printf("0x%x not last, moving on\n", kid);
+	}
+	
+	return kid;
+}
+
 ssize_t readFileIntoBuffer(int filedes, void** buffer)
 {
 	ssize_t lastReadLen = -1;
@@ -61,18 +74,33 @@ mpeg4atom_t* parseMPEG4DataRec(void* data, ssize_t dataLen, ssize_t lastLen, mpe
 		code[4] = '\0';
 		printf("new atom 0x%x: p 0x%x, l 0x%x, c '%s', d 0x%x\n", atom, atom->parent, atom->length, code, atom->data);
 		
-		if (previous) previous->next = atom;
+		if (previous && previous != parent) {
+			printf("Setting previous[0x%x]->next = 0x%x\n", previous, atom);
+			previous->next = atom;
+		}
 		
 		void* nextDataPtr = ((char*)data) + atom->length;
 		ssize_t newDataLen = dataLen - atom->length;
 		
 		if (atomCodeIsKnownParent(atom->code)) {
-			printf("parent atom: parse(0x%x, %d, %d, 0x%x, NULL)\n", atom->data, dataLen - (sizeof(uint32_t) * 2), lastLen + 1, atom);
-			atom->firstChild = parseMPEG4DataRec(atom->data, dataLen - (sizeof(uint32_t) * 2), lastLen + 1, atom, NULL);
+			printf("parent atom: parse(0x%x, %d, %d, 0x%x, NULL)\n", atom->data, dataLen - (sizeof(uint32_t) * 2), atom->length - (sizeof(uint32_t) * 2), atom);
+			atom->firstChild = parseMPEG4DataRec(atom->data, dataLen - (sizeof(uint32_t) * 2), atom->length - (sizeof(uint32_t) * 2), atom, atom);
 		}
 		else {
-			printf("content atom: parse(0x%x, %d, %d, 0x%x, 0x%x)\n", nextDataPtr, newDataLen, lastLen, parent, atom);
-			atom->next = parseMPEG4DataRec(nextDataPtr, newDataLen, lastLen, parent, atom);
+			mpeg4atom_t* newParent = parent;
+			mpeg4atom_t* newBro = atom;
+			uint32_t newLen = lastLen - atom->length;
+			
+			if (newLen <= 0 && parent) {
+				printf("Adjusting parent and siblings from 0x%x and 0x%x...", newParent, newBro);
+				newBro = parent->parent;
+				newParent = newBro ? newBro->parent : NULL;
+				printf(" to 0x%x and 0x%x\n", newParent, newBro);
+				newLen = atom->length;
+			}
+			
+			printf("content atom: parse(0x%x, %d, %d, 0x%x, 0x%x)\n", nextDataPtr, newDataLen, lastLen, newParent, newBro);
+			atom->next = parseMPEG4DataRec(nextDataPtr, newDataLen, lastLen, newParent, newBro);
 		}
 			
 		/*
@@ -118,7 +146,7 @@ mpeg4atom_t* parseMPEG4DataRec(void* data, ssize_t dataLen, ssize_t lastLen, mpe
 		 */
 	}
 	
-	printf("\nparse returning with: 0x%x, %d, %d, 0x%x, 0x%x\n", data, dataLen, lastLen, parent, previous);
+	printf("parse returning with: 0x%x, %d, %d, 0x%x, 0x%x\n", data, dataLen, lastLen, parent, previous);
 	return atom;
 }
 
