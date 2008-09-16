@@ -25,6 +25,13 @@ typedef struct mpeg4file {
 BOOL dataHasValidM4AHeader(char* data);
 ssize_t readFileIntoBuffer(int filedes, void** buffer);
 
+mpeg4file_t* readMPEG4FileFromPath(const char* path);
+
 // dtM4AWrite.c
+// BOOL writeMPEG4ToPath(mpeg4file_t* mfile, char* path);
 
 // dtM4AProc.c
+// BOOL removeAtomNamed(char* name);
+
+// util?
+// void freeMPEG4File(mpeg4file_t* fileToFree); ??
