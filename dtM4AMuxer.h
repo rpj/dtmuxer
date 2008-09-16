@@ -13,19 +13,18 @@ typedef char BOOL;
 
 typedef struct mpeg4atom {
 	uint32_t				length;
+	uint32_t				code;
 	void*					data;
 	struct mpeg4atom*		parent;
+	struct mpeg4atom*		next;
 	struct mpeg4atom*		firstChild;
 } mpeg4atom_t;
-
-typedef struct mpeg4file {
-} mpeg4file_t;
 
 // dtM4ARead.c
 BOOL dataHasValidM4AHeader(char* data);
 ssize_t readFileIntoBuffer(int filedes, void** buffer);
 
-mpeg4file_t* readMPEG4FileFromPath(const char* path);
+mpeg4atom_t* readMPEG4FileFromPath(const char* path);
 
 // dtM4AWrite.c
 // BOOL writeMPEG4ToPath(mpeg4file_t* mfile, char* path);
