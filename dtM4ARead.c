@@ -100,7 +100,13 @@ mpeg4atom_t* parseMPEG4DataRec(void* data, ssize_t dataLen, ssize_t lastLen, mpe
 			}
 			
 			printf("content atom: parse(0x%x, %d, %d, 0x%x, 0x%x)\n", nextDataPtr, newDataLen, lastLen, newParent, newBro);
-			atom->next = parseMPEG4DataRec(nextDataPtr, newDataLen, lastLen, newParent, newBro);
+			mpeg4atom_t* new = parseMPEG4DataRec(nextDataPtr, newDataLen, lastLen, newParent, newBro);
+			
+			// if we haven't adjusted the sibling and parent pointers, the new node is the current atom's sibling
+			if (newBro == atom && newParent == parent) {
+				atom->next = new;
+				printf("Set [0x%x]->next = 0x%x\n", atom, atom->next);
+			}
 		}
 			
 		/*
