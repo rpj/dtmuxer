@@ -10,7 +10,6 @@ int main (int argc, const char * argv[]) {
 		const char* fName = argv[1];
 		mpeg4file_t* m4a = readMPEG4FileFromPath(fName);
 		
-		
 		if (m4a) {
 			if (removeAtomFromMPEG4(m4a, "meta")) {
 				char *outFname = (char*)malloc(strlen(fName) + strlen(OUTPUT_EXTENSION) + 1);
@@ -22,13 +21,13 @@ int main (int argc, const char * argv[]) {
 					fprintf(stderr, "Unable to write '%s'; exiting.\n", outFname);
 			}
 			else {
-				printf("No 'meta' atom found, nothing to do; exiting.\n");
+				printf("No 'meta' atom found in '%s', nothing to do; exiting.\n", fName);
 			}
 			
 			freeMPEG4File(m4a);
 		}
 		else {
-			fprintf(stderr, "'%s' is not a valid MPEG-4 audio file; exiting.\n", fName);
+			fprintf(stderr, "'%s' does not exist or is not a valid MPEG-4 audio file; exiting.\n", fName);
 		}
 	}
 	else {
