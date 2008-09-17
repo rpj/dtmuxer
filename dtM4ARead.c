@@ -46,9 +46,9 @@ mpeg4atom_t* parseMPEG4DataRec(void* data, ssize_t dataLen, ssize_t lastLen, mpe
 		// parents. I've done things this way because of the fact that MPEG-4 audio files tend to break the "an atom
 		// is either a parent OR a content atom" rule, making parsing the data structure without any foreknowledge
 		// (such as this mapping) nearly impossible. Backtracking doesn't help, either, because the "if the current 
-		// atom's size is less than the last" doesn't hold consistently.
+		// atom's size is less than the last then it is a parent atom" doesn't hold consistently.
 		// Ensuring that the 'udta' atom is a known parent allows us to be sure that we will discover and parse
-		// the 'meta' atom (since it is a direct child of 'udta'), which for the purposes of this program is "good enough."
+		// the 'meta' atom (since it is a direct child of 'udta') which, for the purposes of this program, will do.
 		if (atomCodeIsKnownParent(atom->code)) {
 			uint32_t adjSize = sizeof(uint32_t) * 2;
 			// since we pass in (atom->length - adjSize) here for the lastLen parameter, we are limiting the

@@ -49,6 +49,6 @@ BOOL removeAtomFromMPEG4ForReals(mpeg4atom_t* m4a, char* atomName)
 
 BOOL removeAtomFromMPEG4(mpeg4file_t* m4afile, char* atomName)
 {
-	return mogrifyAtomIntoFreeSpace(m4afile->rootAtom, atomName);
-	//return removeAtomFromMPEG4ForReals(m4afile->rootAtom, atomName);
+	//return mogrifyAtomIntoFreeSpace(m4afile->rootAtom, atomName);
+	return removeAtomFromMPEG4ForReals(m4afile->rootAtom, atomName);
 }
