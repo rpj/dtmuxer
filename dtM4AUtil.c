@@ -3,9 +3,8 @@
 
 #include "dtM4AMuxer.h"
 
-// Note how this array only contains the known parent atoms necessary
-// to find and parse the 'meta' atom, which is what we're interested.
-// This is by design.
+// Does not list all the known parent atoms, in fact these are only the neccesary
+// parents to allow us to parse out the 'meta' and 'stco' atoms. Time constraints and what-not...
 static char* gKnownParentCodes[] = { "moov", "udta", "trak", "mdia", "minf", "stbl", NULL };
 
 BOOL atomCodeIsKnownParent(uint32_t code) 
