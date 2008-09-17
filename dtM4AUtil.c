@@ -34,7 +34,6 @@ BOOL fileIsValidM4AFile(int filedes)
 mpeg4atom_t* findAtomWithName(mpeg4atom_t* m4a, char* atomName)
 {
 	mpeg4atom_t* retAtom = NULL;
-	printf("findWithName(%s)\n", atomName);
 	
 	if (m4a && atomName) {
 		if (!memcmp((uint32_t*)atomName, &m4a->code, sizeof(uint32_t)))

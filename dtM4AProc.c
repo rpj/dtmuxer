@@ -32,8 +32,8 @@ BOOL removeAtomFromMPEG4ForReals(mpeg4atom_t* m4a, char* atomName)
 			
 			// adjust atom lengths for the parent atom, it's parent (atom's grandparent), until no parent is found
 			for (; parent; parent = parent->parent) {
-				printf("Adjusting length for atom 0x%x by -%d\n", parent, atom->length);
 				parent->length -= atom->length;
+				*(((uint32_t*)parent->data) - 2) = htonl(parent->length);
 			}
 		}
 		

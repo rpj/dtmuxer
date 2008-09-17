@@ -8,6 +8,9 @@ BOOL writeSingleAtom(mpeg4atom_t* m4a, int filedes)
 	uint32_t flopLength = htonl(m4a->length);
 	
 	// write the length first
+	printf("Writing atom: ");
+	printMPEG4AtomToStdout(m4a, "");
+	
 	if (write(filedes, &flopLength, sizeof(uint32_t)) == sizeof(uint32_t)) {
 		// then the code
 		if (write(filedes, &m4a->code, sizeof(uint32_t)) == sizeof(uint32_t)) {
