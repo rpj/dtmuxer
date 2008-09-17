@@ -1,7 +1,22 @@
 #include "dtM4AMuxer.h"
 
+BOOL mogrifyAtomIntoFreeSpace(mpeg4atom_t* m4a, char* atomName)
+{
+	mpeg4atom_t* atom = findAtomWithName(m4a, atomName);
+	
+	if (atom) {
+		char* freeCode = "free";
+		
+		atom->code = *((uint32_t*)freeCode);
+		bzero(atom->data, atom->length - (sizeof(uint32_t) * 2));
+		
+		return YES;
+	}
+	
+	return NO;
+}
 
-BOOL removeAtomFromMPEG4(mpeg4atom_t* m4a, char* atomName)
+BOOL removeAtomFromMPEG4ForReals(mpeg4atom_t* m4a, char* atomName)
 {
 	mpeg4atom_t* atom = findAtomWithName(m4a, atomName);
 	
@@ -28,4 +43,10 @@ BOOL removeAtomFromMPEG4(mpeg4atom_t* m4a, char* atomName)
 	}
 	
 	return (atom != NULL);
+}
+
+BOOL removeAtomFromMPEG4(mpeg4atom_t* m4a, char* atomName)
+{
+	return mogrifyAtomIntoFreeSpace(m4a, atomName);
+	//return removeAtomFromMPEG4ForReals(m4a, atomName);
 }

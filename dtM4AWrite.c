@@ -1,9 +1,7 @@
 #include "dtM4AMuxer.h"
 
-BOOL rawWriteAtom(mpeg4atom_t* m4a, int filedes)
+BOOL writeSingleAtom(mpeg4atom_t* m4a, int filedes)
 {
-	printf("rawWriteAtom(0x%x, %d)\n", m4a, filedes);
-	
 	uint32_t flopLength = htonl(m4a->length);
 	
 	// write the length first
@@ -21,7 +19,7 @@ BOOL rawWriteAtom(mpeg4atom_t* m4a, int filedes)
 	return NO;
 }
 
-BOOL writeAtomToFile(mpeg4atom_t* m4a, int filedes)
+BOOL writeAtomAndSiblingsToFile(mpeg4atom_t* m4a, int filedes)
 {
 	BOOL retVal = NO;
 	
@@ -29,8 +27,8 @@ BOOL writeAtomToFile(mpeg4atom_t* m4a, int filedes)
 		// if we're able to write this atom, try for it's siblings; DON'T write the children, 
 		// because they are a subset of this top-level chain of sibling atoms and doing
 		// so would create duplicate data.
-		if ((retVal = rawWriteAtom(m4a, filedes)))
-			retVal = writeAtomToFile(m4a->next, filedes);
+		if ((retVal = writeSingleAtom(m4a, filedes)))
+			retVal = writeAtomAndSiblingsToFile(m4a->next, filedes);
 	}
 	
 	return retVal;
@@ -42,7 +40,7 @@ BOOL writeMPEG4FileToPath(mpeg4atom_t* m4a, const char* path)
 	int fileDesc = open(path, O_WRONLY | O_CREAT, S_IRUSR | S_IWUSR);
 	
 	if (m4a && path && fileDesc > 0) {
-		retVal = writeAtomToFile(m4a, fileDesc);
+		retVal = writeAtomAndSiblingsToFile(m4a, fileDesc);
 		close(fileDesc);
 	}
 	

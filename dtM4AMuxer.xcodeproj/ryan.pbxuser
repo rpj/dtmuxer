@@ -565,6 +565,13 @@
 			94B502B10E8081CC00896C92 /* PBXTextBookmark */ = 94B502B10E8081CC00896C92 /* PBXTextBookmark */;
 			94B502B20E8081CC00896C92 /* PBXTextBookmark */ = 94B502B20E8081CC00896C92 /* PBXTextBookmark */;
 			94B502B30E8081CC00896C92 /* PBXTextBookmark */ = 94B502B30E8081CC00896C92 /* PBXTextBookmark */;
+			94B502B70E80833100896C92 /* PBXTextBookmark */ = 94B502B70E80833100896C92 /* PBXTextBookmark */;
+			94B502B80E80833100896C92 /* PBXTextBookmark */ = 94B502B80E80833100896C92 /* PBXTextBookmark */;
+			94B502B90E80833100896C92 /* PBXTextBookmark */ = 94B502B90E80833100896C92 /* PBXTextBookmark */;
+			94B502BA0E80833100896C92 /* PBXTextBookmark */ = 94B502BA0E80833100896C92 /* PBXTextBookmark */;
+			94B502BB0E80833100896C92 /* PBXTextBookmark */ = 94B502BB0E80833100896C92 /* PBXTextBookmark */;
+			94B502BC0E80833100896C92 /* PBXTextBookmark */ = 94B502BC0E80833100896C92 /* PBXTextBookmark */;
+			94B502BD0E80833100896C92 /* PBXTextBookmark */ = 94B502BD0E80833100896C92 /* PBXTextBookmark */;
 		};
 		sourceControlManager = 9472E9630E7DF640009BEC66 /* Source Control */;
 		userBuildSettings = {
@@ -637,16 +644,16 @@
 	9472E9700E7DF6AD009BEC66 /* dtM4AProc.c */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {990, 751}}";
-			sepNavSelRange = "{24, 0}";
-			sepNavVisRange = "{0, 785}";
+			sepNavSelRange = "{358, 0}";
+			sepNavVisRange = "{0, 1260}";
 			sepNavWindowFrame = "{{148, 101}, {1049, 864}}";
 		};
 	};
 	9472E9740E7DF6C9009BEC66 /* dtM4AWrite.c */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {990, 751}}";
-			sepNavSelRange = "{1236, 0}";
-			sepNavVisRange = "{0, 1256}";
+			sepNavSelRange = "{505, 0}";
+			sepNavVisRange = "{0, 1242}";
 			sepNavWindowFrame = "{{699, 152}, {1049, 864}}";
 		};
 	};
@@ -765,7 +772,7 @@
 		fRef = 9472E9740E7DF6C9009BEC66 /* dtM4AWrite.c */;
 		name = "dtM4AWrite.c: 1";
 		rLen = 0;
-		rLoc = 1256;
+		rLoc = 1242;
 		rType = 0;
 		vrLen = 23;
 		vrLoc = 0;
@@ -775,7 +782,7 @@
 		fRef = 9472E9700E7DF6AD009BEC66 /* dtM4AProc.c */;
 		name = "dtM4AProc.c: 1";
 		rLen = 0;
-		rLoc = 785;
+		rLoc = 1260;
 		rType = 0;
 		vrLen = 25;
 		vrLoc = 0;
@@ -825,7 +832,7 @@
 		fRef = 9472E9740E7DF6C9009BEC66 /* dtM4AWrite.c */;
 		name = "dtM4AWrite.c: 1";
 		rLen = 0;
-		rLoc = 1256;
+		rLoc = 1242;
 		rType = 0;
 		vrLen = 23;
 		vrLoc = 0;
@@ -835,7 +842,7 @@
 		fRef = 9472E9700E7DF6AD009BEC66 /* dtM4AProc.c */;
 		name = "dtM4AProc.c: 1";
 		rLen = 0;
-		rLoc = 785;
+		rLoc = 1260;
 		rType = 0;
 		vrLen = 25;
 		vrLoc = 0;
@@ -877,7 +884,7 @@
 		fRef = 9472E9700E7DF6AD009BEC66 /* dtM4AProc.c */;
 		name = "dtM4AProc.c: 5";
 		rLen = 0;
-		rLoc = 783;
+		rLoc = 1091;
 		rType = 0;
 		vrLen = 101;
 		vrLoc = 0;
@@ -945,7 +952,7 @@
 		fRef = 9472E9700E7DF6AD009BEC66 /* dtM4AProc.c */;
 		name = "dtM4AProc.c: 5";
 		rLen = 0;
-		rLoc = 783;
+		rLoc = 1091;
 		rType = 0;
 		vrLen = 101;
 		vrLoc = 0;
@@ -995,7 +1002,7 @@
 		fRef = 9472E9700E7DF6AD009BEC66 /* dtM4AProc.c */;
 		name = "dtM4AProc.c: 5";
 		rLen = 0;
-		rLoc = 783;
+		rLoc = 1091;
 		rType = 0;
 		vrLen = 101;
 		vrLoc = 0;
@@ -1045,7 +1052,7 @@
 		fRef = 9472E9700E7DF6AD009BEC66 /* dtM4AProc.c */;
 		name = "dtM4AProc.c: 5";
 		rLen = 0;
-		rLoc = 783;
+		rLoc = 1091;
 		rType = 0;
 		vrLen = 101;
 		vrLoc = 0;
@@ -1095,7 +1102,7 @@
 		fRef = 9472E9700E7DF6AD009BEC66 /* dtM4AProc.c */;
 		name = "dtM4AProc.c: 5";
 		rLen = 0;
-		rLoc = 783;
+		rLoc = 1091;
 		rType = 0;
 		vrLen = 101;
 		vrLoc = 0;
@@ -1145,7 +1152,7 @@
 		fRef = 9472E9700E7DF6AD009BEC66 /* dtM4AProc.c */;
 		name = "dtM4AProc.c: 5";
 		rLen = 0;
-		rLoc = 783;
+		rLoc = 1091;
 		rType = 0;
 		vrLen = 101;
 		vrLoc = 0;
@@ -1195,7 +1202,7 @@
 		fRef = 9472E9700E7DF6AD009BEC66 /* dtM4AProc.c */;
 		name = "dtM4AProc.c: 5";
 		rLen = 0;
-		rLoc = 783;
+		rLoc = 1091;
 		rType = 0;
 		vrLen = 101;
 		vrLoc = 0;
@@ -1253,7 +1260,7 @@
 		fRef = 9472E9700E7DF6AD009BEC66 /* dtM4AProc.c */;
 		name = "dtM4AProc.c: 5";
 		rLen = 0;
-		rLoc = 783;
+		rLoc = 1091;
 		rType = 0;
 		vrLen = 101;
 		vrLoc = 0;
@@ -1303,7 +1310,7 @@
 		fRef = 9472E9700E7DF6AD009BEC66 /* dtM4AProc.c */;
 		name = "dtM4AProc.c: 5";
 		rLen = 0;
-		rLoc = 783;
+		rLoc = 1091;
 		rType = 0;
 		vrLen = 101;
 		vrLoc = 0;
@@ -1353,7 +1360,7 @@
 		fRef = 9472E9700E7DF6AD009BEC66 /* dtM4AProc.c */;
 		name = "dtM4AProc.c: 5";
 		rLen = 0;
-		rLoc = 783;
+		rLoc = 1091;
 		rType = 0;
 		vrLen = 101;
 		vrLoc = 0;
@@ -1403,7 +1410,7 @@
 		fRef = 9472E9700E7DF6AD009BEC66 /* dtM4AProc.c */;
 		name = "dtM4AProc.c: 5";
 		rLen = 0;
-		rLoc = 783;
+		rLoc = 1091;
 		rType = 0;
 		vrLen = 101;
 		vrLoc = 0;
@@ -1453,7 +1460,7 @@
 		fRef = 9472E9700E7DF6AD009BEC66 /* dtM4AProc.c */;
 		name = "dtM4AProc.c: 5";
 		rLen = 0;
-		rLoc = 783;
+		rLoc = 1091;
 		rType = 0;
 		vrLen = 101;
 		vrLoc = 0;
@@ -1503,7 +1510,7 @@
 		fRef = 9472E9700E7DF6AD009BEC66 /* dtM4AProc.c */;
 		name = "dtM4AProc.c: 5";
 		rLen = 0;
-		rLoc = 783;
+		rLoc = 1091;
 		rType = 0;
 		vrLen = 101;
 		vrLoc = 0;
@@ -1553,7 +1560,7 @@
 		fRef = 9472E9700E7DF6AD009BEC66 /* dtM4AProc.c */;
 		name = "dtM4AProc.c: 5";
 		rLen = 0;
-		rLoc = 783;
+		rLoc = 1091;
 		rType = 0;
 		vrLen = 101;
 		vrLoc = 0;
@@ -1603,7 +1610,7 @@
 		fRef = 9472E9700E7DF6AD009BEC66 /* dtM4AProc.c */;
 		name = "dtM4AProc.c: 5";
 		rLen = 0;
-		rLoc = 783;
+		rLoc = 1091;
 		rType = 0;
 		vrLen = 101;
 		vrLoc = 0;
@@ -1653,7 +1660,7 @@
 		fRef = 9472E9700E7DF6AD009BEC66 /* dtM4AProc.c */;
 		name = "dtM4AProc.c: 5";
 		rLen = 0;
-		rLoc = 783;
+		rLoc = 1091;
 		rType = 0;
 		vrLen = 101;
 		vrLoc = 0;
@@ -1703,7 +1710,7 @@
 		fRef = 9472E9700E7DF6AD009BEC66 /* dtM4AProc.c */;
 		name = "dtM4AProc.c: 5";
 		rLen = 0;
-		rLoc = 783;
+		rLoc = 1091;
 		rType = 0;
 		vrLen = 101;
 		vrLoc = 0;
@@ -1753,7 +1760,7 @@
 		fRef = 9472E9700E7DF6AD009BEC66 /* dtM4AProc.c */;
 		name = "dtM4AProc.c: 5";
 		rLen = 0;
-		rLoc = 783;
+		rLoc = 1091;
 		rType = 0;
 		vrLen = 101;
 		vrLoc = 0;
@@ -1783,7 +1790,7 @@
 		comments = "warning: implicit declaration of function 'printMPEG4ATomToStdout'";
 		fRef = 9472E9700E7DF6AD009BEC66 /* dtM4AProc.c */;
 		rLen = 0;
-		rLoc = 30;
+		rLoc = 45;
 		rType = 1;
 	};
 	94B500A80E805A8200896C92 /* PBXTextBookmark */ = {
@@ -1811,7 +1818,7 @@
 		fRef = 9472E9700E7DF6AD009BEC66 /* dtM4AProc.c */;
 		name = "dtM4AProc.c: 20";
 		rLen = 0;
-		rLoc = 785;
+		rLoc = 1260;
 		rType = 0;
 		vrLen = 689;
 		vrLoc = 0;
@@ -1851,7 +1858,7 @@
 		fRef = 9472E9700E7DF6AD009BEC66 /* dtM4AProc.c */;
 		name = "dtM4AProc.c: 31";
 		rLen = 0;
-		rLoc = 785;
+		rLoc = 1260;
 		rType = 0;
 		vrLen = 847;
 		vrLoc = 0;
@@ -1929,7 +1936,7 @@
 		fRef = 9472E9700E7DF6AD009BEC66 /* dtM4AProc.c */;
 		name = "dtM4AProc.c: 31";
 		rLen = 0;
-		rLoc = 785;
+		rLoc = 1260;
 		rType = 0;
 		vrLen = 847;
 		vrLoc = 0;
@@ -1959,7 +1966,7 @@
 		fRef = 9472E9700E7DF6AD009BEC66 /* dtM4AProc.c */;
 		name = "dtM4AProc.c: 28";
 		rLen = 0;
-		rLoc = 785;
+		rLoc = 1260;
 		rType = 0;
 		vrLen = 847;
 		vrLoc = 0;
@@ -2009,7 +2016,7 @@
 		fRef = 9472E9700E7DF6AD009BEC66 /* dtM4AProc.c */;
 		name = "dtM4AProc.c: 22";
 		rLen = 0;
-		rLoc = 785;
+		rLoc = 1260;
 		rType = 0;
 		vrLen = 822;
 		vrLoc = 0;
@@ -2079,7 +2086,7 @@
 		fRef = 9472E9700E7DF6AD009BEC66 /* dtM4AProc.c */;
 		name = "dtM4AProc.c: 22";
 		rLen = 0;
-		rLoc = 785;
+		rLoc = 1260;
 		rType = 0;
 		vrLen = 822;
 		vrLoc = 0;
@@ -2129,7 +2136,7 @@
 		fRef = 9472E9700E7DF6AD009BEC66 /* dtM4AProc.c */;
 		name = "dtM4AProc.c: 22";
 		rLen = 0;
-		rLoc = 785;
+		rLoc = 1260;
 		rType = 0;
 		vrLen = 822;
 		vrLoc = 0;
@@ -2179,7 +2186,7 @@
 		fRef = 9472E9700E7DF6AD009BEC66 /* dtM4AProc.c */;
 		name = "dtM4AProc.c: 22";
 		rLen = 0;
-		rLoc = 785;
+		rLoc = 1260;
 		rType = 0;
 		vrLen = 822;
 		vrLoc = 0;
@@ -2229,7 +2236,7 @@
 		fRef = 9472E9700E7DF6AD009BEC66 /* dtM4AProc.c */;
 		name = "dtM4AProc.c: 22";
 		rLen = 0;
-		rLoc = 785;
+		rLoc = 1260;
 		rType = 0;
 		vrLen = 822;
 		vrLoc = 0;
@@ -2279,7 +2286,7 @@
 		fRef = 9472E9700E7DF6AD009BEC66 /* dtM4AProc.c */;
 		name = "dtM4AProc.c: 22";
 		rLen = 0;
-		rLoc = 785;
+		rLoc = 1260;
 		rType = 0;
 		vrLen = 822;
 		vrLoc = 0;
@@ -2329,7 +2336,7 @@
 		fRef = 9472E9700E7DF6AD009BEC66 /* dtM4AProc.c */;
 		name = "dtM4AProc.c: 22";
 		rLen = 0;
-		rLoc = 785;
+		rLoc = 1260;
 		rType = 0;
 		vrLen = 837;
 		vrLoc = 0;
@@ -2379,7 +2386,7 @@
 		fRef = 9472E9700E7DF6AD009BEC66 /* dtM4AProc.c */;
 		name = "dtM4AProc.c: 23";
 		rLen = 0;
-		rLoc = 785;
+		rLoc = 1260;
 		rType = 0;
 		vrLen = 875;
 		vrLoc = 0;
@@ -2429,7 +2436,7 @@
 		fRef = 9472E9700E7DF6AD009BEC66 /* dtM4AProc.c */;
 		name = "dtM4AProc.c: 23";
 		rLen = 0;
-		rLoc = 785;
+		rLoc = 1260;
 		rType = 0;
 		vrLen = 875;
 		vrLoc = 0;
@@ -2479,7 +2486,7 @@
 		fRef = 9472E9700E7DF6AD009BEC66 /* dtM4AProc.c */;
 		name = "dtM4AProc.c: 23";
 		rLen = 0;
-		rLoc = 785;
+		rLoc = 1260;
 		rType = 0;
 		vrLen = 875;
 		vrLoc = 0;
@@ -2529,7 +2536,7 @@
 		fRef = 9472E9700E7DF6AD009BEC66 /* dtM4AProc.c */;
 		name = "dtM4AProc.c: 23";
 		rLen = 0;
-		rLoc = 785;
+		rLoc = 1260;
 		rType = 0;
 		vrLen = 875;
 		vrLoc = 0;
@@ -2579,7 +2586,7 @@
 		fRef = 9472E9700E7DF6AD009BEC66 /* dtM4AProc.c */;
 		name = "dtM4AProc.c: 23";
 		rLen = 0;
-		rLoc = 785;
+		rLoc = 1260;
 		rType = 0;
 		vrLen = 875;
 		vrLoc = 0;
@@ -2629,7 +2636,7 @@
 		fRef = 9472E9700E7DF6AD009BEC66 /* dtM4AProc.c */;
 		name = "dtM4AProc.c: 23";
 		rLen = 0;
-		rLoc = 785;
+		rLoc = 1260;
 		rType = 0;
 		vrLen = 875;
 		vrLoc = 0;
@@ -2679,7 +2686,7 @@
 		fRef = 9472E9700E7DF6AD009BEC66 /* dtM4AProc.c */;
 		name = "dtM4AProc.c: 23";
 		rLen = 0;
-		rLoc = 785;
+		rLoc = 1260;
 		rType = 0;
 		vrLen = 875;
 		vrLoc = 0;
@@ -2739,7 +2746,7 @@
 		fRef = 9472E9700E7DF6AD009BEC66 /* dtM4AProc.c */;
 		name = "dtM4AProc.c: 23";
 		rLen = 0;
-		rLoc = 785;
+		rLoc = 1260;
 		rType = 0;
 		vrLen = 875;
 		vrLoc = 0;
@@ -2789,7 +2796,7 @@
 		fRef = 9472E9700E7DF6AD009BEC66 /* dtM4AProc.c */;
 		name = "dtM4AProc.c: 23";
 		rLen = 0;
-		rLoc = 785;
+		rLoc = 1260;
 		rType = 0;
 		vrLen = 875;
 		vrLoc = 0;
@@ -2839,7 +2846,7 @@
 		fRef = 9472E9700E7DF6AD009BEC66 /* dtM4AProc.c */;
 		name = "dtM4AProc.c: 23";
 		rLen = 0;
-		rLoc = 785;
+		rLoc = 1260;
 		rType = 0;
 		vrLen = 875;
 		vrLoc = 0;
@@ -2889,7 +2896,7 @@
 		fRef = 9472E9700E7DF6AD009BEC66 /* dtM4AProc.c */;
 		name = "dtM4AProc.c: 23";
 		rLen = 0;
-		rLoc = 785;
+		rLoc = 1260;
 		rType = 0;
 		vrLen = 875;
 		vrLoc = 0;
@@ -2939,7 +2946,7 @@
 		fRef = 9472E9700E7DF6AD009BEC66 /* dtM4AProc.c */;
 		name = "dtM4AProc.c: 23";
 		rLen = 0;
-		rLoc = 785;
+		rLoc = 1260;
 		rType = 0;
 		vrLen = 875;
 		vrLoc = 0;
@@ -2989,7 +2996,7 @@
 		fRef = 9472E9700E7DF6AD009BEC66 /* dtM4AProc.c */;
 		name = "dtM4AProc.c: 23";
 		rLen = 0;
-		rLoc = 785;
+		rLoc = 1260;
 		rType = 0;
 		vrLen = 875;
 		vrLoc = 0;
@@ -3039,7 +3046,7 @@
 		fRef = 9472E9700E7DF6AD009BEC66 /* dtM4AProc.c */;
 		name = "dtM4AProc.c: 23";
 		rLen = 0;
-		rLoc = 785;
+		rLoc = 1260;
 		rType = 0;
 		vrLen = 875;
 		vrLoc = 0;
@@ -3089,7 +3096,7 @@
 		fRef = 9472E9700E7DF6AD009BEC66 /* dtM4AProc.c */;
 		name = "dtM4AProc.c: 23";
 		rLen = 0;
-		rLoc = 785;
+		rLoc = 1260;
 		rType = 0;
 		vrLen = 875;
 		vrLoc = 0;
@@ -3139,7 +3146,7 @@
 		fRef = 9472E9700E7DF6AD009BEC66 /* dtM4AProc.c */;
 		name = "dtM4AProc.c: 23";
 		rLen = 0;
-		rLoc = 785;
+		rLoc = 1260;
 		rType = 0;
 		vrLen = 875;
 		vrLoc = 0;
@@ -3189,7 +3196,7 @@
 		fRef = 9472E9700E7DF6AD009BEC66 /* dtM4AProc.c */;
 		name = "dtM4AProc.c: 23";
 		rLen = 0;
-		rLoc = 785;
+		rLoc = 1260;
 		rType = 0;
 		vrLen = 875;
 		vrLoc = 0;
@@ -3239,7 +3246,7 @@
 		fRef = 9472E9700E7DF6AD009BEC66 /* dtM4AProc.c */;
 		name = "dtM4AProc.c: 23";
 		rLen = 0;
-		rLoc = 785;
+		rLoc = 1260;
 		rType = 0;
 		vrLen = 875;
 		vrLoc = 0;
@@ -3297,7 +3304,7 @@
 		fRef = 9472E9700E7DF6AD009BEC66 /* dtM4AProc.c */;
 		name = "dtM4AProc.c: 23";
 		rLen = 0;
-		rLoc = 785;
+		rLoc = 1260;
 		rType = 0;
 		vrLen = 875;
 		vrLoc = 0;
@@ -3347,7 +3354,7 @@
 		fRef = 9472E9700E7DF6AD009BEC66 /* dtM4AProc.c */;
 		name = "dtM4AProc.c: 23";
 		rLen = 0;
-		rLoc = 785;
+		rLoc = 1260;
 		rType = 0;
 		vrLen = 875;
 		vrLoc = 0;
@@ -3367,7 +3374,7 @@
 		fRef = 9472E9700E7DF6AD009BEC66 /* dtM4AProc.c */;
 		name = "dtM4AProc.c: 14";
 		rLen = 0;
-		rLoc = 785;
+		rLoc = 1260;
 		rType = 0;
 		vrLen = 873;
 		vrLoc = 0;
@@ -3417,7 +3424,7 @@
 		fRef = 9472E9700E7DF6AD009BEC66 /* dtM4AProc.c */;
 		name = "dtM4AProc.c: 14";
 		rLen = 0;
-		rLoc = 785;
+		rLoc = 1260;
 		rType = 0;
 		vrLen = 871;
 		vrLoc = 0;
@@ -3467,7 +3474,7 @@
 		fRef = 9472E9700E7DF6AD009BEC66 /* dtM4AProc.c */;
 		name = "dtM4AProc.c: 23";
 		rLen = 0;
-		rLoc = 785;
+		rLoc = 1260;
 		rType = 0;
 		vrLen = 871;
 		vrLoc = 0;
@@ -3517,7 +3524,7 @@
 		fRef = 9472E9700E7DF6AD009BEC66 /* dtM4AProc.c */;
 		name = "dtM4AProc.c: 31";
 		rLen = 0;
-		rLoc = 785;
+		rLoc = 1260;
 		rType = 0;
 		vrLen = 875;
 		vrLoc = 0;
@@ -3567,7 +3574,7 @@
 		fRef = 9472E9700E7DF6AD009BEC66 /* dtM4AProc.c */;
 		name = "dtM4AProc.c: 21";
 		rLen = 0;
-		rLoc = 785;
+		rLoc = 1260;
 		rType = 0;
 		vrLen = 875;
 		vrLoc = 0;
@@ -3617,7 +3624,7 @@
 		fRef = 9472E9700E7DF6AD009BEC66 /* dtM4AProc.c */;
 		name = "dtM4AProc.c: 15";
 		rLen = 0;
-		rLoc = 785;
+		rLoc = 1260;
 		rType = 0;
 		vrLen = 867;
 		vrLoc = 0;
@@ -3667,7 +3674,7 @@
 		fRef = 9472E9700E7DF6AD009BEC66 /* dtM4AProc.c */;
 		name = "dtM4AProc.c: 14";
 		rLen = 0;
-		rLoc = 785;
+		rLoc = 1260;
 		rType = 0;
 		vrLen = 862;
 		vrLoc = 0;
@@ -3774,7 +3781,7 @@
 		fRef = 9472E9700E7DF6AD009BEC66 /* dtM4AProc.c */;
 		name = "dtM4AProc.c: 6";
 		rLen = 0;
-		rLoc = 785;
+		rLoc = 1260;
 		rType = 0;
 		vrLen = 99;
 		vrLoc = 0;
@@ -3905,7 +3912,7 @@
 		fRef = 9472E9700E7DF6AD009BEC66 /* dtM4AProc.c */;
 		name = "dtM4AProc.c: 6";
 		rLen = 0;
-		rLoc = 785;
+		rLoc = 1260;
 		rType = 0;
 		vrLen = 99;
 		vrLoc = 0;
@@ -3975,7 +3982,7 @@
 		fRef = 9472E9700E7DF6AD009BEC66 /* dtM4AProc.c */;
 		name = "dtM4AProc.c: 6";
 		rLen = 0;
-		rLoc = 785;
+		rLoc = 1260;
 		rType = 0;
 		vrLen = 99;
 		vrLoc = 0;
@@ -4045,7 +4052,7 @@
 		fRef = 9472E9700E7DF6AD009BEC66 /* dtM4AProc.c */;
 		name = "dtM4AProc.c: 6";
 		rLen = 0;
-		rLoc = 785;
+		rLoc = 1260;
 		rType = 0;
 		vrLen = 99;
 		vrLoc = 0;
@@ -4115,7 +4122,7 @@
 		fRef = 9472E9700E7DF6AD009BEC66 /* dtM4AProc.c */;
 		name = "dtM4AProc.c: 6";
 		rLen = 0;
-		rLoc = 785;
+		rLoc = 1260;
 		rType = 0;
 		vrLen = 99;
 		vrLoc = 0;
@@ -4185,7 +4192,7 @@
 		fRef = 9472E9700E7DF6AD009BEC66 /* dtM4AProc.c */;
 		name = "dtM4AProc.c: 6";
 		rLen = 0;
-		rLoc = 785;
+		rLoc = 1260;
 		rType = 0;
 		vrLen = 99;
 		vrLoc = 0;
@@ -4245,7 +4252,7 @@
 		fRef = 9472E9700E7DF6AD009BEC66 /* dtM4AProc.c */;
 		name = "dtM4AProc.c: 6";
 		rLen = 0;
-		rLoc = 785;
+		rLoc = 1260;
 		rType = 0;
 		vrLen = 99;
 		vrLoc = 0;
@@ -4309,7 +4316,7 @@
 		fRef = 9472E9700E7DF6AD009BEC66 /* dtM4AProc.c */;
 		name = "dtM4AProc.c: 6";
 		rLen = 0;
-		rLoc = 785;
+		rLoc = 1260;
 		rType = 0;
 		vrLen = 99;
 		vrLoc = 0;
@@ -4369,7 +4376,7 @@
 		fRef = 9472E9700E7DF6AD009BEC66 /* dtM4AProc.c */;
 		name = "dtM4AProc.c: 6";
 		rLen = 0;
-		rLoc = 785;
+		rLoc = 1260;
 		rType = 0;
 		vrLen = 99;
 		vrLoc = 0;
@@ -4429,7 +4436,7 @@
 		fRef = 9472E9700E7DF6AD009BEC66 /* dtM4AProc.c */;
 		name = "dtM4AProc.c: 6";
 		rLen = 0;
-		rLoc = 785;
+		rLoc = 1260;
 		rType = 0;
 		vrLen = 99;
 		vrLoc = 0;
@@ -4497,7 +4504,7 @@
 		fRef = 9472E9700E7DF6AD009BEC66 /* dtM4AProc.c */;
 		name = "dtM4AProc.c: 6";
 		rLen = 0;
-		rLoc = 785;
+		rLoc = 1260;
 		rType = 0;
 		vrLen = 99;
 		vrLoc = 0;
@@ -4557,7 +4564,7 @@
 		fRef = 9472E9700E7DF6AD009BEC66 /* dtM4AProc.c */;
 		name = "dtM4AProc.c: 6";
 		rLen = 0;
-		rLoc = 785;
+		rLoc = 1260;
 		rType = 0;
 		vrLen = 99;
 		vrLoc = 0;
@@ -4617,7 +4624,7 @@
 		fRef = 9472E9700E7DF6AD009BEC66 /* dtM4AProc.c */;
 		name = "dtM4AProc.c: 6";
 		rLen = 0;
-		rLoc = 785;
+		rLoc = 1260;
 		rType = 0;
 		vrLen = 99;
 		vrLoc = 0;
@@ -4677,7 +4684,7 @@
 		fRef = 9472E9700E7DF6AD009BEC66 /* dtM4AProc.c */;
 		name = "dtM4AProc.c: 6";
 		rLen = 0;
-		rLoc = 785;
+		rLoc = 1260;
 		rType = 0;
 		vrLen = 99;
 		vrLoc = 0;
@@ -4737,7 +4744,7 @@
 		fRef = 9472E9700E7DF6AD009BEC66 /* dtM4AProc.c */;
 		name = "dtM4AProc.c: 6";
 		rLen = 0;
-		rLoc = 785;
+		rLoc = 1260;
 		rType = 0;
 		vrLen = 99;
 		vrLoc = 0;
@@ -4797,7 +4804,7 @@
 		fRef = 9472E9700E7DF6AD009BEC66 /* dtM4AProc.c */;
 		name = "dtM4AProc.c: 6";
 		rLen = 0;
-		rLoc = 785;
+		rLoc = 1260;
 		rType = 0;
 		vrLen = 99;
 		vrLoc = 0;
@@ -4857,7 +4864,7 @@
 		fRef = 9472E9700E7DF6AD009BEC66 /* dtM4AProc.c */;
 		name = "dtM4AProc.c: 6";
 		rLen = 0;
-		rLoc = 785;
+		rLoc = 1260;
 		rType = 0;
 		vrLen = 99;
 		vrLoc = 0;
@@ -4917,7 +4924,7 @@
 		fRef = 9472E9700E7DF6AD009BEC66 /* dtM4AProc.c */;
 		name = "dtM4AProc.c: 6";
 		rLen = 0;
-		rLoc = 785;
+		rLoc = 1260;
 		rType = 0;
 		vrLen = 99;
 		vrLoc = 0;
@@ -4977,7 +4984,7 @@
 		fRef = 9472E9700E7DF6AD009BEC66 /* dtM4AProc.c */;
 		name = "dtM4AProc.c: 6";
 		rLen = 0;
-		rLoc = 785;
+		rLoc = 1260;
 		rType = 0;
 		vrLen = 99;
 		vrLoc = 0;
@@ -5005,7 +5012,7 @@
 		fRef = 9472E9700E7DF6AD009BEC66 /* dtM4AProc.c */;
 		name = "dtM4AProc.c: 27";
 		rLen = 0;
-		rLoc = 783;
+		rLoc = 1091;
 		rType = 0;
 		vrLen = 637;
 		vrLoc = 0;
@@ -5065,7 +5072,7 @@
 		fRef = 9472E9700E7DF6AD009BEC66 /* dtM4AProc.c */;
 		name = "dtM4AProc.c: 26";
 		rLen = 0;
-		rLoc = 782;
+		rLoc = 1090;
 		rType = 0;
 		vrLen = 569;
 		vrLoc = 0;
@@ -5135,7 +5142,7 @@
 		fRef = 9472E9700E7DF6AD009BEC66 /* dtM4AProc.c */;
 		name = "dtM4AProc.c: 26";
 		rLen = 0;
-		rLoc = 782;
+		rLoc = 1090;
 		rType = 0;
 		vrLen = 569;
 		vrLoc = 0;
@@ -5185,7 +5192,7 @@
 		fRef = 9472E9700E7DF6AD009BEC66 /* dtM4AProc.c */;
 		name = "dtM4AProc.c: 28";
 		rLen = 0;
-		rLoc = 754;
+		rLoc = 1062;
 		rType = 0;
 		vrLen = 772;
 		vrLoc = 0;
@@ -5245,7 +5252,7 @@
 		fRef = 9472E9700E7DF6AD009BEC66 /* dtM4AProc.c */;
 		name = "dtM4AProc.c: 34";
 		rLen = 0;
-		rLoc = 590;
+		rLoc = 898;
 		rType = 0;
 		vrLen = 927;
 		vrLoc = 0;
@@ -5315,7 +5322,7 @@
 		fRef = 9472E9700E7DF6AD009BEC66 /* dtM4AProc.c */;
 		name = "dtM4AProc.c: 44";
 		rLen = 0;
-		rLoc = 740;
+		rLoc = 1048;
 		rType = 0;
 		vrLen = 1186;
 		vrLoc = 0;
@@ -5415,7 +5422,7 @@
 		comments = "error: syntax error before '}' token";
 		fRef = 9472E9740E7DF6C9009BEC66 /* dtM4AWrite.c */;
 		rLen = 0;
-		rLoc = 31;
+		rLoc = 29;
 		rType = 1;
 	};
 	94B5028B0E807F6B00896C92 /* PBXTextBookmark */ = {
@@ -5433,7 +5440,7 @@
 		fRef = 9472E9740E7DF6C9009BEC66 /* dtM4AWrite.c */;
 		name = "dtM4AWrite.c: 33";
 		rLen = 0;
-		rLoc = 910;
+		rLoc = 874;
 		rType = 0;
 		vrLen = 1091;
 		vrLoc = 0;
@@ -5503,7 +5510,7 @@
 		fRef = 9472E9740E7DF6C9009BEC66 /* dtM4AWrite.c */;
 		name = "dtM4AWrite.c: 50";
 		rLen = 0;
-		rLoc = 1236;
+		rLoc = 1222;
 		rType = 0;
 		vrLen = 1191;
 		vrLoc = 0;
@@ -5573,7 +5580,7 @@
 		fRef = 9472E9740E7DF6C9009BEC66 /* dtM4AWrite.c */;
 		name = "dtM4AWrite.c: 34";
 		rLen = 0;
-		rLoc = 910;
+		rLoc = 874;
 		rType = 0;
 		vrLen = 1197;
 		vrLoc = 0;
@@ -5643,7 +5650,7 @@
 		fRef = 9472E9740E7DF6C9009BEC66 /* dtM4AWrite.c */;
 		name = "dtM4AWrite.c: 33";
 		rLen = 0;
-		rLoc = 914;
+		rLoc = 878;
 		rType = 0;
 		vrLen = 1190;
 		vrLoc = 0;
@@ -5713,7 +5720,7 @@
 		fRef = 9472E9740E7DF6C9009BEC66 /* dtM4AWrite.c */;
 		name = "dtM4AWrite.c: 47";
 		rLen = 0;
-		rLoc = 1236;
+		rLoc = 1222;
 		rType = 0;
 		vrLen = 1256;
 		vrLoc = 0;
@@ -5759,6 +5766,76 @@
 		vrLoc = 0;
 	};
 	94B502B30E8081CC00896C92 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 9472E96B0E7DF699009BEC66 /* dtM4ARead.c */;
+		name = "dtM4ARead.c: 85";
+		rLen = 0;
+		rLoc = 3379;
+		rType = 0;
+		vrLen = 2433;
+		vrLoc = 1383;
+	};
+	94B502B70E80833100896C92 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 9472E9700E7DF6AD009BEC66 /* dtM4AProc.c */;
+		name = "dtM4AProc.c: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 395;
+		vrLoc = 0;
+	};
+	94B502B80E80833100896C92 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 9472E9700E7DF6AD009BEC66 /* dtM4AProc.c */;
+		name = "dtM4AProc.c: 19";
+		rLen = 0;
+		rLoc = 358;
+		rType = 0;
+		vrLen = 1260;
+		vrLoc = 0;
+	};
+	94B502B90E80833100896C92 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 9472E9740E7DF6C9009BEC66 /* dtM4AWrite.c */;
+		name = "dtM4AWrite.c: 21";
+		rLen = 0;
+		rLoc = 505;
+		rType = 0;
+		vrLen = 1242;
+		vrLoc = 0;
+	};
+	94B502BA0E80833100896C92 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 08FB7796FE84155DC02AAC07 /* main.c */;
+		name = "main.c: 16";
+		rLen = 0;
+		rLoc = 361;
+		rType = 0;
+		vrLen = 803;
+		vrLoc = 0;
+	};
+	94B502BB0E80833100896C92 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 94B5019A0E806F2D00896C92 /* dtM4AUtil.c */;
+		name = "dtM4AUtil.c: 31";
+		rLen = 63;
+		rLoc = 795;
+		rType = 0;
+		vrLen = 1618;
+		vrLoc = 249;
+	};
+	94B502BC0E80833100896C92 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 9472E9670E7DF658009BEC66 /* dtM4AMuxer.h */;
+		name = "dtM4AMuxer.h: 42";
+		rLen = 0;
+		rLoc = 894;
+		rType = 0;
+		vrLen = 896;
+		vrLoc = 0;
+	};
+	94B502BD0E80833100896C92 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 9472E96B0E7DF699009BEC66 /* dtM4ARead.c */;
 		name = "dtM4ARead.c: 85";
