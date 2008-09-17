@@ -1,3 +1,6 @@
+// main.c -- entry point for dtM4AMuxer project
+// (C) 2008 Ryan Joseph
+
 #include "dtM4AMuxer.h"
 
 int main (int argc, const char * argv[]) {

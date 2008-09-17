@@ -588,6 +588,12 @@
 			94B502D80E80884000896C92 /* PBXTextBookmark */ = 94B502D80E80884000896C92 /* PBXTextBookmark */;
 			94B502D90E80884000896C92 /* PBXTextBookmark */ = 94B502D90E80884000896C92 /* PBXTextBookmark */;
 			94B502DA0E80884000896C92 /* PBXTextBookmark */ = 94B502DA0E80884000896C92 /* PBXTextBookmark */;
+			94B502DC0E8088C300896C92 /* PBXTextBookmark */ = 94B502DC0E8088C300896C92 /* PBXTextBookmark */;
+			94B502DD0E8088C300896C92 /* PBXTextBookmark */ = 94B502DD0E8088C300896C92 /* PBXTextBookmark */;
+			94B502DE0E8088C300896C92 /* PBXTextBookmark */ = 94B502DE0E8088C300896C92 /* PBXTextBookmark */;
+			94B502DF0E8088C300896C92 /* PBXTextBookmark */ = 94B502DF0E8088C300896C92 /* PBXTextBookmark */;
+			94B502E00E8088C300896C92 /* PBXTextBookmark */ = 94B502E00E8088C300896C92 /* PBXTextBookmark */;
+			94B502E10E8088C300896C92 /* PBXTextBookmark */ = 94B502E10E8088C300896C92 /* PBXTextBookmark */;
 		};
 		sourceControlManager = 9472E9630E7DF640009BEC66 /* Source Control */;
 		userBuildSettings = {
@@ -596,9 +602,9 @@
 	08FB7796FE84155DC02AAC07 /* main.c */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {990, 751}}";
-			sepNavSelRange = "{711, 0}";
-			sepNavVisRange = "{0, 836}";
-			sepNavWindowFrame = "{{195, 12}, {1049, 864}}";
+			sepNavSelRange = "{47, 0}";
+			sepNavVisRange = "{0, 909}";
+			sepNavWindowFrame = "{{578, 175}, {1049, 864}}";
 		};
 	};
 	8DD76FA90486AB0100D96B5E /* dtM4AMuxer */ = {
@@ -643,34 +649,34 @@
 	};
 	9472E9670E7DF658009BEC66 /* dtM4AMuxer.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {510, 761}}";
-			sepNavSelRange = "{675, 0}";
-			sepNavVisRange = "{0, 1134}";
-			sepNavWindowFrame = "{{740, 4}, {569, 874}}";
+			sepNavIntBoundsRect = "{{0, 0}, {519, 770}}";
+			sepNavSelRange = "{633, 0}";
+			sepNavVisRange = "{0, 363}";
+			sepNavWindowFrame = "{{2006, 198}, {569, 874}}";
 		};
 	};
 	9472E96B0E7DF699009BEC66 /* dtM4ARead.c */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1035, 1736}}";
-			sepNavSelRange = "{3388, 0}";
-			sepNavVisRange = "{2570, 1618}";
+			sepNavIntBoundsRect = "{{0, 0}, {519, 1736}}";
+			sepNavSelRange = "{94, 0}";
+			sepNavVisRange = "{0, 591}";
 			sepNavWindowFrame = "{{655, 153}, {1094, 996}}";
 		};
 	};
 	9472E9700E7DF6AD009BEC66 /* dtM4AProc.c */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {519, 994}}";
-			sepNavSelRange = "{0, 0}";
+			sepNavSelRange = "{258, 0}";
 			sepNavVisRange = "{0, 395}";
 			sepNavWindowFrame = "{{106, 143}, {1049, 864}}";
 		};
 	};
 	9472E9740E7DF6C9009BEC66 /* dtM4AWrite.c */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {990, 751}}";
-			sepNavSelRange = "{1045, 0}";
-			sepNavVisRange = "{0, 1264}";
-			sepNavWindowFrame = "{{699, 152}, {1049, 864}}";
+			sepNavIntBoundsRect = "{{0, 0}, {519, 742}}";
+			sepNavSelRange = "{76, 0}";
+			sepNavVisRange = "{0, 591}";
+			sepNavWindowFrame = "{{527, 153}, {1049, 864}}";
 		};
 	};
 	9472E9770E7DF8A1009BEC66 /* PBXTextBookmark */ = {
@@ -688,7 +694,7 @@
 		fRef = 9472E96B0E7DF699009BEC66 /* dtM4ARead.c */;
 		name = "dtM4ARead.c: 1";
 		rLen = 0;
-		rLoc = 0;
+		rLoc = 94;
 		rType = 0;
 		vrLen = 141;
 		vrLoc = 0;
@@ -698,7 +704,7 @@
 		fRef = 9472E9670E7DF658009BEC66 /* dtM4AMuxer.h */;
 		name = "dtM4AMuxer.h: 11";
 		rLen = 0;
-		rLoc = 555;
+		rLoc = 633;
 		rType = 0;
 		vrLen = 196;
 		vrLoc = 0;
@@ -708,7 +714,7 @@
 		fRef = 9472E96B0E7DF699009BEC66 /* dtM4ARead.c */;
 		name = "dtM4ARead.c: 1";
 		rLen = 0;
-		rLoc = 0;
+		rLoc = 94;
 		rType = 0;
 		vrLen = 141;
 		vrLoc = 0;
@@ -728,7 +734,7 @@
 		fRef = 9472E9670E7DF658009BEC66 /* dtM4AMuxer.h */;
 		name = "dtM4AMuxer.h: 18";
 		rLen = 0;
-		rLoc = 555;
+		rLoc = 633;
 		rType = 0;
 		vrLen = 331;
 		vrLoc = 0;
@@ -738,7 +744,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* main.c */;
 		name = "main.c: 2";
 		rLen = 0;
-		rLoc = 24;
+		rLoc = 97;
 		rType = 0;
 		vrLen = 142;
 		vrLoc = 0;
@@ -748,7 +754,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* main.c */;
 		name = "main.c: 2";
 		rLen = 0;
-		rLoc = 24;
+		rLoc = 97;
 		rType = 0;
 		vrLen = 272;
 		vrLoc = 0;
@@ -758,7 +764,7 @@
 		fRef = 9472E96B0E7DF699009BEC66 /* dtM4ARead.c */;
 		name = "dtM4ARead.c: 73";
 		rLen = 0;
-		rLoc = 3185;
+		rLoc = 3279;
 		rType = 0;
 		vrLen = 2249;
 		vrLoc = 1425;
@@ -768,7 +774,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* main.c */;
 		name = "main.c: 10";
 		rLen = 0;
-		rLoc = 791;
+		rLoc = 864;
 		rType = 0;
 		vrLen = 272;
 		vrLoc = 0;
@@ -778,7 +784,7 @@
 		fRef = 9472E9670E7DF658009BEC66 /* dtM4AMuxer.h */;
 		name = "dtM4AMuxer.h: 15";
 		rLen = 0;
-		rLoc = 294;
+		rLoc = 372;
 		rType = 0;
 		vrLen = 737;
 		vrLoc = 0;
@@ -788,7 +794,7 @@
 		fRef = 9472E9740E7DF6C9009BEC66 /* dtM4AWrite.c */;
 		name = "dtM4AWrite.c: 1";
 		rLen = 0;
-		rLoc = 1264;
+		rLoc = 1366;
 		rType = 0;
 		vrLen = 23;
 		vrLoc = 0;
@@ -808,7 +814,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* main.c */;
 		name = "main.c: 2";
 		rLen = 0;
-		rLoc = 24;
+		rLoc = 97;
 		rType = 0;
 		vrLen = 272;
 		vrLoc = 0;
@@ -818,7 +824,7 @@
 		fRef = 9472E96B0E7DF699009BEC66 /* dtM4ARead.c */;
 		name = "dtM4ARead.c: 73";
 		rLen = 0;
-		rLoc = 3185;
+		rLoc = 3279;
 		rType = 0;
 		vrLen = 1726;
 		vrLoc = 2586;
@@ -828,7 +834,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* main.c */;
 		name = "main.c: 10";
 		rLen = 0;
-		rLoc = 791;
+		rLoc = 864;
 		rType = 0;
 		vrLen = 272;
 		vrLoc = 0;
@@ -838,7 +844,7 @@
 		fRef = 9472E9670E7DF658009BEC66 /* dtM4AMuxer.h */;
 		name = "dtM4AMuxer.h: 15";
 		rLen = 0;
-		rLoc = 294;
+		rLoc = 372;
 		rType = 0;
 		vrLen = 737;
 		vrLoc = 0;
@@ -848,7 +854,7 @@
 		fRef = 9472E9740E7DF6C9009BEC66 /* dtM4AWrite.c */;
 		name = "dtM4AWrite.c: 1";
 		rLen = 0;
-		rLoc = 1264;
+		rLoc = 1366;
 		rType = 0;
 		vrLen = 23;
 		vrLoc = 0;
@@ -871,8 +877,8 @@
 		isa = PBXTextBookmark;
 		comments = "error: initializer element is not constant";
 		fRef = 9472E96B0E7DF699009BEC66 /* dtM4ARead.c */;
-		rLen = 0;
-		rLoc = 4;
+		rLen = 1;
+		rLoc = 0;
 		rType = 1;
 	};
 	94B500210E80556700896C92 /* PBXTextBookmark */ = {
@@ -880,7 +886,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* main.c */;
 		name = "main.c: 9";
 		rLen = 0;
-		rLoc = 395;
+		rLoc = 468;
 		rType = 0;
 		vrLen = 394;
 		vrLoc = 0;
@@ -890,7 +896,7 @@
 		fRef = 9472E96B0E7DF699009BEC66 /* dtM4ARead.c */;
 		name = "dtM4ARead.c: 9";
 		rLen = 0;
-		rLoc = 105;
+		rLoc = 199;
 		rType = 0;
 		vrLen = 1960;
 		vrLoc = 0;
@@ -910,7 +916,7 @@
 		fRef = 9472E9670E7DF658009BEC66 /* dtM4AMuxer.h */;
 		name = "dtM4AMuxer.h: 15";
 		rLen = 0;
-		rLoc = 294;
+		rLoc = 372;
 		rType = 0;
 		vrLen = 737;
 		vrLoc = 0;
@@ -920,7 +926,7 @@
 		fRef = 9472E9670E7DF658009BEC66 /* dtM4AMuxer.h */;
 		name = "dtM4AMuxer.h: 32";
 		rLen = 47;
-		rLoc = 707;
+		rLoc = 785;
 		rType = 0;
 		vrLen = 718;
 		vrLoc = 0;
@@ -930,7 +936,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* main.c */;
 		name = "main.c: 14";
 		rLen = 0;
-		rLoc = 731;
+		rLoc = 804;
 		rType = 0;
 		vrLen = 394;
 		vrLoc = 0;
@@ -939,8 +945,8 @@
 		isa = PBXTextBookmark;
 		comments = "warning: assignment from incompatible pointer type";
 		fRef = 9472E96B0E7DF699009BEC66 /* dtM4ARead.c */;
-		rLen = 0;
-		rLoc = 4;
+		rLen = 1;
+		rLoc = 0;
 		rType = 1;
 	};
 	94B500350E80559600896C92 /* PBXTextBookmark */ = {
@@ -948,7 +954,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* main.c */;
 		name = "main.c: 9";
 		rLen = 0;
-		rLoc = 395;
+		rLoc = 468;
 		rType = 0;
 		vrLen = 394;
 		vrLoc = 0;
@@ -958,7 +964,7 @@
 		fRef = 9472E96B0E7DF699009BEC66 /* dtM4ARead.c */;
 		name = "dtM4ARead.c: 18";
 		rLen = 0;
-		rLoc = 105;
+		rLoc = 199;
 		rType = 0;
 		vrLen = 2011;
 		vrLoc = 0;
@@ -978,7 +984,7 @@
 		fRef = 9472E9670E7DF658009BEC66 /* dtM4AMuxer.h */;
 		name = "dtM4AMuxer.h: 32";
 		rLen = 47;
-		rLoc = 707;
+		rLoc = 785;
 		rType = 0;
 		vrLen = 718;
 		vrLoc = 0;
@@ -988,7 +994,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* main.c */;
 		name = "main.c: 14";
 		rLen = 0;
-		rLoc = 731;
+		rLoc = 804;
 		rType = 0;
 		vrLen = 394;
 		vrLoc = 0;
@@ -998,7 +1004,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* main.c */;
 		name = "main.c: 9";
 		rLen = 0;
-		rLoc = 395;
+		rLoc = 468;
 		rType = 0;
 		vrLen = 394;
 		vrLoc = 0;
@@ -1008,7 +1014,7 @@
 		fRef = 9472E96B0E7DF699009BEC66 /* dtM4ARead.c */;
 		name = "dtM4ARead.c: 19";
 		rLen = 0;
-		rLoc = 105;
+		rLoc = 199;
 		rType = 0;
 		vrLen = 2029;
 		vrLoc = 0;
@@ -1028,7 +1034,7 @@
 		fRef = 9472E9670E7DF658009BEC66 /* dtM4AMuxer.h */;
 		name = "dtM4AMuxer.h: 32";
 		rLen = 47;
-		rLoc = 707;
+		rLoc = 785;
 		rType = 0;
 		vrLen = 718;
 		vrLoc = 0;
@@ -1038,7 +1044,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* main.c */;
 		name = "main.c: 14";
 		rLen = 0;
-		rLoc = 731;
+		rLoc = 804;
 		rType = 0;
 		vrLen = 394;
 		vrLoc = 0;
@@ -1048,7 +1054,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* main.c */;
 		name = "main.c: 9";
 		rLen = 0;
-		rLoc = 395;
+		rLoc = 468;
 		rType = 0;
 		vrLen = 394;
 		vrLoc = 0;
@@ -1058,7 +1064,7 @@
 		fRef = 9472E96B0E7DF699009BEC66 /* dtM4ARead.c */;
 		name = "dtM4ARead.c: 18";
 		rLen = 0;
-		rLoc = 105;
+		rLoc = 199;
 		rType = 0;
 		vrLen = 2031;
 		vrLoc = 0;
@@ -1078,7 +1084,7 @@
 		fRef = 9472E9670E7DF658009BEC66 /* dtM4AMuxer.h */;
 		name = "dtM4AMuxer.h: 32";
 		rLen = 47;
-		rLoc = 707;
+		rLoc = 785;
 		rType = 0;
 		vrLen = 718;
 		vrLoc = 0;
@@ -1088,7 +1094,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* main.c */;
 		name = "main.c: 14";
 		rLen = 0;
-		rLoc = 731;
+		rLoc = 804;
 		rType = 0;
 		vrLen = 394;
 		vrLoc = 0;
@@ -1098,7 +1104,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* main.c */;
 		name = "main.c: 9";
 		rLen = 0;
-		rLoc = 395;
+		rLoc = 468;
 		rType = 0;
 		vrLen = 394;
 		vrLoc = 0;
@@ -1108,7 +1114,7 @@
 		fRef = 9472E96B0E7DF699009BEC66 /* dtM4ARead.c */;
 		name = "dtM4ARead.c: 18";
 		rLen = 0;
-		rLoc = 105;
+		rLoc = 199;
 		rType = 0;
 		vrLen = 2006;
 		vrLoc = 0;
@@ -1128,7 +1134,7 @@
 		fRef = 9472E9670E7DF658009BEC66 /* dtM4AMuxer.h */;
 		name = "dtM4AMuxer.h: 32";
 		rLen = 47;
-		rLoc = 707;
+		rLoc = 785;
 		rType = 0;
 		vrLen = 718;
 		vrLoc = 0;
@@ -1138,7 +1144,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* main.c */;
 		name = "main.c: 14";
 		rLen = 0;
-		rLoc = 731;
+		rLoc = 804;
 		rType = 0;
 		vrLen = 394;
 		vrLoc = 0;
@@ -1148,7 +1154,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* main.c */;
 		name = "main.c: 9";
 		rLen = 0;
-		rLoc = 395;
+		rLoc = 468;
 		rType = 0;
 		vrLen = 394;
 		vrLoc = 0;
@@ -1158,7 +1164,7 @@
 		fRef = 9472E96B0E7DF699009BEC66 /* dtM4ARead.c */;
 		name = "dtM4ARead.c: 15";
 		rLen = 0;
-		rLoc = 105;
+		rLoc = 199;
 		rType = 0;
 		vrLen = 2008;
 		vrLoc = 0;
@@ -1178,7 +1184,7 @@
 		fRef = 9472E9670E7DF658009BEC66 /* dtM4AMuxer.h */;
 		name = "dtM4AMuxer.h: 32";
 		rLen = 47;
-		rLoc = 707;
+		rLoc = 785;
 		rType = 0;
 		vrLen = 718;
 		vrLoc = 0;
@@ -1188,7 +1194,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* main.c */;
 		name = "main.c: 14";
 		rLen = 0;
-		rLoc = 731;
+		rLoc = 804;
 		rType = 0;
 		vrLen = 394;
 		vrLoc = 0;
@@ -1198,7 +1204,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* main.c */;
 		name = "main.c: 9";
 		rLen = 0;
-		rLoc = 395;
+		rLoc = 468;
 		rType = 0;
 		vrLen = 394;
 		vrLoc = 0;
@@ -1208,7 +1214,7 @@
 		fRef = 9472E96B0E7DF699009BEC66 /* dtM4ARead.c */;
 		name = "dtM4ARead.c: 18";
 		rLen = 0;
-		rLoc = 105;
+		rLoc = 199;
 		rType = 0;
 		vrLen = 2033;
 		vrLoc = 0;
@@ -1228,7 +1234,7 @@
 		fRef = 9472E9670E7DF658009BEC66 /* dtM4AMuxer.h */;
 		name = "dtM4AMuxer.h: 32";
 		rLen = 47;
-		rLoc = 707;
+		rLoc = 785;
 		rType = 0;
 		vrLen = 718;
 		vrLoc = 0;
@@ -1238,7 +1244,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* main.c */;
 		name = "main.c: 14";
 		rLen = 0;
-		rLoc = 731;
+		rLoc = 804;
 		rType = 0;
 		vrLen = 394;
 		vrLoc = 0;
@@ -1247,8 +1253,8 @@
 		isa = PBXTextBookmark;
 		comments = "warning: assignment makes pointer from integer without a cast";
 		fRef = 9472E96B0E7DF699009BEC66 /* dtM4ARead.c */;
-		rLen = 0;
-		rLoc = 4;
+		rLen = 1;
+		rLoc = 0;
 		rType = 1;
 	};
 	94B5005D0E8056D900896C92 /* PBXTextBookmark */ = {
@@ -1256,7 +1262,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* main.c */;
 		name = "main.c: 9";
 		rLen = 0;
-		rLoc = 395;
+		rLoc = 468;
 		rType = 0;
 		vrLen = 394;
 		vrLoc = 0;
@@ -1266,7 +1272,7 @@
 		fRef = 9472E96B0E7DF699009BEC66 /* dtM4ARead.c */;
 		name = "dtM4ARead.c: 18";
 		rLen = 0;
-		rLoc = 105;
+		rLoc = 199;
 		rType = 0;
 		vrLen = 2044;
 		vrLoc = 0;
@@ -1286,7 +1292,7 @@
 		fRef = 9472E9670E7DF658009BEC66 /* dtM4AMuxer.h */;
 		name = "dtM4AMuxer.h: 32";
 		rLen = 47;
-		rLoc = 707;
+		rLoc = 785;
 		rType = 0;
 		vrLen = 718;
 		vrLoc = 0;
@@ -1296,7 +1302,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* main.c */;
 		name = "main.c: 14";
 		rLen = 0;
-		rLoc = 731;
+		rLoc = 804;
 		rType = 0;
 		vrLen = 394;
 		vrLoc = 0;
@@ -1306,7 +1312,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* main.c */;
 		name = "main.c: 9";
 		rLen = 0;
-		rLoc = 395;
+		rLoc = 468;
 		rType = 0;
 		vrLen = 394;
 		vrLoc = 0;
@@ -1316,7 +1322,7 @@
 		fRef = 9472E96B0E7DF699009BEC66 /* dtM4ARead.c */;
 		name = "dtM4ARead.c: 18";
 		rLen = 0;
-		rLoc = 105;
+		rLoc = 199;
 		rType = 0;
 		vrLen = 2000;
 		vrLoc = 0;
@@ -1336,7 +1342,7 @@
 		fRef = 9472E9670E7DF658009BEC66 /* dtM4AMuxer.h */;
 		name = "dtM4AMuxer.h: 32";
 		rLen = 47;
-		rLoc = 707;
+		rLoc = 785;
 		rType = 0;
 		vrLen = 718;
 		vrLoc = 0;
@@ -1346,7 +1352,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* main.c */;
 		name = "main.c: 14";
 		rLen = 0;
-		rLoc = 731;
+		rLoc = 804;
 		rType = 0;
 		vrLen = 394;
 		vrLoc = 0;
@@ -1356,7 +1362,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* main.c */;
 		name = "main.c: 9";
 		rLen = 0;
-		rLoc = 395;
+		rLoc = 468;
 		rType = 0;
 		vrLen = 394;
 		vrLoc = 0;
@@ -1366,7 +1372,7 @@
 		fRef = 9472E96B0E7DF699009BEC66 /* dtM4ARead.c */;
 		name = "dtM4ARead.c: 13";
 		rLen = 0;
-		rLoc = 105;
+		rLoc = 199;
 		rType = 0;
 		vrLen = 2002;
 		vrLoc = 0;
@@ -1386,7 +1392,7 @@
 		fRef = 9472E9670E7DF658009BEC66 /* dtM4AMuxer.h */;
 		name = "dtM4AMuxer.h: 32";
 		rLen = 47;
-		rLoc = 707;
+		rLoc = 785;
 		rType = 0;
 		vrLen = 718;
 		vrLoc = 0;
@@ -1396,7 +1402,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* main.c */;
 		name = "main.c: 14";
 		rLen = 0;
-		rLoc = 731;
+		rLoc = 804;
 		rType = 0;
 		vrLen = 394;
 		vrLoc = 0;
@@ -1406,7 +1412,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* main.c */;
 		name = "main.c: 9";
 		rLen = 0;
-		rLoc = 395;
+		rLoc = 468;
 		rType = 0;
 		vrLen = 394;
 		vrLoc = 0;
@@ -1416,7 +1422,7 @@
 		fRef = 9472E96B0E7DF699009BEC66 /* dtM4ARead.c */;
 		name = "dtM4ARead.c: 13";
 		rLen = 0;
-		rLoc = 105;
+		rLoc = 199;
 		rType = 0;
 		vrLen = 2043;
 		vrLoc = 0;
@@ -1436,7 +1442,7 @@
 		fRef = 9472E9670E7DF658009BEC66 /* dtM4AMuxer.h */;
 		name = "dtM4AMuxer.h: 32";
 		rLen = 47;
-		rLoc = 707;
+		rLoc = 785;
 		rType = 0;
 		vrLen = 718;
 		vrLoc = 0;
@@ -1446,7 +1452,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* main.c */;
 		name = "main.c: 14";
 		rLen = 0;
-		rLoc = 731;
+		rLoc = 804;
 		rType = 0;
 		vrLen = 394;
 		vrLoc = 0;
@@ -1456,7 +1462,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* main.c */;
 		name = "main.c: 9";
 		rLen = 0;
-		rLoc = 395;
+		rLoc = 468;
 		rType = 0;
 		vrLen = 394;
 		vrLoc = 0;
@@ -1466,7 +1472,7 @@
 		fRef = 9472E96B0E7DF699009BEC66 /* dtM4ARead.c */;
 		name = "dtM4ARead.c: 16";
 		rLen = 0;
-		rLoc = 105;
+		rLoc = 199;
 		rType = 0;
 		vrLen = 2348;
 		vrLoc = 0;
@@ -1486,7 +1492,7 @@
 		fRef = 9472E9670E7DF658009BEC66 /* dtM4AMuxer.h */;
 		name = "dtM4AMuxer.h: 32";
 		rLen = 47;
-		rLoc = 707;
+		rLoc = 785;
 		rType = 0;
 		vrLen = 718;
 		vrLoc = 0;
@@ -1496,7 +1502,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* main.c */;
 		name = "main.c: 14";
 		rLen = 0;
-		rLoc = 731;
+		rLoc = 804;
 		rType = 0;
 		vrLen = 394;
 		vrLoc = 0;
@@ -1506,7 +1512,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* main.c */;
 		name = "main.c: 9";
 		rLen = 0;
-		rLoc = 395;
+		rLoc = 468;
 		rType = 0;
 		vrLen = 394;
 		vrLoc = 0;
@@ -1516,7 +1522,7 @@
 		fRef = 9472E96B0E7DF699009BEC66 /* dtM4ARead.c */;
 		name = "dtM4ARead.c: 23";
 		rLen = 0;
-		rLoc = 105;
+		rLoc = 199;
 		rType = 0;
 		vrLen = 2360;
 		vrLoc = 0;
@@ -1536,7 +1542,7 @@
 		fRef = 9472E9670E7DF658009BEC66 /* dtM4AMuxer.h */;
 		name = "dtM4AMuxer.h: 32";
 		rLen = 47;
-		rLoc = 707;
+		rLoc = 785;
 		rType = 0;
 		vrLen = 718;
 		vrLoc = 0;
@@ -1546,7 +1552,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* main.c */;
 		name = "main.c: 14";
 		rLen = 0;
-		rLoc = 731;
+		rLoc = 804;
 		rType = 0;
 		vrLen = 394;
 		vrLoc = 0;
@@ -1556,7 +1562,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* main.c */;
 		name = "main.c: 9";
 		rLen = 0;
-		rLoc = 395;
+		rLoc = 468;
 		rType = 0;
 		vrLen = 394;
 		vrLoc = 0;
@@ -1566,7 +1572,7 @@
 		fRef = 9472E96B0E7DF699009BEC66 /* dtM4ARead.c */;
 		name = "dtM4ARead.c: 22";
 		rLen = 0;
-		rLoc = 105;
+		rLoc = 199;
 		rType = 0;
 		vrLen = 2373;
 		vrLoc = 0;
@@ -1586,7 +1592,7 @@
 		fRef = 9472E9670E7DF658009BEC66 /* dtM4AMuxer.h */;
 		name = "dtM4AMuxer.h: 32";
 		rLen = 47;
-		rLoc = 707;
+		rLoc = 785;
 		rType = 0;
 		vrLen = 718;
 		vrLoc = 0;
@@ -1596,7 +1602,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* main.c */;
 		name = "main.c: 14";
 		rLen = 0;
-		rLoc = 731;
+		rLoc = 804;
 		rType = 0;
 		vrLen = 394;
 		vrLoc = 0;
@@ -1606,7 +1612,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* main.c */;
 		name = "main.c: 9";
 		rLen = 0;
-		rLoc = 395;
+		rLoc = 468;
 		rType = 0;
 		vrLen = 394;
 		vrLoc = 0;
@@ -1616,7 +1622,7 @@
 		fRef = 9472E96B0E7DF699009BEC66 /* dtM4ARead.c */;
 		name = "dtM4ARead.c: 5";
 		rLen = 0;
-		rLoc = 105;
+		rLoc = 199;
 		rType = 0;
 		vrLen = 2018;
 		vrLoc = 0;
@@ -1636,7 +1642,7 @@
 		fRef = 9472E9670E7DF658009BEC66 /* dtM4AMuxer.h */;
 		name = "dtM4AMuxer.h: 32";
 		rLen = 47;
-		rLoc = 707;
+		rLoc = 785;
 		rType = 0;
 		vrLen = 718;
 		vrLoc = 0;
@@ -1646,7 +1652,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* main.c */;
 		name = "main.c: 14";
 		rLen = 0;
-		rLoc = 731;
+		rLoc = 804;
 		rType = 0;
 		vrLen = 394;
 		vrLoc = 0;
@@ -1656,7 +1662,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* main.c */;
 		name = "main.c: 9";
 		rLen = 0;
-		rLoc = 395;
+		rLoc = 468;
 		rType = 0;
 		vrLen = 394;
 		vrLoc = 0;
@@ -1666,7 +1672,7 @@
 		fRef = 9472E96B0E7DF699009BEC66 /* dtM4ARead.c */;
 		name = "dtM4ARead.c: 62";
 		rLen = 0;
-		rLoc = 1117;
+		rLoc = 1211;
 		rType = 0;
 		vrLen = 2264;
 		vrLoc = 1055;
@@ -1686,7 +1692,7 @@
 		fRef = 9472E9670E7DF658009BEC66 /* dtM4AMuxer.h */;
 		name = "dtM4AMuxer.h: 32";
 		rLen = 47;
-		rLoc = 707;
+		rLoc = 785;
 		rType = 0;
 		vrLen = 718;
 		vrLoc = 0;
@@ -1696,7 +1702,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* main.c */;
 		name = "main.c: 14";
 		rLen = 0;
-		rLoc = 731;
+		rLoc = 804;
 		rType = 0;
 		vrLen = 394;
 		vrLoc = 0;
@@ -1706,7 +1712,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* main.c */;
 		name = "main.c: 9";
 		rLen = 0;
-		rLoc = 395;
+		rLoc = 468;
 		rType = 0;
 		vrLen = 394;
 		vrLoc = 0;
@@ -1716,7 +1722,7 @@
 		fRef = 9472E96B0E7DF699009BEC66 /* dtM4ARead.c */;
 		name = "dtM4ARead.c: 70";
 		rLen = 0;
-		rLoc = 2047;
+		rLoc = 2141;
 		rType = 0;
 		vrLen = 2304;
 		vrLoc = 1055;
@@ -1736,7 +1742,7 @@
 		fRef = 9472E9670E7DF658009BEC66 /* dtM4AMuxer.h */;
 		name = "dtM4AMuxer.h: 32";
 		rLen = 47;
-		rLoc = 707;
+		rLoc = 785;
 		rType = 0;
 		vrLen = 718;
 		vrLoc = 0;
@@ -1746,7 +1752,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* main.c */;
 		name = "main.c: 14";
 		rLen = 0;
-		rLoc = 731;
+		rLoc = 804;
 		rType = 0;
 		vrLen = 394;
 		vrLoc = 0;
@@ -1756,7 +1762,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* main.c */;
 		name = "main.c: 9";
 		rLen = 0;
-		rLoc = 395;
+		rLoc = 468;
 		rType = 0;
 		vrLen = 394;
 		vrLoc = 0;
@@ -1766,7 +1772,7 @@
 		fRef = 9472E96B0E7DF699009BEC66 /* dtM4ARead.c */;
 		name = "dtM4ARead.c: 7";
 		rLen = 0;
-		rLoc = 105;
+		rLoc = 199;
 		rType = 0;
 		vrLen = 2012;
 		vrLoc = 0;
@@ -1786,7 +1792,7 @@
 		fRef = 9472E9670E7DF658009BEC66 /* dtM4AMuxer.h */;
 		name = "dtM4AMuxer.h: 32";
 		rLen = 47;
-		rLoc = 707;
+		rLoc = 785;
 		rType = 0;
 		vrLen = 718;
 		vrLoc = 0;
@@ -1796,7 +1802,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* main.c */;
 		name = "main.c: 14";
 		rLen = 0;
-		rLoc = 731;
+		rLoc = 804;
 		rType = 0;
 		vrLen = 394;
 		vrLoc = 0;
@@ -1814,7 +1820,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* main.c */;
 		name = "main.c: 12";
 		rLen = 0;
-		rLoc = 395;
+		rLoc = 468;
 		rType = 0;
 		vrLen = 446;
 		vrLoc = 0;
@@ -1824,7 +1830,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* main.c */;
 		name = "main.c: 10";
 		rLen = 0;
-		rLoc = 159;
+		rLoc = 232;
 		rType = 0;
 		vrLen = 469;
 		vrLoc = 0;
@@ -1844,7 +1850,7 @@
 		fRef = 9472E9670E7DF658009BEC66 /* dtM4AMuxer.h */;
 		name = "dtM4AMuxer.h: 35";
 		rLen = 0;
-		rLoc = 755;
+		rLoc = 833;
 		rType = 0;
 		vrLen = 771;
 		vrLoc = 0;
@@ -1854,7 +1860,7 @@
 		fRef = 9472E96B0E7DF699009BEC66 /* dtM4ARead.c */;
 		name = "dtM4ARead.c: 59";
 		rLen = 0;
-		rLoc = 1117;
+		rLoc = 1211;
 		rType = 0;
 		vrLen = 2324;
 		vrLoc = 288;
@@ -1864,7 +1870,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* main.c */;
 		name = "main.c: 12";
 		rLen = 0;
-		rLoc = 395;
+		rLoc = 468;
 		rType = 0;
 		vrLen = 383;
 		vrLoc = 0;
@@ -1884,7 +1890,7 @@
 		fRef = 9472E96B0E7DF699009BEC66 /* dtM4ARead.c */;
 		name = "dtM4ARead.c: 59";
 		rLen = 0;
-		rLoc = 1117;
+		rLoc = 1211;
 		rType = 0;
 		vrLen = 2324;
 		vrLoc = 288;
@@ -1894,7 +1900,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* main.c */;
 		name = "main.c: 10";
 		rLen = 0;
-		rLoc = 159;
+		rLoc = 232;
 		rType = 0;
 		vrLen = 473;
 		vrLoc = 0;
@@ -1904,7 +1910,7 @@
 		fRef = 9472E9670E7DF658009BEC66 /* dtM4AMuxer.h */;
 		name = "dtM4AMuxer.h: 35";
 		rLen = 0;
-		rLoc = 755;
+		rLoc = 833;
 		rType = 0;
 		vrLen = 771;
 		vrLoc = 0;
@@ -1914,7 +1920,7 @@
 		comments = "error: too many arguments to function 'printMPEG4StructureToStdout'";
 		fRef = 08FB7796FE84155DC02AAC07 /* main.c */;
 		rLen = 0;
-		rLoc = 7;
+		rLoc = 1;
 		rType = 1;
 	};
 	94B500B90E805B9C00896C92 /* PBXTextBookmark */ = {
@@ -1922,7 +1928,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* main.c */;
 		name = "main.c: 12";
 		rLen = 0;
-		rLoc = 395;
+		rLoc = 468;
 		rType = 0;
 		vrLen = 450;
 		vrLoc = 0;
@@ -1932,7 +1938,7 @@
 		fRef = 9472E9670E7DF658009BEC66 /* dtM4AMuxer.h */;
 		name = "dtM4AMuxer.h: 35";
 		rLen = 0;
-		rLoc = 755;
+		rLoc = 833;
 		rType = 0;
 		vrLen = 784;
 		vrLoc = 0;
@@ -1942,7 +1948,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* main.c */;
 		name = "main.c: 10";
 		rLen = 1;
-		rLoc = 159;
+		rLoc = 232;
 		rType = 0;
 		vrLen = 473;
 		vrLoc = 0;
@@ -1962,7 +1968,7 @@
 		fRef = 9472E96B0E7DF699009BEC66 /* dtM4ARead.c */;
 		name = "dtM4ARead.c: 59";
 		rLen = 0;
-		rLoc = 1117;
+		rLoc = 1211;
 		rType = 0;
 		vrLen = 2324;
 		vrLoc = 288;
@@ -1972,7 +1978,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* main.c */;
 		name = "main.c: 12";
 		rLen = 0;
-		rLoc = 395;
+		rLoc = 468;
 		rType = 0;
 		vrLen = 450;
 		vrLoc = 0;
@@ -1992,7 +1998,7 @@
 		fRef = 9472E9670E7DF658009BEC66 /* dtM4AMuxer.h */;
 		name = "dtM4AMuxer.h: 35";
 		rLen = 0;
-		rLoc = 755;
+		rLoc = 833;
 		rType = 0;
 		vrLen = 784;
 		vrLoc = 0;
@@ -2002,7 +2008,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* main.c */;
 		name = "main.c: 10";
 		rLen = 1;
-		rLoc = 159;
+		rLoc = 232;
 		rType = 0;
 		vrLen = 473;
 		vrLoc = 0;
@@ -2012,7 +2018,7 @@
 		fRef = 9472E96B0E7DF699009BEC66 /* dtM4ARead.c */;
 		name = "dtM4ARead.c: 59";
 		rLen = 0;
-		rLoc = 1117;
+		rLoc = 1211;
 		rType = 0;
 		vrLen = 2324;
 		vrLoc = 288;
@@ -2022,7 +2028,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* main.c */;
 		name = "main.c: 12";
 		rLen = 0;
-		rLoc = 395;
+		rLoc = 468;
 		rType = 0;
 		vrLen = 450;
 		vrLoc = 0;
@@ -2042,7 +2048,7 @@
 		fRef = 9472E9670E7DF658009BEC66 /* dtM4AMuxer.h */;
 		name = "dtM4AMuxer.h: 35";
 		rLen = 0;
-		rLoc = 755;
+		rLoc = 833;
 		rType = 0;
 		vrLen = 784;
 		vrLoc = 0;
@@ -2052,7 +2058,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* main.c */;
 		name = "main.c: 10";
 		rLen = 1;
-		rLoc = 159;
+		rLoc = 232;
 		rType = 0;
 		vrLen = 473;
 		vrLoc = 0;
@@ -2062,7 +2068,7 @@
 		fRef = 9472E96B0E7DF699009BEC66 /* dtM4ARead.c */;
 		name = "dtM4ARead.c: 59";
 		rLen = 0;
-		rLoc = 1117;
+		rLoc = 1211;
 		rType = 0;
 		vrLen = 2324;
 		vrLoc = 288;
@@ -2072,7 +2078,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* main.c */;
 		name = "main.c: 12";
 		rLen = 0;
-		rLoc = 395;
+		rLoc = 468;
 		rType = 0;
 		vrLen = 450;
 		vrLoc = 0;
@@ -2082,7 +2088,7 @@
 		fRef = 9472E96B0E7DF699009BEC66 /* dtM4ARead.c */;
 		name = "dtM4ARead.c: 51";
 		rLen = 0;
-		rLoc = 918;
+		rLoc = 1012;
 		rType = 0;
 		vrLen = 2363;
 		vrLoc = 488;
@@ -2092,7 +2098,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* main.c */;
 		name = "main.c: 10";
 		rLen = 1;
-		rLoc = 159;
+		rLoc = 232;
 		rType = 0;
 		vrLen = 473;
 		vrLoc = 0;
@@ -2112,7 +2118,7 @@
 		fRef = 9472E9670E7DF658009BEC66 /* dtM4AMuxer.h */;
 		name = "dtM4AMuxer.h: 35";
 		rLen = 0;
-		rLoc = 755;
+		rLoc = 833;
 		rType = 0;
 		vrLen = 784;
 		vrLoc = 0;
@@ -2122,7 +2128,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* main.c */;
 		name = "main.c: 12";
 		rLen = 0;
-		rLoc = 395;
+		rLoc = 468;
 		rType = 0;
 		vrLen = 450;
 		vrLoc = 0;
@@ -2132,7 +2138,7 @@
 		fRef = 9472E96B0E7DF699009BEC66 /* dtM4ARead.c */;
 		name = "dtM4ARead.c: 70";
 		rLen = 0;
-		rLoc = 2047;
+		rLoc = 2141;
 		rType = 0;
 		vrLen = 2530;
 		vrLoc = 539;
@@ -2142,7 +2148,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* main.c */;
 		name = "main.c: 10";
 		rLen = 1;
-		rLoc = 159;
+		rLoc = 232;
 		rType = 0;
 		vrLen = 473;
 		vrLoc = 0;
@@ -2162,7 +2168,7 @@
 		fRef = 9472E9670E7DF658009BEC66 /* dtM4AMuxer.h */;
 		name = "dtM4AMuxer.h: 35";
 		rLen = 0;
-		rLoc = 755;
+		rLoc = 833;
 		rType = 0;
 		vrLen = 784;
 		vrLoc = 0;
@@ -2172,7 +2178,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* main.c */;
 		name = "main.c: 12";
 		rLen = 0;
-		rLoc = 395;
+		rLoc = 468;
 		rType = 0;
 		vrLen = 450;
 		vrLoc = 0;
@@ -2182,7 +2188,7 @@
 		fRef = 9472E96B0E7DF699009BEC66 /* dtM4ARead.c */;
 		name = "dtM4ARead.c: 76";
 		rLen = 0;
-		rLoc = 2994;
+		rLoc = 3088;
 		rType = 0;
 		vrLen = 2498;
 		vrLoc = 539;
@@ -2192,7 +2198,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* main.c */;
 		name = "main.c: 10";
 		rLen = 1;
-		rLoc = 159;
+		rLoc = 232;
 		rType = 0;
 		vrLen = 473;
 		vrLoc = 0;
@@ -2212,7 +2218,7 @@
 		fRef = 9472E9670E7DF658009BEC66 /* dtM4AMuxer.h */;
 		name = "dtM4AMuxer.h: 35";
 		rLen = 0;
-		rLoc = 755;
+		rLoc = 833;
 		rType = 0;
 		vrLen = 784;
 		vrLoc = 0;
@@ -2222,7 +2228,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* main.c */;
 		name = "main.c: 12";
 		rLen = 0;
-		rLoc = 395;
+		rLoc = 468;
 		rType = 0;
 		vrLen = 450;
 		vrLoc = 0;
@@ -2232,7 +2238,7 @@
 		fRef = 9472E96B0E7DF699009BEC66 /* dtM4ARead.c */;
 		name = "dtM4ARead.c: 74";
 		rLen = 0;
-		rLoc = 2853;
+		rLoc = 2947;
 		rType = 0;
 		vrLen = 2516;
 		vrLoc = 539;
@@ -2242,7 +2248,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* main.c */;
 		name = "main.c: 10";
 		rLen = 1;
-		rLoc = 159;
+		rLoc = 232;
 		rType = 0;
 		vrLen = 473;
 		vrLoc = 0;
@@ -2262,7 +2268,7 @@
 		fRef = 9472E9670E7DF658009BEC66 /* dtM4AMuxer.h */;
 		name = "dtM4AMuxer.h: 35";
 		rLen = 0;
-		rLoc = 755;
+		rLoc = 833;
 		rType = 0;
 		vrLen = 784;
 		vrLoc = 0;
@@ -2272,7 +2278,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* main.c */;
 		name = "main.c: 12";
 		rLen = 0;
-		rLoc = 395;
+		rLoc = 468;
 		rType = 0;
 		vrLen = 450;
 		vrLoc = 0;
@@ -2282,7 +2288,7 @@
 		fRef = 9472E96B0E7DF699009BEC66 /* dtM4ARead.c */;
 		name = "dtM4ARead.c: 77";
 		rLen = 0;
-		rLoc = 2983;
+		rLoc = 3077;
 		rType = 0;
 		vrLen = 2473;
 		vrLoc = 539;
@@ -2292,7 +2298,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* main.c */;
 		name = "main.c: 10";
 		rLen = 1;
-		rLoc = 159;
+		rLoc = 232;
 		rType = 0;
 		vrLen = 473;
 		vrLoc = 0;
@@ -2312,7 +2318,7 @@
 		fRef = 9472E9670E7DF658009BEC66 /* dtM4AMuxer.h */;
 		name = "dtM4AMuxer.h: 35";
 		rLen = 0;
-		rLoc = 755;
+		rLoc = 833;
 		rType = 0;
 		vrLen = 784;
 		vrLoc = 0;
@@ -2322,7 +2328,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* main.c */;
 		name = "main.c: 12";
 		rLen = 0;
-		rLoc = 395;
+		rLoc = 468;
 		rType = 0;
 		vrLen = 450;
 		vrLoc = 0;
@@ -2332,7 +2338,7 @@
 		fRef = 9472E96B0E7DF699009BEC66 /* dtM4ARead.c */;
 		name = "dtM4ARead.c: 77";
 		rLen = 0;
-		rLoc = 2983;
+		rLoc = 3077;
 		rType = 0;
 		vrLen = 2473;
 		vrLoc = 539;
@@ -2342,7 +2348,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* main.c */;
 		name = "main.c: 10";
 		rLen = 1;
-		rLoc = 159;
+		rLoc = 232;
 		rType = 0;
 		vrLen = 473;
 		vrLoc = 0;
@@ -2362,7 +2368,7 @@
 		fRef = 9472E9670E7DF658009BEC66 /* dtM4AMuxer.h */;
 		name = "dtM4AMuxer.h: 35";
 		rLen = 0;
-		rLoc = 755;
+		rLoc = 833;
 		rType = 0;
 		vrLen = 784;
 		vrLoc = 0;
@@ -2372,7 +2378,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* main.c */;
 		name = "main.c: 12";
 		rLen = 0;
-		rLoc = 395;
+		rLoc = 468;
 		rType = 0;
 		vrLen = 450;
 		vrLoc = 0;
@@ -2382,7 +2388,7 @@
 		fRef = 9472E96B0E7DF699009BEC66 /* dtM4ARead.c */;
 		name = "dtM4ARead.c: 77";
 		rLen = 0;
-		rLoc = 2983;
+		rLoc = 3077;
 		rType = 0;
 		vrLen = 2473;
 		vrLoc = 539;
@@ -2392,7 +2398,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* main.c */;
 		name = "main.c: 10";
 		rLen = 1;
-		rLoc = 159;
+		rLoc = 232;
 		rType = 0;
 		vrLen = 473;
 		vrLoc = 0;
@@ -2412,7 +2418,7 @@
 		fRef = 9472E9670E7DF658009BEC66 /* dtM4AMuxer.h */;
 		name = "dtM4AMuxer.h: 35";
 		rLen = 0;
-		rLoc = 755;
+		rLoc = 833;
 		rType = 0;
 		vrLen = 784;
 		vrLoc = 0;
@@ -2422,7 +2428,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* main.c */;
 		name = "main.c: 12";
 		rLen = 0;
-		rLoc = 395;
+		rLoc = 468;
 		rType = 0;
 		vrLen = 450;
 		vrLoc = 0;
@@ -2432,7 +2438,7 @@
 		fRef = 9472E96B0E7DF699009BEC66 /* dtM4ARead.c */;
 		name = "dtM4ARead.c: 90";
 		rLen = 0;
-		rLoc = 2902;
+		rLoc = 2996;
 		rType = 0;
 		vrLen = 2520;
 		vrLoc = 637;
@@ -2442,7 +2448,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* main.c */;
 		name = "main.c: 10";
 		rLen = 1;
-		rLoc = 159;
+		rLoc = 232;
 		rType = 0;
 		vrLen = 473;
 		vrLoc = 0;
@@ -2462,7 +2468,7 @@
 		fRef = 9472E9670E7DF658009BEC66 /* dtM4AMuxer.h */;
 		name = "dtM4AMuxer.h: 35";
 		rLen = 0;
-		rLoc = 755;
+		rLoc = 833;
 		rType = 0;
 		vrLen = 784;
 		vrLoc = 0;
@@ -2472,7 +2478,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* main.c */;
 		name = "main.c: 12";
 		rLen = 0;
-		rLoc = 395;
+		rLoc = 468;
 		rType = 0;
 		vrLen = 450;
 		vrLoc = 0;
@@ -2482,7 +2488,7 @@
 		fRef = 9472E96B0E7DF699009BEC66 /* dtM4ARead.c */;
 		name = "dtM4ARead.c: 27";
 		rLen = 0;
-		rLoc = 105;
+		rLoc = 199;
 		rType = 0;
 		vrLen = 1899;
 		vrLoc = 0;
@@ -2492,7 +2498,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* main.c */;
 		name = "main.c: 10";
 		rLen = 1;
-		rLoc = 159;
+		rLoc = 232;
 		rType = 0;
 		vrLen = 473;
 		vrLoc = 0;
@@ -2512,7 +2518,7 @@
 		fRef = 9472E9670E7DF658009BEC66 /* dtM4AMuxer.h */;
 		name = "dtM4AMuxer.h: 35";
 		rLen = 0;
-		rLoc = 755;
+		rLoc = 833;
 		rType = 0;
 		vrLen = 784;
 		vrLoc = 0;
@@ -2522,7 +2528,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* main.c */;
 		name = "main.c: 12";
 		rLen = 0;
-		rLoc = 395;
+		rLoc = 468;
 		rType = 0;
 		vrLen = 450;
 		vrLoc = 0;
@@ -2532,7 +2538,7 @@
 		fRef = 9472E96B0E7DF699009BEC66 /* dtM4ARead.c */;
 		name = "dtM4ARead.c: 92";
 		rLen = 0;
-		rLoc = 2902;
+		rLoc = 2996;
 		rType = 0;
 		vrLen = 2434;
 		vrLoc = 1324;
@@ -2542,7 +2548,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* main.c */;
 		name = "main.c: 10";
 		rLen = 1;
-		rLoc = 159;
+		rLoc = 232;
 		rType = 0;
 		vrLen = 473;
 		vrLoc = 0;
@@ -2562,7 +2568,7 @@
 		fRef = 9472E9670E7DF658009BEC66 /* dtM4AMuxer.h */;
 		name = "dtM4AMuxer.h: 35";
 		rLen = 0;
-		rLoc = 755;
+		rLoc = 833;
 		rType = 0;
 		vrLen = 784;
 		vrLoc = 0;
@@ -2572,7 +2578,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* main.c */;
 		name = "main.c: 12";
 		rLen = 0;
-		rLoc = 395;
+		rLoc = 468;
 		rType = 0;
 		vrLen = 450;
 		vrLoc = 0;
@@ -2582,7 +2588,7 @@
 		fRef = 9472E96B0E7DF699009BEC66 /* dtM4ARead.c */;
 		name = "dtM4ARead.c: 95";
 		rLen = 0;
-		rLoc = 2902;
+		rLoc = 2996;
 		rType = 0;
 		vrLen = 2589;
 		vrLoc = 1460;
@@ -2592,7 +2598,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* main.c */;
 		name = "main.c: 10";
 		rLen = 1;
-		rLoc = 159;
+		rLoc = 232;
 		rType = 0;
 		vrLen = 473;
 		vrLoc = 0;
@@ -2612,7 +2618,7 @@
 		fRef = 9472E9670E7DF658009BEC66 /* dtM4AMuxer.h */;
 		name = "dtM4AMuxer.h: 35";
 		rLen = 0;
-		rLoc = 755;
+		rLoc = 833;
 		rType = 0;
 		vrLen = 784;
 		vrLoc = 0;
@@ -2622,7 +2628,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* main.c */;
 		name = "main.c: 12";
 		rLen = 0;
-		rLoc = 395;
+		rLoc = 468;
 		rType = 0;
 		vrLen = 450;
 		vrLoc = 0;
@@ -2632,7 +2638,7 @@
 		fRef = 9472E96B0E7DF699009BEC66 /* dtM4ARead.c */;
 		name = "dtM4ARead.c: 145";
 		rLen = 0;
-		rLoc = 3190;
+		rLoc = 3284;
 		rType = 0;
 		vrLen = 2227;
 		vrLoc = 3554;
@@ -2642,7 +2648,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* main.c */;
 		name = "main.c: 10";
 		rLen = 1;
-		rLoc = 159;
+		rLoc = 232;
 		rType = 0;
 		vrLen = 473;
 		vrLoc = 0;
@@ -2662,7 +2668,7 @@
 		fRef = 9472E9670E7DF658009BEC66 /* dtM4AMuxer.h */;
 		name = "dtM4AMuxer.h: 35";
 		rLen = 0;
-		rLoc = 755;
+		rLoc = 833;
 		rType = 0;
 		vrLen = 784;
 		vrLoc = 0;
@@ -2672,7 +2678,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* main.c */;
 		name = "main.c: 12";
 		rLen = 0;
-		rLoc = 395;
+		rLoc = 468;
 		rType = 0;
 		vrLen = 450;
 		vrLoc = 0;
@@ -2682,7 +2688,7 @@
 		fRef = 9472E96B0E7DF699009BEC66 /* dtM4ARead.c */;
 		name = "dtM4ARead.c: 23";
 		rLen = 0;
-		rLoc = 105;
+		rLoc = 199;
 		rType = 0;
 		vrLen = 1929;
 		vrLoc = 0;
@@ -2692,7 +2698,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* main.c */;
 		name = "main.c: 10";
 		rLen = 1;
-		rLoc = 159;
+		rLoc = 232;
 		rType = 0;
 		vrLen = 473;
 		vrLoc = 0;
@@ -2712,7 +2718,7 @@
 		fRef = 9472E9670E7DF658009BEC66 /* dtM4AMuxer.h */;
 		name = "dtM4AMuxer.h: 35";
 		rLen = 0;
-		rLoc = 755;
+		rLoc = 833;
 		rType = 0;
 		vrLen = 784;
 		vrLoc = 0;
@@ -2722,7 +2728,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* main.c */;
 		name = "main.c: 12";
 		rLen = 0;
-		rLoc = 395;
+		rLoc = 468;
 		rType = 0;
 		vrLen = 450;
 		vrLoc = 0;
@@ -2732,7 +2738,7 @@
 		fRef = 9472E9670E7DF658009BEC66 /* dtM4AMuxer.h */;
 		name = "dtM4AMuxer.h: 35";
 		rLen = 0;
-		rLoc = 755;
+		rLoc = 833;
 		rType = 0;
 		vrLen = 850;
 		vrLoc = 0;
@@ -2742,7 +2748,7 @@
 		fRef = 9472E96B0E7DF699009BEC66 /* dtM4ARead.c */;
 		name = "dtM4ARead.c: 23";
 		rLen = 0;
-		rLoc = 105;
+		rLoc = 199;
 		rType = 0;
 		vrLen = 1929;
 		vrLoc = 0;
@@ -2752,7 +2758,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* main.c */;
 		name = "main.c: 10";
 		rLen = 1;
-		rLoc = 159;
+		rLoc = 232;
 		rType = 0;
 		vrLen = 473;
 		vrLoc = 0;
@@ -2772,7 +2778,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* main.c */;
 		name = "main.c: 12";
 		rLen = 0;
-		rLoc = 395;
+		rLoc = 468;
 		rType = 0;
 		vrLen = 450;
 		vrLoc = 0;
@@ -2782,7 +2788,7 @@
 		fRef = 9472E96B0E7DF699009BEC66 /* dtM4ARead.c */;
 		name = "dtM4ARead.c: 94";
 		rLen = 0;
-		rLoc = 2902;
+		rLoc = 2996;
 		rType = 0;
 		vrLen = 2423;
 		vrLoc = 1801;
@@ -2792,7 +2798,7 @@
 		fRef = 9472E9670E7DF658009BEC66 /* dtM4AMuxer.h */;
 		name = "dtM4AMuxer.h: 35";
 		rLen = 0;
-		rLoc = 755;
+		rLoc = 833;
 		rType = 0;
 		vrLen = 850;
 		vrLoc = 0;
@@ -2802,7 +2808,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* main.c */;
 		name = "main.c: 10";
 		rLen = 1;
-		rLoc = 159;
+		rLoc = 232;
 		rType = 0;
 		vrLen = 473;
 		vrLoc = 0;
@@ -2822,7 +2828,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* main.c */;
 		name = "main.c: 12";
 		rLen = 0;
-		rLoc = 395;
+		rLoc = 468;
 		rType = 0;
 		vrLen = 450;
 		vrLoc = 0;
@@ -2832,7 +2838,7 @@
 		fRef = 9472E96B0E7DF699009BEC66 /* dtM4ARead.c */;
 		name = "dtM4ARead.c: 84";
 		rLen = 0;
-		rLoc = 2380;
+		rLoc = 2474;
 		rType = 0;
 		vrLen = 2405;
 		vrLoc = 1801;
@@ -2842,7 +2848,7 @@
 		fRef = 9472E9670E7DF658009BEC66 /* dtM4AMuxer.h */;
 		name = "dtM4AMuxer.h: 35";
 		rLen = 0;
-		rLoc = 755;
+		rLoc = 833;
 		rType = 0;
 		vrLen = 850;
 		vrLoc = 0;
@@ -2852,7 +2858,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* main.c */;
 		name = "main.c: 10";
 		rLen = 1;
-		rLoc = 159;
+		rLoc = 232;
 		rType = 0;
 		vrLen = 473;
 		vrLoc = 0;
@@ -2872,7 +2878,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* main.c */;
 		name = "main.c: 12";
 		rLen = 0;
-		rLoc = 395;
+		rLoc = 468;
 		rType = 0;
 		vrLen = 450;
 		vrLoc = 0;
@@ -2882,7 +2888,7 @@
 		fRef = 9472E96B0E7DF699009BEC66 /* dtM4ARead.c */;
 		name = "dtM4ARead.c: 77";
 		rLen = 0;
-		rLoc = 1240;
+		rLoc = 1334;
 		rType = 0;
 		vrLen = 2427;
 		vrLoc = 1801;
@@ -2892,7 +2898,7 @@
 		fRef = 9472E9670E7DF658009BEC66 /* dtM4AMuxer.h */;
 		name = "dtM4AMuxer.h: 35";
 		rLen = 0;
-		rLoc = 755;
+		rLoc = 833;
 		rType = 0;
 		vrLen = 850;
 		vrLoc = 0;
@@ -2902,7 +2908,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* main.c */;
 		name = "main.c: 10";
 		rLen = 1;
-		rLoc = 159;
+		rLoc = 232;
 		rType = 0;
 		vrLen = 473;
 		vrLoc = 0;
@@ -2922,7 +2928,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* main.c */;
 		name = "main.c: 12";
 		rLen = 0;
-		rLoc = 395;
+		rLoc = 468;
 		rType = 0;
 		vrLen = 450;
 		vrLoc = 0;
@@ -2932,7 +2938,7 @@
 		fRef = 9472E96B0E7DF699009BEC66 /* dtM4ARead.c */;
 		name = "dtM4ARead.c: 78";
 		rLen = 0;
-		rLoc = 1241;
+		rLoc = 1335;
 		rType = 0;
 		vrLen = 2426;
 		vrLoc = 1801;
@@ -2942,7 +2948,7 @@
 		fRef = 9472E9670E7DF658009BEC66 /* dtM4AMuxer.h */;
 		name = "dtM4AMuxer.h: 35";
 		rLen = 0;
-		rLoc = 755;
+		rLoc = 833;
 		rType = 0;
 		vrLen = 850;
 		vrLoc = 0;
@@ -2952,7 +2958,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* main.c */;
 		name = "main.c: 10";
 		rLen = 1;
-		rLoc = 159;
+		rLoc = 232;
 		rType = 0;
 		vrLen = 473;
 		vrLoc = 0;
@@ -2972,7 +2978,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* main.c */;
 		name = "main.c: 12";
 		rLen = 0;
-		rLoc = 395;
+		rLoc = 468;
 		rType = 0;
 		vrLen = 450;
 		vrLoc = 0;
@@ -2982,7 +2988,7 @@
 		fRef = 9472E96B0E7DF699009BEC66 /* dtM4ARead.c */;
 		name = "dtM4ARead.c: 97";
 		rLen = 0;
-		rLoc = 2902;
+		rLoc = 2996;
 		rType = 0;
 		vrLen = 2448;
 		vrLoc = 1801;
@@ -2992,7 +2998,7 @@
 		fRef = 9472E9670E7DF658009BEC66 /* dtM4AMuxer.h */;
 		name = "dtM4AMuxer.h: 35";
 		rLen = 0;
-		rLoc = 755;
+		rLoc = 833;
 		rType = 0;
 		vrLen = 850;
 		vrLoc = 0;
@@ -3002,7 +3008,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* main.c */;
 		name = "main.c: 10";
 		rLen = 1;
-		rLoc = 159;
+		rLoc = 232;
 		rType = 0;
 		vrLen = 473;
 		vrLoc = 0;
@@ -3022,7 +3028,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* main.c */;
 		name = "main.c: 12";
 		rLen = 0;
-		rLoc = 395;
+		rLoc = 468;
 		rType = 0;
 		vrLen = 450;
 		vrLoc = 0;
@@ -3032,7 +3038,7 @@
 		fRef = 9472E96B0E7DF699009BEC66 /* dtM4ARead.c */;
 		name = "dtM4ARead.c: 80";
 		rLen = 0;
-		rLoc = 1267;
+		rLoc = 1361;
 		rType = 0;
 		vrLen = 2452;
 		vrLoc = 1801;
@@ -3042,7 +3048,7 @@
 		fRef = 9472E9670E7DF658009BEC66 /* dtM4AMuxer.h */;
 		name = "dtM4AMuxer.h: 35";
 		rLen = 0;
-		rLoc = 755;
+		rLoc = 833;
 		rType = 0;
 		vrLen = 850;
 		vrLoc = 0;
@@ -3052,7 +3058,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* main.c */;
 		name = "main.c: 10";
 		rLen = 1;
-		rLoc = 159;
+		rLoc = 232;
 		rType = 0;
 		vrLen = 473;
 		vrLoc = 0;
@@ -3072,7 +3078,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* main.c */;
 		name = "main.c: 12";
 		rLen = 0;
-		rLoc = 395;
+		rLoc = 468;
 		rType = 0;
 		vrLen = 450;
 		vrLoc = 0;
@@ -3082,7 +3088,7 @@
 		fRef = 9472E96B0E7DF699009BEC66 /* dtM4ARead.c */;
 		name = "dtM4ARead.c: 104";
 		rLen = 0;
-		rLoc = 3181;
+		rLoc = 3275;
 		rType = 0;
 		vrLen = 2503;
 		vrLoc = 1801;
@@ -3092,7 +3098,7 @@
 		fRef = 9472E9670E7DF658009BEC66 /* dtM4AMuxer.h */;
 		name = "dtM4AMuxer.h: 35";
 		rLen = 0;
-		rLoc = 755;
+		rLoc = 833;
 		rType = 0;
 		vrLen = 850;
 		vrLoc = 0;
@@ -3102,7 +3108,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* main.c */;
 		name = "main.c: 10";
 		rLen = 1;
-		rLoc = 159;
+		rLoc = 232;
 		rType = 0;
 		vrLen = 473;
 		vrLoc = 0;
@@ -3122,7 +3128,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* main.c */;
 		name = "main.c: 12";
 		rLen = 0;
-		rLoc = 395;
+		rLoc = 468;
 		rType = 0;
 		vrLen = 450;
 		vrLoc = 0;
@@ -3132,7 +3138,7 @@
 		fRef = 9472E96B0E7DF699009BEC66 /* dtM4ARead.c */;
 		name = "dtM4ARead.c: 108";
 		rLen = 0;
-		rLoc = 3181;
+		rLoc = 3275;
 		rType = 0;
 		vrLen = 2472;
 		vrLoc = 1801;
@@ -3142,7 +3148,7 @@
 		fRef = 9472E9670E7DF658009BEC66 /* dtM4AMuxer.h */;
 		name = "dtM4AMuxer.h: 35";
 		rLen = 0;
-		rLoc = 755;
+		rLoc = 833;
 		rType = 0;
 		vrLen = 850;
 		vrLoc = 0;
@@ -3152,7 +3158,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* main.c */;
 		name = "main.c: 10";
 		rLen = 1;
-		rLoc = 159;
+		rLoc = 232;
 		rType = 0;
 		vrLen = 473;
 		vrLoc = 0;
@@ -3172,7 +3178,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* main.c */;
 		name = "main.c: 12";
 		rLen = 0;
-		rLoc = 395;
+		rLoc = 468;
 		rType = 0;
 		vrLen = 450;
 		vrLoc = 0;
@@ -3182,7 +3188,7 @@
 		fRef = 9472E96B0E7DF699009BEC66 /* dtM4ARead.c */;
 		name = "dtM4ARead.c: 105";
 		rLen = 0;
-		rLoc = 3129;
+		rLoc = 3223;
 		rType = 0;
 		vrLen = 2472;
 		vrLoc = 1801;
@@ -3192,7 +3198,7 @@
 		fRef = 9472E9670E7DF658009BEC66 /* dtM4AMuxer.h */;
 		name = "dtM4AMuxer.h: 35";
 		rLen = 0;
-		rLoc = 755;
+		rLoc = 833;
 		rType = 0;
 		vrLen = 850;
 		vrLoc = 0;
@@ -3202,7 +3208,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* main.c */;
 		name = "main.c: 10";
 		rLen = 1;
-		rLoc = 159;
+		rLoc = 232;
 		rType = 0;
 		vrLen = 473;
 		vrLoc = 0;
@@ -3222,7 +3228,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* main.c */;
 		name = "main.c: 12";
 		rLen = 0;
-		rLoc = 395;
+		rLoc = 468;
 		rType = 0;
 		vrLen = 450;
 		vrLoc = 0;
@@ -3232,7 +3238,7 @@
 		fRef = 9472E96B0E7DF699009BEC66 /* dtM4ARead.c */;
 		name = "dtM4ARead.c: 106";
 		rLen = 0;
-		rLoc = 3158;
+		rLoc = 3252;
 		rType = 0;
 		vrLen = 2489;
 		vrLoc = 1801;
@@ -3242,7 +3248,7 @@
 		fRef = 9472E9670E7DF658009BEC66 /* dtM4AMuxer.h */;
 		name = "dtM4AMuxer.h: 35";
 		rLen = 0;
-		rLoc = 755;
+		rLoc = 833;
 		rType = 0;
 		vrLen = 850;
 		vrLoc = 0;
@@ -3252,7 +3258,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* main.c */;
 		name = "main.c: 10";
 		rLen = 1;
-		rLoc = 159;
+		rLoc = 232;
 		rType = 0;
 		vrLen = 473;
 		vrLoc = 0;
@@ -3271,8 +3277,8 @@
 		isa = PBXTextBookmark;
 		comments = "error: 'newDataLen' undeclared (first use in this function)";
 		fRef = 9472E96B0E7DF699009BEC66 /* dtM4ARead.c */;
-		rLen = 0;
-		rLoc = 66;
+		rLen = 1;
+		rLoc = 0;
 		rType = 1;
 	};
 	94B501600E806E3100896C92 /* PBXTextBookmark */ = {
@@ -3280,7 +3286,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* main.c */;
 		name = "main.c: 12";
 		rLen = 0;
-		rLoc = 395;
+		rLoc = 468;
 		rType = 0;
 		vrLen = 450;
 		vrLoc = 0;
@@ -3290,7 +3296,7 @@
 		fRef = 9472E96B0E7DF699009BEC66 /* dtM4ARead.c */;
 		name = "dtM4ARead.c: 102";
 		rLen = 1;
-		rLoc = 2911;
+		rLoc = 3005;
 		rType = 0;
 		vrLen = 2498;
 		vrLoc = 1409;
@@ -3300,7 +3306,7 @@
 		fRef = 9472E9670E7DF658009BEC66 /* dtM4AMuxer.h */;
 		name = "dtM4AMuxer.h: 35";
 		rLen = 0;
-		rLoc = 755;
+		rLoc = 833;
 		rType = 0;
 		vrLen = 850;
 		vrLoc = 0;
@@ -3310,7 +3316,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* main.c */;
 		name = "main.c: 10";
 		rLen = 1;
-		rLoc = 159;
+		rLoc = 232;
 		rType = 0;
 		vrLen = 473;
 		vrLoc = 0;
@@ -3330,7 +3336,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* main.c */;
 		name = "main.c: 12";
 		rLen = 0;
-		rLoc = 395;
+		rLoc = 468;
 		rType = 0;
 		vrLen = 450;
 		vrLoc = 0;
@@ -3340,7 +3346,7 @@
 		fRef = 9472E96B0E7DF699009BEC66 /* dtM4ARead.c */;
 		name = "dtM4ARead.c: 72";
 		rLen = 0;
-		rLoc = 1117;
+		rLoc = 1211;
 		rType = 0;
 		vrLen = 2377;
 		vrLoc = 1770;
@@ -3350,7 +3356,7 @@
 		fRef = 9472E9670E7DF658009BEC66 /* dtM4AMuxer.h */;
 		name = "dtM4AMuxer.h: 35";
 		rLen = 0;
-		rLoc = 755;
+		rLoc = 833;
 		rType = 0;
 		vrLen = 850;
 		vrLoc = 0;
@@ -3360,7 +3366,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* main.c */;
 		name = "main.c: 10";
 		rLen = 1;
-		rLoc = 159;
+		rLoc = 232;
 		rType = 0;
 		vrLen = 473;
 		vrLoc = 0;
@@ -3380,7 +3386,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* main.c */;
 		name = "main.c: 12";
 		rLen = 0;
-		rLoc = 395;
+		rLoc = 468;
 		rType = 0;
 		vrLen = 450;
 		vrLoc = 0;
@@ -3400,7 +3406,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* main.c */;
 		name = "main.c: 10";
 		rLen = 1;
-		rLoc = 159;
+		rLoc = 232;
 		rType = 0;
 		vrLen = 473;
 		vrLoc = 0;
@@ -3410,7 +3416,7 @@
 		fRef = 9472E96B0E7DF699009BEC66 /* dtM4ARead.c */;
 		name = "dtM4ARead.c: 72";
 		rLen = 0;
-		rLoc = 1117;
+		rLoc = 1211;
 		rType = 0;
 		vrLen = 2377;
 		vrLoc = 1770;
@@ -3420,7 +3426,7 @@
 		fRef = 9472E9670E7DF658009BEC66 /* dtM4AMuxer.h */;
 		name = "dtM4AMuxer.h: 35";
 		rLen = 0;
-		rLoc = 755;
+		rLoc = 833;
 		rType = 0;
 		vrLen = 850;
 		vrLoc = 0;
@@ -3430,7 +3436,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* main.c */;
 		name = "main.c: 12";
 		rLen = 0;
-		rLoc = 395;
+		rLoc = 468;
 		rType = 0;
 		vrLen = 450;
 		vrLoc = 0;
@@ -3450,7 +3456,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* main.c */;
 		name = "main.c: 10";
 		rLen = 1;
-		rLoc = 159;
+		rLoc = 232;
 		rType = 0;
 		vrLen = 473;
 		vrLoc = 0;
@@ -3460,7 +3466,7 @@
 		fRef = 9472E96B0E7DF699009BEC66 /* dtM4ARead.c */;
 		name = "dtM4ARead.c: 72";
 		rLen = 0;
-		rLoc = 1117;
+		rLoc = 1211;
 		rType = 0;
 		vrLen = 2377;
 		vrLoc = 1770;
@@ -3470,7 +3476,7 @@
 		fRef = 9472E9670E7DF658009BEC66 /* dtM4AMuxer.h */;
 		name = "dtM4AMuxer.h: 35";
 		rLen = 0;
-		rLoc = 755;
+		rLoc = 833;
 		rType = 0;
 		vrLen = 850;
 		vrLoc = 0;
@@ -3480,7 +3486,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* main.c */;
 		name = "main.c: 12";
 		rLen = 0;
-		rLoc = 395;
+		rLoc = 468;
 		rType = 0;
 		vrLen = 450;
 		vrLoc = 0;
@@ -3500,7 +3506,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* main.c */;
 		name = "main.c: 10";
 		rLen = 1;
-		rLoc = 159;
+		rLoc = 232;
 		rType = 0;
 		vrLen = 473;
 		vrLoc = 0;
@@ -3510,7 +3516,7 @@
 		fRef = 9472E96B0E7DF699009BEC66 /* dtM4ARead.c */;
 		name = "dtM4ARead.c: 72";
 		rLen = 0;
-		rLoc = 1117;
+		rLoc = 1211;
 		rType = 0;
 		vrLen = 2377;
 		vrLoc = 1770;
@@ -3520,7 +3526,7 @@
 		fRef = 9472E9670E7DF658009BEC66 /* dtM4AMuxer.h */;
 		name = "dtM4AMuxer.h: 35";
 		rLen = 0;
-		rLoc = 755;
+		rLoc = 833;
 		rType = 0;
 		vrLen = 850;
 		vrLoc = 0;
@@ -3530,7 +3536,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* main.c */;
 		name = "main.c: 12";
 		rLen = 0;
-		rLoc = 395;
+		rLoc = 468;
 		rType = 0;
 		vrLen = 450;
 		vrLoc = 0;
@@ -3550,7 +3556,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* main.c */;
 		name = "main.c: 10";
 		rLen = 1;
-		rLoc = 159;
+		rLoc = 232;
 		rType = 0;
 		vrLen = 473;
 		vrLoc = 0;
@@ -3560,7 +3566,7 @@
 		fRef = 9472E96B0E7DF699009BEC66 /* dtM4ARead.c */;
 		name = "dtM4ARead.c: 72";
 		rLen = 0;
-		rLoc = 1117;
+		rLoc = 1211;
 		rType = 0;
 		vrLen = 2377;
 		vrLoc = 1770;
@@ -3570,7 +3576,7 @@
 		fRef = 9472E9670E7DF658009BEC66 /* dtM4AMuxer.h */;
 		name = "dtM4AMuxer.h: 35";
 		rLen = 0;
-		rLoc = 755;
+		rLoc = 833;
 		rType = 0;
 		vrLen = 850;
 		vrLoc = 0;
@@ -3580,7 +3586,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* main.c */;
 		name = "main.c: 12";
 		rLen = 0;
-		rLoc = 395;
+		rLoc = 468;
 		rType = 0;
 		vrLen = 450;
 		vrLoc = 0;
@@ -3600,7 +3606,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* main.c */;
 		name = "main.c: 10";
 		rLen = 1;
-		rLoc = 159;
+		rLoc = 232;
 		rType = 0;
 		vrLen = 473;
 		vrLoc = 0;
@@ -3610,7 +3616,7 @@
 		fRef = 9472E96B0E7DF699009BEC66 /* dtM4ARead.c */;
 		name = "dtM4ARead.c: 72";
 		rLen = 0;
-		rLoc = 1117;
+		rLoc = 1211;
 		rType = 0;
 		vrLen = 2377;
 		vrLoc = 1770;
@@ -3620,7 +3626,7 @@
 		fRef = 9472E9670E7DF658009BEC66 /* dtM4AMuxer.h */;
 		name = "dtM4AMuxer.h: 35";
 		rLen = 0;
-		rLoc = 755;
+		rLoc = 833;
 		rType = 0;
 		vrLen = 850;
 		vrLoc = 0;
@@ -3630,7 +3636,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* main.c */;
 		name = "main.c: 12";
 		rLen = 0;
-		rLoc = 395;
+		rLoc = 468;
 		rType = 0;
 		vrLen = 450;
 		vrLoc = 0;
@@ -3650,7 +3656,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* main.c */;
 		name = "main.c: 10";
 		rLen = 1;
-		rLoc = 159;
+		rLoc = 232;
 		rType = 0;
 		vrLen = 473;
 		vrLoc = 0;
@@ -3660,7 +3666,7 @@
 		fRef = 9472E96B0E7DF699009BEC66 /* dtM4ARead.c */;
 		name = "dtM4ARead.c: 72";
 		rLen = 0;
-		rLoc = 1117;
+		rLoc = 1211;
 		rType = 0;
 		vrLen = 2377;
 		vrLoc = 1770;
@@ -3670,7 +3676,7 @@
 		fRef = 9472E9670E7DF658009BEC66 /* dtM4AMuxer.h */;
 		name = "dtM4AMuxer.h: 35";
 		rLen = 0;
-		rLoc = 755;
+		rLoc = 833;
 		rType = 0;
 		vrLen = 850;
 		vrLoc = 0;
@@ -3680,7 +3686,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* main.c */;
 		name = "main.c: 12";
 		rLen = 0;
-		rLoc = 395;
+		rLoc = 468;
 		rType = 0;
 		vrLen = 450;
 		vrLoc = 0;
@@ -3700,7 +3706,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* main.c */;
 		name = "main.c: 10";
 		rLen = 1;
-		rLoc = 159;
+		rLoc = 232;
 		rType = 0;
 		vrLen = 473;
 		vrLoc = 0;
@@ -3710,7 +3716,7 @@
 		fRef = 9472E96B0E7DF699009BEC66 /* dtM4ARead.c */;
 		name = "dtM4ARead.c: 72";
 		rLen = 0;
-		rLoc = 1117;
+		rLoc = 1211;
 		rType = 0;
 		vrLen = 2377;
 		vrLoc = 1770;
@@ -3720,16 +3726,17 @@
 		fRef = 9472E9670E7DF658009BEC66 /* dtM4AMuxer.h */;
 		name = "dtM4AMuxer.h: 35";
 		rLen = 0;
-		rLoc = 755;
+		rLoc = 833;
 		rType = 0;
 		vrLen = 850;
 		vrLoc = 0;
 	};
 	94B5019A0E806F2D00896C92 /* dtM4AUtil.c */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1035, 1330}}";
-			sepNavSelRange = "{1957, 0}";
-			sepNavVisRange = "{859, 1502}";
+			sepNavIntBoundsRect = "{{0, 0}, {519, 1414}}";
+			sepNavSelRange = "{78, 0}";
+			sepNavVisRange = "{0, 614}";
+			sepNavWindowFrame = "{{2605, 73}, {1094, 996}}";
 		};
 	};
 	94B5019E0E806FB800896C92 /* PBXTextBookmark */ = {
@@ -3737,7 +3744,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* main.c */;
 		name = "main.c: 12";
 		rLen = 0;
-		rLoc = 395;
+		rLoc = 468;
 		rType = 0;
 		vrLen = 450;
 		vrLoc = 0;
@@ -3747,7 +3754,7 @@
 		fRef = 94B5019A0E806F2D00896C92 /* dtM4AUtil.c */;
 		name = "dtM4AUtil.c: 1";
 		rLen = 0;
-		rLoc = 23;
+		rLoc = 127;
 		rType = 0;
 		vrLen = 144;
 		vrLoc = 0;
@@ -3757,7 +3764,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* main.c */;
 		name = "main.c: 12";
 		rLen = 0;
-		rLoc = 395;
+		rLoc = 468;
 		rType = 0;
 		vrLen = 450;
 		vrLoc = 0;
@@ -3767,7 +3774,7 @@
 		fRef = 94B5019A0E806F2D00896C92 /* dtM4AUtil.c */;
 		name = "dtM4AUtil.c: 1";
 		rLen = 0;
-		rLoc = 23;
+		rLoc = 127;
 		rType = 0;
 		vrLen = 520;
 		vrLoc = 0;
@@ -3777,7 +3784,7 @@
 		fRef = 9472E9670E7DF658009BEC66 /* dtM4AMuxer.h */;
 		name = "dtM4AMuxer.h: 34";
 		rLen = 0;
-		rLoc = 755;
+		rLoc = 833;
 		rType = 0;
 		vrLen = 804;
 		vrLoc = 0;
@@ -3787,7 +3794,7 @@
 		fRef = 9472E96B0E7DF699009BEC66 /* dtM4ARead.c */;
 		name = "dtM4ARead.c: 20";
 		rLen = 0;
-		rLoc = 106;
+		rLoc = 200;
 		rType = 0;
 		vrLen = 1968;
 		vrLoc = 0;
@@ -3807,7 +3814,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* main.c */;
 		name = "main.c: 10";
 		rLen = 1;
-		rLoc = 159;
+		rLoc = 232;
 		rType = 0;
 		vrLen = 473;
 		vrLoc = 0;
@@ -3821,7 +3828,7 @@
 		fRef = 94B5019A0E806F2D00896C92 /* dtM4AUtil.c */;
 		name = "dtM4AUtil.c: 1";
 		rLen = 0;
-		rLoc = 23;
+		rLoc = 127;
 		rType = 0;
 		vrLen = 520;
 		vrLoc = 0;
@@ -3841,7 +3848,7 @@
 		fRef = 94B5019A0E806F2D00896C92 /* dtM4AUtil.c */;
 		name = "dtM4AUtil.c: 1";
 		rLen = 0;
-		rLoc = 23;
+		rLoc = 127;
 		rType = 0;
 		vrLen = 520;
 		vrLoc = 0;
@@ -3861,7 +3868,7 @@
 		fRef = 94B5019A0E806F2D00896C92 /* dtM4AUtil.c */;
 		name = "dtM4AUtil.c: 16";
 		rLen = 37;
-		rLoc = 512;
+		rLoc = 616;
 		rType = 0;
 		vrLen = 1394;
 		vrLoc = 0;
@@ -3871,7 +3878,7 @@
 		fRef = 9472E9670E7DF658009BEC66 /* dtM4AMuxer.h */;
 		name = "dtM4AMuxer.h: 35";
 		rLen = 0;
-		rLoc = 770;
+		rLoc = 848;
 		rType = 0;
 		vrLen = 870;
 		vrLoc = 0;
@@ -3881,7 +3888,7 @@
 		fRef = 9472E96B0E7DF699009BEC66 /* dtM4ARead.c */;
 		name = "dtM4ARead.c: 89";
 		rLen = 0;
-		rLoc = 3780;
+		rLoc = 3874;
 		rType = 0;
 		vrLen = 2250;
 		vrLoc = 0;
@@ -3938,7 +3945,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* main.c */;
 		name = "main.c: 10";
 		rLen = 1;
-		rLoc = 159;
+		rLoc = 232;
 		rType = 0;
 		vrLen = 473;
 		vrLoc = 0;
@@ -3958,7 +3965,7 @@
 		fRef = 9472E96B0E7DF699009BEC66 /* dtM4ARead.c */;
 		name = "dtM4ARead.c: 98";
 		rLen = 0;
-		rLoc = 3819;
+		rLoc = 3913;
 		rType = 0;
 		vrLen = 2768;
 		vrLoc = 1507;
@@ -3968,7 +3975,7 @@
 		fRef = 94B5019A0E806F2D00896C92 /* dtM4AUtil.c */;
 		name = "dtM4AUtil.c: 16";
 		rLen = 37;
-		rLoc = 512;
+		rLoc = 616;
 		rType = 0;
 		vrLen = 1394;
 		vrLoc = 0;
@@ -3978,7 +3985,7 @@
 		fRef = 9472E9670E7DF658009BEC66 /* dtM4AMuxer.h */;
 		name = "dtM4AMuxer.h: 35";
 		rLen = 0;
-		rLoc = 770;
+		rLoc = 848;
 		rType = 0;
 		vrLen = 870;
 		vrLoc = 0;
@@ -4008,7 +4015,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* main.c */;
 		name = "main.c: 10";
 		rLen = 1;
-		rLoc = 159;
+		rLoc = 232;
 		rType = 0;
 		vrLen = 473;
 		vrLoc = 0;
@@ -4028,7 +4035,7 @@
 		fRef = 9472E96B0E7DF699009BEC66 /* dtM4ARead.c */;
 		name = "dtM4ARead.c: 105";
 		rLen = 0;
-		rLoc = 3975;
+		rLoc = 4069;
 		rType = 0;
 		vrLen = 2785;
 		vrLoc = 1507;
@@ -4038,7 +4045,7 @@
 		fRef = 94B5019A0E806F2D00896C92 /* dtM4AUtil.c */;
 		name = "dtM4AUtil.c: 16";
 		rLen = 37;
-		rLoc = 512;
+		rLoc = 616;
 		rType = 0;
 		vrLen = 1394;
 		vrLoc = 0;
@@ -4048,7 +4055,7 @@
 		fRef = 9472E9670E7DF658009BEC66 /* dtM4AMuxer.h */;
 		name = "dtM4AMuxer.h: 35";
 		rLen = 0;
-		rLoc = 770;
+		rLoc = 848;
 		rType = 0;
 		vrLen = 870;
 		vrLoc = 0;
@@ -4078,7 +4085,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* main.c */;
 		name = "main.c: 10";
 		rLen = 1;
-		rLoc = 159;
+		rLoc = 232;
 		rType = 0;
 		vrLen = 473;
 		vrLoc = 0;
@@ -4098,7 +4105,7 @@
 		fRef = 9472E96B0E7DF699009BEC66 /* dtM4ARead.c */;
 		name = "dtM4ARead.c: 105";
 		rLen = 0;
-		rLoc = 3975;
+		rLoc = 4069;
 		rType = 0;
 		vrLen = 2447;
 		vrLoc = 1839;
@@ -4108,7 +4115,7 @@
 		fRef = 94B5019A0E806F2D00896C92 /* dtM4AUtil.c */;
 		name = "dtM4AUtil.c: 16";
 		rLen = 37;
-		rLoc = 512;
+		rLoc = 616;
 		rType = 0;
 		vrLen = 1394;
 		vrLoc = 0;
@@ -4118,7 +4125,7 @@
 		fRef = 9472E9670E7DF658009BEC66 /* dtM4AMuxer.h */;
 		name = "dtM4AMuxer.h: 35";
 		rLen = 0;
-		rLoc = 770;
+		rLoc = 848;
 		rType = 0;
 		vrLen = 870;
 		vrLoc = 0;
@@ -4148,7 +4155,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* main.c */;
 		name = "main.c: 10";
 		rLen = 1;
-		rLoc = 159;
+		rLoc = 232;
 		rType = 0;
 		vrLen = 473;
 		vrLoc = 0;
@@ -4168,7 +4175,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* main.c */;
 		name = "main.c: 20";
 		rLen = 0;
-		rLoc = 716;
+		rLoc = 789;
 		rType = 0;
 		vrLen = 574;
 		vrLoc = 0;
@@ -4178,7 +4185,7 @@
 		fRef = 9472E96B0E7DF699009BEC66 /* dtM4ARead.c */;
 		name = "dtM4ARead.c: 105";
 		rLen = 0;
-		rLoc = 3975;
+		rLoc = 4069;
 		rType = 0;
 		vrLen = 2447;
 		vrLoc = 1839;
@@ -4188,7 +4195,7 @@
 		fRef = 94B5019A0E806F2D00896C92 /* dtM4AUtil.c */;
 		name = "dtM4AUtil.c: 16";
 		rLen = 37;
-		rLoc = 512;
+		rLoc = 616;
 		rType = 0;
 		vrLen = 1394;
 		vrLoc = 0;
@@ -4198,7 +4205,7 @@
 		fRef = 9472E9670E7DF658009BEC66 /* dtM4AMuxer.h */;
 		name = "dtM4AMuxer.h: 35";
 		rLen = 0;
-		rLoc = 770;
+		rLoc = 848;
 		rType = 0;
 		vrLen = 870;
 		vrLoc = 0;
@@ -4228,7 +4235,7 @@
 		fRef = 9472E96B0E7DF699009BEC66 /* dtM4ARead.c */;
 		name = "dtM4ARead.c: 113";
 		rLen = 0;
-		rLoc = 4158;
+		rLoc = 4252;
 		rType = 0;
 		vrLen = 2177;
 		vrLoc = 2123;
@@ -4238,7 +4245,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* main.c */;
 		name = "main.c: 20";
 		rLen = 0;
-		rLoc = 716;
+		rLoc = 789;
 		rType = 0;
 		vrLen = 574;
 		vrLoc = 0;
@@ -4248,7 +4255,7 @@
 		fRef = 94B5019A0E806F2D00896C92 /* dtM4AUtil.c */;
 		name = "dtM4AUtil.c: 16";
 		rLen = 37;
-		rLoc = 512;
+		rLoc = 616;
 		rType = 0;
 		vrLen = 1394;
 		vrLoc = 0;
@@ -4258,7 +4265,7 @@
 		fRef = 9472E9670E7DF658009BEC66 /* dtM4AMuxer.h */;
 		name = "dtM4AMuxer.h: 35";
 		rLen = 0;
-		rLoc = 770;
+		rLoc = 848;
 		rType = 0;
 		vrLen = 870;
 		vrLoc = 0;
@@ -4292,7 +4299,7 @@
 		fRef = 9472E96B0E7DF699009BEC66 /* dtM4ARead.c */;
 		name = "dtM4ARead.c: 64";
 		rLen = 0;
-		rLoc = 2569;
+		rLoc = 2663;
 		rType = 0;
 		vrLen = 2787;
 		vrLoc = 1619;
@@ -4302,7 +4309,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* main.c */;
 		name = "main.c: 20";
 		rLen = 0;
-		rLoc = 716;
+		rLoc = 789;
 		rType = 0;
 		vrLen = 574;
 		vrLoc = 0;
@@ -4312,7 +4319,7 @@
 		fRef = 94B5019A0E806F2D00896C92 /* dtM4AUtil.c */;
 		name = "dtM4AUtil.c: 16";
 		rLen = 37;
-		rLoc = 512;
+		rLoc = 616;
 		rType = 0;
 		vrLen = 1394;
 		vrLoc = 0;
@@ -4322,7 +4329,7 @@
 		fRef = 9472E9670E7DF658009BEC66 /* dtM4AMuxer.h */;
 		name = "dtM4AMuxer.h: 35";
 		rLen = 0;
-		rLoc = 770;
+		rLoc = 848;
 		rType = 0;
 		vrLen = 870;
 		vrLoc = 0;
@@ -4352,7 +4359,7 @@
 		fRef = 9472E96B0E7DF699009BEC66 /* dtM4ARead.c */;
 		name = "dtM4ARead.c: 76";
 		rLen = 0;
-		rLoc = 2983;
+		rLoc = 3077;
 		rType = 0;
 		vrLen = 2785;
 		vrLoc = 1619;
@@ -4362,7 +4369,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* main.c */;
 		name = "main.c: 20";
 		rLen = 0;
-		rLoc = 716;
+		rLoc = 789;
 		rType = 0;
 		vrLen = 574;
 		vrLoc = 0;
@@ -4372,7 +4379,7 @@
 		fRef = 94B5019A0E806F2D00896C92 /* dtM4AUtil.c */;
 		name = "dtM4AUtil.c: 16";
 		rLen = 37;
-		rLoc = 512;
+		rLoc = 616;
 		rType = 0;
 		vrLen = 1394;
 		vrLoc = 0;
@@ -4382,7 +4389,7 @@
 		fRef = 9472E9670E7DF658009BEC66 /* dtM4AMuxer.h */;
 		name = "dtM4AMuxer.h: 35";
 		rLen = 0;
-		rLoc = 770;
+		rLoc = 848;
 		rType = 0;
 		vrLen = 870;
 		vrLoc = 0;
@@ -4412,7 +4419,7 @@
 		fRef = 9472E96B0E7DF699009BEC66 /* dtM4ARead.c */;
 		name = "dtM4ARead.c: 76";
 		rLen = 7;
-		rLoc = 2976;
+		rLoc = 3070;
 		rType = 0;
 		vrLen = 2786;
 		vrLoc = 1619;
@@ -4422,7 +4429,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* main.c */;
 		name = "main.c: 20";
 		rLen = 0;
-		rLoc = 716;
+		rLoc = 789;
 		rType = 0;
 		vrLen = 574;
 		vrLoc = 0;
@@ -4432,7 +4439,7 @@
 		fRef = 94B5019A0E806F2D00896C92 /* dtM4AUtil.c */;
 		name = "dtM4AUtil.c: 16";
 		rLen = 37;
-		rLoc = 512;
+		rLoc = 616;
 		rType = 0;
 		vrLen = 1394;
 		vrLoc = 0;
@@ -4442,7 +4449,7 @@
 		fRef = 9472E9670E7DF658009BEC66 /* dtM4AMuxer.h */;
 		name = "dtM4AMuxer.h: 35";
 		rLen = 0;
-		rLoc = 770;
+		rLoc = 848;
 		rType = 0;
 		vrLen = 870;
 		vrLoc = 0;
@@ -4461,8 +4468,8 @@
 		isa = PBXTextBookmark;
 		comments = "error: 'newLen' undeclared (first use in this function)";
 		fRef = 9472E96B0E7DF699009BEC66 /* dtM4ARead.c */;
-		rLen = 0;
-		rLoc = 66;
+		rLen = 1;
+		rLoc = 0;
 		rType = 1;
 	};
 	94B502090E80750A00896C92 /* PBXTextBookmark */ = {
@@ -4480,7 +4487,7 @@
 		fRef = 9472E96B0E7DF699009BEC66 /* dtM4ARead.c */;
 		name = "dtM4ARead.c: 73";
 		rLen = 0;
-		rLoc = 2911;
+		rLoc = 3005;
 		rType = 0;
 		vrLen = 2891;
 		vrLoc = 1457;
@@ -4490,7 +4497,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* main.c */;
 		name = "main.c: 20";
 		rLen = 0;
-		rLoc = 716;
+		rLoc = 789;
 		rType = 0;
 		vrLen = 574;
 		vrLoc = 0;
@@ -4500,7 +4507,7 @@
 		fRef = 94B5019A0E806F2D00896C92 /* dtM4AUtil.c */;
 		name = "dtM4AUtil.c: 16";
 		rLen = 37;
-		rLoc = 512;
+		rLoc = 616;
 		rType = 0;
 		vrLen = 1394;
 		vrLoc = 0;
@@ -4510,7 +4517,7 @@
 		fRef = 9472E9670E7DF658009BEC66 /* dtM4AMuxer.h */;
 		name = "dtM4AMuxer.h: 35";
 		rLen = 0;
-		rLoc = 770;
+		rLoc = 848;
 		rType = 0;
 		vrLen = 870;
 		vrLoc = 0;
@@ -4540,7 +4547,7 @@
 		fRef = 9472E96B0E7DF699009BEC66 /* dtM4ARead.c */;
 		name = "dtM4ARead.c: 64";
 		rLen = 0;
-		rLoc = 2569;
+		rLoc = 2663;
 		rType = 0;
 		vrLen = 2950;
 		vrLoc = 1457;
@@ -4550,7 +4557,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* main.c */;
 		name = "main.c: 20";
 		rLen = 0;
-		rLoc = 716;
+		rLoc = 789;
 		rType = 0;
 		vrLen = 574;
 		vrLoc = 0;
@@ -4560,7 +4567,7 @@
 		fRef = 94B5019A0E806F2D00896C92 /* dtM4AUtil.c */;
 		name = "dtM4AUtil.c: 16";
 		rLen = 37;
-		rLoc = 512;
+		rLoc = 616;
 		rType = 0;
 		vrLen = 1394;
 		vrLoc = 0;
@@ -4570,7 +4577,7 @@
 		fRef = 9472E9670E7DF658009BEC66 /* dtM4AMuxer.h */;
 		name = "dtM4AMuxer.h: 35";
 		rLen = 0;
-		rLoc = 770;
+		rLoc = 848;
 		rType = 0;
 		vrLen = 870;
 		vrLoc = 0;
@@ -4600,7 +4607,7 @@
 		fRef = 9472E96B0E7DF699009BEC66 /* dtM4ARead.c */;
 		name = "dtM4ARead.c: 75";
 		rLen = 0;
-		rLoc = 2907;
+		rLoc = 3001;
 		rType = 0;
 		vrLen = 2829;
 		vrLoc = 1457;
@@ -4610,7 +4617,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* main.c */;
 		name = "main.c: 20";
 		rLen = 0;
-		rLoc = 716;
+		rLoc = 789;
 		rType = 0;
 		vrLen = 574;
 		vrLoc = 0;
@@ -4620,7 +4627,7 @@
 		fRef = 94B5019A0E806F2D00896C92 /* dtM4AUtil.c */;
 		name = "dtM4AUtil.c: 16";
 		rLen = 37;
-		rLoc = 512;
+		rLoc = 616;
 		rType = 0;
 		vrLen = 1394;
 		vrLoc = 0;
@@ -4630,7 +4637,7 @@
 		fRef = 9472E9670E7DF658009BEC66 /* dtM4AMuxer.h */;
 		name = "dtM4AMuxer.h: 35";
 		rLen = 0;
-		rLoc = 770;
+		rLoc = 848;
 		rType = 0;
 		vrLen = 870;
 		vrLoc = 0;
@@ -4660,7 +4667,7 @@
 		fRef = 9472E96B0E7DF699009BEC66 /* dtM4ARead.c */;
 		name = "dtM4ARead.c: 73";
 		rLen = 0;
-		rLoc = 2907;
+		rLoc = 3001;
 		rType = 0;
 		vrLen = 2938;
 		vrLoc = 1457;
@@ -4670,7 +4677,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* main.c */;
 		name = "main.c: 20";
 		rLen = 0;
-		rLoc = 716;
+		rLoc = 789;
 		rType = 0;
 		vrLen = 574;
 		vrLoc = 0;
@@ -4680,7 +4687,7 @@
 		fRef = 94B5019A0E806F2D00896C92 /* dtM4AUtil.c */;
 		name = "dtM4AUtil.c: 16";
 		rLen = 37;
-		rLoc = 512;
+		rLoc = 616;
 		rType = 0;
 		vrLen = 1394;
 		vrLoc = 0;
@@ -4690,7 +4697,7 @@
 		fRef = 9472E9670E7DF658009BEC66 /* dtM4AMuxer.h */;
 		name = "dtM4AMuxer.h: 35";
 		rLen = 0;
-		rLoc = 770;
+		rLoc = 848;
 		rType = 0;
 		vrLen = 870;
 		vrLoc = 0;
@@ -4720,7 +4727,7 @@
 		fRef = 9472E96B0E7DF699009BEC66 /* dtM4ARead.c */;
 		name = "dtM4ARead.c: 41";
 		rLen = 0;
-		rLoc = 1241;
+		rLoc = 1335;
 		rType = 0;
 		vrLen = 2565;
 		vrLoc = 893;
@@ -4730,7 +4737,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* main.c */;
 		name = "main.c: 20";
 		rLen = 0;
-		rLoc = 716;
+		rLoc = 789;
 		rType = 0;
 		vrLen = 574;
 		vrLoc = 0;
@@ -4740,7 +4747,7 @@
 		fRef = 94B5019A0E806F2D00896C92 /* dtM4AUtil.c */;
 		name = "dtM4AUtil.c: 16";
 		rLen = 37;
-		rLoc = 512;
+		rLoc = 616;
 		rType = 0;
 		vrLen = 1394;
 		vrLoc = 0;
@@ -4750,7 +4757,7 @@
 		fRef = 9472E9670E7DF658009BEC66 /* dtM4AMuxer.h */;
 		name = "dtM4AMuxer.h: 35";
 		rLen = 0;
-		rLoc = 770;
+		rLoc = 848;
 		rType = 0;
 		vrLen = 870;
 		vrLoc = 0;
@@ -4780,7 +4787,7 @@
 		fRef = 9472E96B0E7DF699009BEC66 /* dtM4ARead.c */;
 		name = "dtM4ARead.c: 67";
 		rLen = 0;
-		rLoc = 2902;
+		rLoc = 2996;
 		rType = 0;
 		vrLen = 2553;
 		vrLoc = 666;
@@ -4790,7 +4797,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* main.c */;
 		name = "main.c: 20";
 		rLen = 0;
-		rLoc = 716;
+		rLoc = 789;
 		rType = 0;
 		vrLen = 574;
 		vrLoc = 0;
@@ -4800,7 +4807,7 @@
 		fRef = 94B5019A0E806F2D00896C92 /* dtM4AUtil.c */;
 		name = "dtM4AUtil.c: 16";
 		rLen = 37;
-		rLoc = 512;
+		rLoc = 616;
 		rType = 0;
 		vrLen = 1394;
 		vrLoc = 0;
@@ -4810,7 +4817,7 @@
 		fRef = 9472E9670E7DF658009BEC66 /* dtM4AMuxer.h */;
 		name = "dtM4AMuxer.h: 35";
 		rLen = 0;
-		rLoc = 770;
+		rLoc = 848;
 		rType = 0;
 		vrLen = 870;
 		vrLoc = 0;
@@ -4840,7 +4847,7 @@
 		fRef = 9472E96B0E7DF699009BEC66 /* dtM4ARead.c */;
 		name = "dtM4ARead.c: 64";
 		rLen = 0;
-		rLoc = 2825;
+		rLoc = 2919;
 		rType = 0;
 		vrLen = 2513;
 		vrLoc = 1118;
@@ -4850,7 +4857,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* main.c */;
 		name = "main.c: 20";
 		rLen = 0;
-		rLoc = 716;
+		rLoc = 789;
 		rType = 0;
 		vrLen = 574;
 		vrLoc = 0;
@@ -4860,7 +4867,7 @@
 		fRef = 94B5019A0E806F2D00896C92 /* dtM4AUtil.c */;
 		name = "dtM4AUtil.c: 16";
 		rLen = 37;
-		rLoc = 512;
+		rLoc = 616;
 		rType = 0;
 		vrLen = 1394;
 		vrLoc = 0;
@@ -4870,7 +4877,7 @@
 		fRef = 9472E9670E7DF658009BEC66 /* dtM4AMuxer.h */;
 		name = "dtM4AMuxer.h: 35";
 		rLen = 0;
-		rLoc = 770;
+		rLoc = 848;
 		rType = 0;
 		vrLen = 870;
 		vrLoc = 0;
@@ -4900,7 +4907,7 @@
 		fRef = 94B5019A0E806F2D00896C92 /* dtM4AUtil.c */;
 		name = "dtM4AUtil.c: 3";
 		rLen = 0;
-		rLoc = 240;
+		rLoc = 344;
 		rType = 0;
 		vrLen = 1402;
 		vrLoc = 0;
@@ -4910,7 +4917,7 @@
 		fRef = 9472E96B0E7DF699009BEC66 /* dtM4ARead.c */;
 		name = "dtM4ARead.c: 55";
 		rLen = 0;
-		rLoc = 2395;
+		rLoc = 2489;
 		rType = 0;
 		vrLen = 2684;
 		vrLoc = 723;
@@ -4920,7 +4927,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* main.c */;
 		name = "main.c: 20";
 		rLen = 0;
-		rLoc = 716;
+		rLoc = 789;
 		rType = 0;
 		vrLen = 574;
 		vrLoc = 0;
@@ -4930,7 +4937,7 @@
 		fRef = 9472E9670E7DF658009BEC66 /* dtM4AMuxer.h */;
 		name = "dtM4AMuxer.h: 35";
 		rLen = 0;
-		rLoc = 770;
+		rLoc = 848;
 		rType = 0;
 		vrLen = 870;
 		vrLoc = 0;
@@ -4960,7 +4967,7 @@
 		fRef = 9472E96B0E7DF699009BEC66 /* dtM4ARead.c */;
 		name = "dtM4ARead.c: 98";
 		rLen = 0;
-		rLoc = 4091;
+		rLoc = 4185;
 		rType = 0;
 		vrLen = 2433;
 		vrLoc = 1383;
@@ -4970,7 +4977,7 @@
 		fRef = 94B5019A0E806F2D00896C92 /* dtM4AUtil.c */;
 		name = "dtM4AUtil.c: 51";
 		rLen = 0;
-		rLoc = 2147;
+		rLoc = 2251;
 		rType = 0;
 		vrLen = 1465;
 		vrLoc = 0;
@@ -4980,7 +4987,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* main.c */;
 		name = "main.c: 20";
 		rLen = 0;
-		rLoc = 716;
+		rLoc = 789;
 		rType = 0;
 		vrLen = 574;
 		vrLoc = 0;
@@ -4990,7 +4997,7 @@
 		fRef = 9472E9670E7DF658009BEC66 /* dtM4AMuxer.h */;
 		name = "dtM4AMuxer.h: 35";
 		rLen = 0;
-		rLoc = 770;
+		rLoc = 848;
 		rType = 0;
 		vrLen = 870;
 		vrLoc = 0;
@@ -5038,7 +5045,7 @@
 		fRef = 94B5019A0E806F2D00896C92 /* dtM4AUtil.c */;
 		name = "dtM4AUtil.c: 51";
 		rLen = 0;
-		rLoc = 2147;
+		rLoc = 2251;
 		rType = 0;
 		vrLen = 1465;
 		vrLoc = 0;
@@ -5048,7 +5055,7 @@
 		fRef = 9472E96B0E7DF699009BEC66 /* dtM4ARead.c */;
 		name = "dtM4ARead.c: 85";
 		rLen = 0;
-		rLoc = 3751;
+		rLoc = 3845;
 		rType = 0;
 		vrLen = 2433;
 		vrLoc = 1383;
@@ -5058,7 +5065,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* main.c */;
 		name = "main.c: 14";
 		rLen = 19;
-		rLoc = 364;
+		rLoc = 437;
 		rType = 0;
 		vrLen = 574;
 		vrLoc = 0;
@@ -5068,7 +5075,7 @@
 		fRef = 9472E9670E7DF658009BEC66 /* dtM4AMuxer.h */;
 		name = "dtM4AMuxer.h: 35";
 		rLen = 0;
-		rLoc = 770;
+		rLoc = 848;
 		rType = 0;
 		vrLen = 870;
 		vrLoc = 0;
@@ -5098,7 +5105,7 @@
 		fRef = 9472E96B0E7DF699009BEC66 /* dtM4ARead.c */;
 		name = "dtM4ARead.c: 85";
 		rLen = 0;
-		rLoc = 3751;
+		rLoc = 3845;
 		rType = 0;
 		vrLen = 2433;
 		vrLoc = 1383;
@@ -5108,7 +5115,7 @@
 		fRef = 94B5019A0E806F2D00896C92 /* dtM4AUtil.c */;
 		name = "dtM4AUtil.c: 51";
 		rLen = 0;
-		rLoc = 2147;
+		rLoc = 2251;
 		rType = 0;
 		vrLen = 1465;
 		vrLoc = 0;
@@ -5118,7 +5125,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* main.c */;
 		name = "main.c: 14";
 		rLen = 19;
-		rLoc = 364;
+		rLoc = 437;
 		rType = 0;
 		vrLen = 574;
 		vrLoc = 0;
@@ -5128,7 +5135,7 @@
 		fRef = 9472E9670E7DF658009BEC66 /* dtM4AMuxer.h */;
 		name = "dtM4AMuxer.h: 35";
 		rLen = 0;
-		rLoc = 770;
+		rLoc = 848;
 		rType = 0;
 		vrLen = 870;
 		vrLoc = 0;
@@ -5148,7 +5155,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* main.c */;
 		name = "main.c: 13";
 		rLen = 0;
-		rLoc = 352;
+		rLoc = 425;
 		rType = 0;
 		vrLen = 593;
 		vrLoc = 0;
@@ -5168,7 +5175,7 @@
 		fRef = 9472E96B0E7DF699009BEC66 /* dtM4ARead.c */;
 		name = "dtM4ARead.c: 85";
 		rLen = 0;
-		rLoc = 3751;
+		rLoc = 3845;
 		rType = 0;
 		vrLen = 2433;
 		vrLoc = 1383;
@@ -5178,7 +5185,7 @@
 		fRef = 94B5019A0E806F2D00896C92 /* dtM4AUtil.c */;
 		name = "dtM4AUtil.c: 51";
 		rLen = 0;
-		rLoc = 2147;
+		rLoc = 2251;
 		rType = 0;
 		vrLen = 1465;
 		vrLoc = 0;
@@ -5188,7 +5195,7 @@
 		fRef = 9472E9670E7DF658009BEC66 /* dtM4AMuxer.h */;
 		name = "dtM4AMuxer.h: 35";
 		rLen = 0;
-		rLoc = 770;
+		rLoc = 848;
 		rType = 0;
 		vrLen = 870;
 		vrLoc = 0;
@@ -5218,7 +5225,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* main.c */;
 		name = "main.c: 13";
 		rLen = 0;
-		rLoc = 352;
+		rLoc = 425;
 		rType = 0;
 		vrLen = 593;
 		vrLoc = 0;
@@ -5228,7 +5235,7 @@
 		fRef = 9472E96B0E7DF699009BEC66 /* dtM4ARead.c */;
 		name = "dtM4ARead.c: 85";
 		rLen = 0;
-		rLoc = 3751;
+		rLoc = 3845;
 		rType = 0;
 		vrLen = 2433;
 		vrLoc = 1383;
@@ -5238,7 +5245,7 @@
 		fRef = 94B5019A0E806F2D00896C92 /* dtM4AUtil.c */;
 		name = "dtM4AUtil.c: 51";
 		rLen = 0;
-		rLoc = 2147;
+		rLoc = 2251;
 		rType = 0;
 		vrLen = 1465;
 		vrLoc = 0;
@@ -5248,7 +5255,7 @@
 		fRef = 9472E9670E7DF658009BEC66 /* dtM4AMuxer.h */;
 		name = "dtM4AMuxer.h: 35";
 		rLen = 0;
-		rLoc = 770;
+		rLoc = 848;
 		rType = 0;
 		vrLen = 870;
 		vrLoc = 0;
@@ -5278,7 +5285,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* main.c */;
 		name = "main.c: 13";
 		rLen = 0;
-		rLoc = 352;
+		rLoc = 425;
 		rType = 0;
 		vrLen = 593;
 		vrLoc = 0;
@@ -5288,7 +5295,7 @@
 		fRef = 9472E96B0E7DF699009BEC66 /* dtM4ARead.c */;
 		name = "dtM4ARead.c: 85";
 		rLen = 0;
-		rLoc = 3751;
+		rLoc = 3845;
 		rType = 0;
 		vrLen = 2433;
 		vrLoc = 1383;
@@ -5298,7 +5305,7 @@
 		fRef = 94B5019A0E806F2D00896C92 /* dtM4AUtil.c */;
 		name = "dtM4AUtil.c: 51";
 		rLen = 0;
-		rLoc = 2147;
+		rLoc = 2251;
 		rType = 0;
 		vrLen = 1465;
 		vrLoc = 0;
@@ -5308,7 +5315,7 @@
 		fRef = 9472E9670E7DF658009BEC66 /* dtM4AMuxer.h */;
 		name = "dtM4AMuxer.h: 35";
 		rLen = 0;
-		rLoc = 770;
+		rLoc = 848;
 		rType = 0;
 		vrLen = 870;
 		vrLoc = 0;
@@ -5328,7 +5335,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* main.c */;
 		name = "main.c: 15";
 		rLen = 0;
-		rLoc = 399;
+		rLoc = 472;
 		rType = 0;
 		vrLen = 715;
 		vrLoc = 0;
@@ -5348,7 +5355,7 @@
 		fRef = 9472E96B0E7DF699009BEC66 /* dtM4ARead.c */;
 		name = "dtM4ARead.c: 85";
 		rLen = 0;
-		rLoc = 3751;
+		rLoc = 3845;
 		rType = 0;
 		vrLen = 2433;
 		vrLoc = 1383;
@@ -5358,7 +5365,7 @@
 		fRef = 94B5019A0E806F2D00896C92 /* dtM4AUtil.c */;
 		name = "dtM4AUtil.c: 51";
 		rLen = 0;
-		rLoc = 2147;
+		rLoc = 2251;
 		rType = 0;
 		vrLen = 1465;
 		vrLoc = 0;
@@ -5368,7 +5375,7 @@
 		fRef = 9472E9670E7DF658009BEC66 /* dtM4AMuxer.h */;
 		name = "dtM4AMuxer.h: 35";
 		rLen = 0;
-		rLoc = 770;
+		rLoc = 848;
 		rType = 0;
 		vrLen = 870;
 		vrLoc = 0;
@@ -5388,7 +5395,7 @@
 		fRef = 9472E9670E7DF658009BEC66 /* dtM4AMuxer.h */;
 		name = "dtM4AMuxer.h: 42";
 		rLen = 0;
-		rLoc = 1084;
+		rLoc = 1162;
 		rType = 0;
 		vrLen = 896;
 		vrLoc = 0;
@@ -5398,7 +5405,7 @@
 		fRef = 94B5019A0E806F2D00896C92 /* dtM4AUtil.c */;
 		name = "dtM4AUtil.c: 31";
 		rLen = 63;
-		rLoc = 795;
+		rLoc = 899;
 		rType = 0;
 		vrLen = 1650;
 		vrLoc = 0;
@@ -5418,7 +5425,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* main.c */;
 		name = "main.c: 15";
 		rLen = 0;
-		rLoc = 399;
+		rLoc = 472;
 		rType = 0;
 		vrLen = 715;
 		vrLoc = 0;
@@ -5428,7 +5435,7 @@
 		fRef = 9472E96B0E7DF699009BEC66 /* dtM4ARead.c */;
 		name = "dtM4ARead.c: 85";
 		rLen = 0;
-		rLoc = 3751;
+		rLoc = 3845;
 		rType = 0;
 		vrLen = 2433;
 		vrLoc = 1383;
@@ -5437,8 +5444,8 @@
 		isa = PBXTextBookmark;
 		comments = "error: syntax error before '}' token";
 		fRef = 9472E9740E7DF6C9009BEC66 /* dtM4AWrite.c */;
-		rLen = 0;
-		rLoc = 29;
+		rLen = 1;
+		rLoc = 0;
 		rType = 1;
 	};
 	94B5028B0E807F6B00896C92 /* PBXTextBookmark */ = {
@@ -5456,7 +5463,7 @@
 		fRef = 9472E9740E7DF6C9009BEC66 /* dtM4AWrite.c */;
 		name = "dtM4AWrite.c: 33";
 		rLen = 0;
-		rLoc = 874;
+		rLoc = 976;
 		rType = 0;
 		vrLen = 1091;
 		vrLoc = 0;
@@ -5466,7 +5473,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* main.c */;
 		name = "main.c: 16";
 		rLen = 0;
-		rLoc = 352;
+		rLoc = 425;
 		rType = 0;
 		vrLen = 803;
 		vrLoc = 0;
@@ -5476,7 +5483,7 @@
 		fRef = 94B5019A0E806F2D00896C92 /* dtM4AUtil.c */;
 		name = "dtM4AUtil.c: 31";
 		rLen = 63;
-		rLoc = 795;
+		rLoc = 899;
 		rType = 0;
 		vrLen = 1618;
 		vrLoc = 249;
@@ -5486,7 +5493,7 @@
 		fRef = 9472E9670E7DF658009BEC66 /* dtM4AMuxer.h */;
 		name = "dtM4AMuxer.h: 42";
 		rLen = 0;
-		rLoc = 1084;
+		rLoc = 1162;
 		rType = 0;
 		vrLen = 896;
 		vrLoc = 0;
@@ -5506,7 +5513,7 @@
 		fRef = 9472E96B0E7DF699009BEC66 /* dtM4ARead.c */;
 		name = "dtM4ARead.c: 85";
 		rLen = 0;
-		rLoc = 3751;
+		rLoc = 3845;
 		rType = 0;
 		vrLen = 2433;
 		vrLoc = 1383;
@@ -5526,7 +5533,7 @@
 		fRef = 9472E9740E7DF6C9009BEC66 /* dtM4AWrite.c */;
 		name = "dtM4AWrite.c: 50";
 		rLen = 0;
-		rLoc = 1244;
+		rLoc = 1346;
 		rType = 0;
 		vrLen = 1191;
 		vrLoc = 0;
@@ -5536,7 +5543,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* main.c */;
 		name = "main.c: 16";
 		rLen = 0;
-		rLoc = 352;
+		rLoc = 425;
 		rType = 0;
 		vrLen = 803;
 		vrLoc = 0;
@@ -5546,7 +5553,7 @@
 		fRef = 94B5019A0E806F2D00896C92 /* dtM4AUtil.c */;
 		name = "dtM4AUtil.c: 31";
 		rLen = 63;
-		rLoc = 795;
+		rLoc = 899;
 		rType = 0;
 		vrLen = 1618;
 		vrLoc = 249;
@@ -5556,7 +5563,7 @@
 		fRef = 9472E9670E7DF658009BEC66 /* dtM4AMuxer.h */;
 		name = "dtM4AMuxer.h: 42";
 		rLen = 0;
-		rLoc = 1084;
+		rLoc = 1162;
 		rType = 0;
 		vrLen = 896;
 		vrLoc = 0;
@@ -5576,7 +5583,7 @@
 		fRef = 9472E96B0E7DF699009BEC66 /* dtM4ARead.c */;
 		name = "dtM4ARead.c: 85";
 		rLen = 0;
-		rLoc = 3751;
+		rLoc = 3845;
 		rType = 0;
 		vrLen = 2433;
 		vrLoc = 1383;
@@ -5596,7 +5603,7 @@
 		fRef = 9472E9740E7DF6C9009BEC66 /* dtM4AWrite.c */;
 		name = "dtM4AWrite.c: 34";
 		rLen = 0;
-		rLoc = 874;
+		rLoc = 976;
 		rType = 0;
 		vrLen = 1197;
 		vrLoc = 0;
@@ -5606,7 +5613,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* main.c */;
 		name = "main.c: 16";
 		rLen = 0;
-		rLoc = 352;
+		rLoc = 425;
 		rType = 0;
 		vrLen = 803;
 		vrLoc = 0;
@@ -5616,7 +5623,7 @@
 		fRef = 94B5019A0E806F2D00896C92 /* dtM4AUtil.c */;
 		name = "dtM4AUtil.c: 31";
 		rLen = 63;
-		rLoc = 795;
+		rLoc = 899;
 		rType = 0;
 		vrLen = 1618;
 		vrLoc = 249;
@@ -5626,7 +5633,7 @@
 		fRef = 9472E9670E7DF658009BEC66 /* dtM4AMuxer.h */;
 		name = "dtM4AMuxer.h: 42";
 		rLen = 0;
-		rLoc = 1084;
+		rLoc = 1162;
 		rType = 0;
 		vrLen = 896;
 		vrLoc = 0;
@@ -5646,7 +5653,7 @@
 		fRef = 9472E96B0E7DF699009BEC66 /* dtM4ARead.c */;
 		name = "dtM4ARead.c: 85";
 		rLen = 0;
-		rLoc = 3751;
+		rLoc = 3845;
 		rType = 0;
 		vrLen = 2433;
 		vrLoc = 1383;
@@ -5666,7 +5673,7 @@
 		fRef = 9472E9740E7DF6C9009BEC66 /* dtM4AWrite.c */;
 		name = "dtM4AWrite.c: 33";
 		rLen = 0;
-		rLoc = 878;
+		rLoc = 980;
 		rType = 0;
 		vrLen = 1190;
 		vrLoc = 0;
@@ -5676,7 +5683,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* main.c */;
 		name = "main.c: 16";
 		rLen = 0;
-		rLoc = 352;
+		rLoc = 425;
 		rType = 0;
 		vrLen = 803;
 		vrLoc = 0;
@@ -5686,7 +5693,7 @@
 		fRef = 94B5019A0E806F2D00896C92 /* dtM4AUtil.c */;
 		name = "dtM4AUtil.c: 31";
 		rLen = 63;
-		rLoc = 795;
+		rLoc = 899;
 		rType = 0;
 		vrLen = 1618;
 		vrLoc = 249;
@@ -5696,7 +5703,7 @@
 		fRef = 9472E9670E7DF658009BEC66 /* dtM4AMuxer.h */;
 		name = "dtM4AMuxer.h: 42";
 		rLen = 0;
-		rLoc = 1084;
+		rLoc = 1162;
 		rType = 0;
 		vrLen = 896;
 		vrLoc = 0;
@@ -5716,7 +5723,7 @@
 		fRef = 9472E96B0E7DF699009BEC66 /* dtM4ARead.c */;
 		name = "dtM4ARead.c: 85";
 		rLen = 0;
-		rLoc = 3751;
+		rLoc = 3845;
 		rType = 0;
 		vrLen = 2433;
 		vrLoc = 1383;
@@ -5736,7 +5743,7 @@
 		fRef = 9472E9740E7DF6C9009BEC66 /* dtM4AWrite.c */;
 		name = "dtM4AWrite.c: 47";
 		rLen = 0;
-		rLoc = 1244;
+		rLoc = 1346;
 		rType = 0;
 		vrLen = 1256;
 		vrLoc = 0;
@@ -5746,7 +5753,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* main.c */;
 		name = "main.c: 16";
 		rLen = 0;
-		rLoc = 352;
+		rLoc = 425;
 		rType = 0;
 		vrLen = 803;
 		vrLoc = 0;
@@ -5756,7 +5763,7 @@
 		fRef = 94B5019A0E806F2D00896C92 /* dtM4AUtil.c */;
 		name = "dtM4AUtil.c: 31";
 		rLen = 63;
-		rLoc = 795;
+		rLoc = 899;
 		rType = 0;
 		vrLen = 1618;
 		vrLoc = 249;
@@ -5766,7 +5773,7 @@
 		fRef = 9472E9670E7DF658009BEC66 /* dtM4AMuxer.h */;
 		name = "dtM4AMuxer.h: 42";
 		rLen = 0;
-		rLoc = 1084;
+		rLoc = 1162;
 		rType = 0;
 		vrLen = 896;
 		vrLoc = 0;
@@ -5786,7 +5793,7 @@
 		fRef = 9472E96B0E7DF699009BEC66 /* dtM4ARead.c */;
 		name = "dtM4ARead.c: 85";
 		rLen = 0;
-		rLoc = 3751;
+		rLoc = 3845;
 		rType = 0;
 		vrLen = 2433;
 		vrLoc = 1383;
@@ -5816,7 +5823,7 @@
 		fRef = 9472E9740E7DF6C9009BEC66 /* dtM4AWrite.c */;
 		name = "dtM4AWrite.c: 21";
 		rLen = 0;
-		rLoc = 505;
+		rLoc = 607;
 		rType = 0;
 		vrLen = 1242;
 		vrLoc = 0;
@@ -5826,7 +5833,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* main.c */;
 		name = "main.c: 16";
 		rLen = 0;
-		rLoc = 352;
+		rLoc = 425;
 		rType = 0;
 		vrLen = 803;
 		vrLoc = 0;
@@ -5836,7 +5843,7 @@
 		fRef = 94B5019A0E806F2D00896C92 /* dtM4AUtil.c */;
 		name = "dtM4AUtil.c: 31";
 		rLen = 63;
-		rLoc = 795;
+		rLoc = 899;
 		rType = 0;
 		vrLen = 1618;
 		vrLoc = 249;
@@ -5846,7 +5853,7 @@
 		fRef = 9472E9670E7DF658009BEC66 /* dtM4AMuxer.h */;
 		name = "dtM4AMuxer.h: 42";
 		rLen = 0;
-		rLoc = 1084;
+		rLoc = 1162;
 		rType = 0;
 		vrLen = 896;
 		vrLoc = 0;
@@ -5856,7 +5863,7 @@
 		fRef = 9472E96B0E7DF699009BEC66 /* dtM4ARead.c */;
 		name = "dtM4ARead.c: 85";
 		rLen = 0;
-		rLoc = 3751;
+		rLoc = 3845;
 		rType = 0;
 		vrLen = 2433;
 		vrLoc = 1383;
@@ -5865,8 +5872,8 @@
 		isa = PBXTextBookmark;
 		comments = "error: syntax error before '{' token";
 		fRef = 08FB7796FE84155DC02AAC07 /* main.c */;
-		rLen = 1;
-		rLoc = 2;
+		rLen = 0;
+		rLoc = 1;
 		rType = 1;
 	};
 	94B502C50E80849E00896C92 /* PBXTextBookmark */ = {
@@ -5884,7 +5891,7 @@
 		fRef = 9472E9670E7DF658009BEC66 /* dtM4AMuxer.h */;
 		name = "dtM4AMuxer.h: 41";
 		rLen = 0;
-		rLoc = 924;
+		rLoc = 1002;
 		rType = 0;
 		vrLen = 931;
 		vrLoc = 0;
@@ -5894,7 +5901,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* main.c */;
 		name = "main.c: 3";
 		rLen = 43;
-		rLoc = 25;
+		rLoc = 98;
 		rType = 0;
 		vrLen = 854;
 		vrLoc = 0;
@@ -5914,7 +5921,7 @@
 		fRef = 94B5019A0E806F2D00896C92 /* dtM4AUtil.c */;
 		name = "dtM4AUtil.c: 50";
 		rLen = 13;
-		rLoc = 1202;
+		rLoc = 1306;
 		rType = 0;
 		vrLen = 1546;
 		vrLoc = 368;
@@ -5924,7 +5931,7 @@
 		fRef = 9472E9740E7DF6C9009BEC66 /* dtM4AWrite.c */;
 		name = "dtM4AWrite.c: 21";
 		rLen = 0;
-		rLoc = 505;
+		rLoc = 607;
 		rType = 0;
 		vrLen = 1242;
 		vrLoc = 0;
@@ -5934,7 +5941,7 @@
 		fRef = 9472E96B0E7DF699009BEC66 /* dtM4ARead.c */;
 		name = "dtM4ARead.c: 85";
 		rLen = 0;
-		rLoc = 3751;
+		rLoc = 3845;
 		rType = 0;
 		vrLen = 2433;
 		vrLoc = 1383;
@@ -5943,8 +5950,8 @@
 		isa = PBXTextBookmark;
 		comments = "error: too many arguments to function 'printMPEG4FileToStdout'";
 		fRef = 08FB7796FE84155DC02AAC07 /* main.c */;
-		rLen = 1;
-		rLoc = 11;
+		rLen = 0;
+		rLoc = 1;
 		rType = 1;
 	};
 	94B502D30E80883700896C92 /* PBXTextBookmark */ = {
@@ -5952,7 +5959,7 @@
 		comments = "error: too few arguments to function 'calloc'";
 		fRef = 9472E96B0E7DF699009BEC66 /* dtM4ARead.c */;
 		rLen = 1;
-		rLoc = 84;
+		rLoc = 0;
 		rType = 1;
 	};
 	94B502D50E80884000896C92 /* PBXTextBookmark */ = {
@@ -5970,7 +5977,7 @@
 		fRef = 9472E96B0E7DF699009BEC66 /* dtM4ARead.c */;
 		name = "dtM4ARead.c: 85";
 		rLen = 0;
-		rLoc = 3388;
+		rLoc = 3482;
 		rType = 0;
 		vrLen = 1618;
 		vrLoc = 2570;
@@ -5980,7 +5987,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* main.c */;
 		name = "main.c: 31";
 		rLen = 0;
-		rLoc = 711;
+		rLoc = 784;
 		rType = 0;
 		vrLen = 836;
 		vrLoc = 0;
@@ -5990,7 +5997,7 @@
 		fRef = 9472E9740E7DF6C9009BEC66 /* dtM4AWrite.c */;
 		name = "dtM4AWrite.c: 39";
 		rLen = 0;
-		rLoc = 1045;
+		rLoc = 1147;
 		rType = 0;
 		vrLen = 1264;
 		vrLoc = 0;
@@ -6000,7 +6007,7 @@
 		fRef = 9472E9670E7DF658009BEC66 /* dtM4AMuxer.h */;
 		name = "dtM4AMuxer.h: 36";
 		rLen = 0;
-		rLoc = 675;
+		rLoc = 753;
 		rType = 0;
 		vrLen = 1134;
 		vrLoc = 0;
@@ -6010,7 +6017,67 @@
 		fRef = 94B5019A0E806F2D00896C92 /* dtM4AUtil.c */;
 		name = "dtM4AUtil.c: 80";
 		rLen = 0;
-		rLoc = 1957;
+		rLoc = 2061;
+		rType = 0;
+		vrLen = 1502;
+		vrLoc = 859;
+	};
+	94B502DC0E8088C300896C92 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 9472E9700E7DF6AD009BEC66 /* dtM4AProc.c */;
+		name = "dtM4AProc.c: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 395;
+		vrLoc = 0;
+	};
+	94B502DD0E8088C300896C92 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 9472E96B0E7DF699009BEC66 /* dtM4ARead.c */;
+		name = "dtM4ARead.c: 32";
+		rLen = 0;
+		rLoc = 1067;
+		rType = 0;
+		vrLen = 2855;
+		vrLoc = 0;
+	};
+	94B502DE0E8088C300896C92 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 9472E9670E7DF658009BEC66 /* dtM4AMuxer.h */;
+		name = "dtM4AMuxer.h: 25";
+		rLen = 0;
+		rLoc = 521;
+		rType = 0;
+		vrLen = 1134;
+		vrLoc = 0;
+	};
+	94B502DF0E8088C300896C92 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 08FB7796FE84155DC02AAC07 /* main.c */;
+		name = "main.c: 31";
+		rLen = 0;
+		rLoc = 784;
+		rType = 0;
+		vrLen = 836;
+		vrLoc = 0;
+	};
+	94B502E00E8088C300896C92 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 9472E9740E7DF6C9009BEC66 /* dtM4AWrite.c */;
+		name = "dtM4AWrite.c: 39";
+		rLen = 0;
+		rLoc = 1147;
+		rType = 0;
+		vrLen = 1264;
+		vrLoc = 0;
+	};
+	94B502E10E8088C300896C92 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 94B5019A0E806F2D00896C92 /* dtM4AUtil.c */;
+		name = "dtM4AUtil.c: 80";
+		rLen = 0;
+		rLoc = 2061;
 		rType = 0;
 		vrLen = 1502;
 		vrLoc = 859;

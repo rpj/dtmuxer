@@ -1,3 +1,6 @@
+// dtM4AProc.c -- routines for processing and modifying MPEG-4 data and structures
+// (C) 2008 Ryan Joseph
+
 #include "dtM4AMuxer.h"
 
 BOOL mogrifyAtomIntoFreeSpace(mpeg4atom_t* m4a, char* atomName)

@@ -1,3 +1,6 @@
+// dtM4AUtil.c -- utility routines for dealing with MPEG-4 data and structures
+// (C) 2008 Ryan Joseph
+
 #include "dtM4AMuxer.h"
 
 // Note how this array only contains the known parent atoms necessary

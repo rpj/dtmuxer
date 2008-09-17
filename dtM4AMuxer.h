@@ -1,3 +1,6 @@
+// dtM4AMuxer.h -- defintions for dtM4AMuxer project
+// (C) 2008 Ryan Joseph
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>

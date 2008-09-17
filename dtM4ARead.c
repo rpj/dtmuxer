@@ -1,3 +1,6 @@
+// dtM4ARead.c -- routines for reading and parsing MPEG-4 audio data
+// (C) 2008 Ryan Joseph
+
 #include "dtM4AMuxer.h"
 
 #define STATIC_BUFFER_SIZE		4096

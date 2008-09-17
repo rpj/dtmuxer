@@ -1,3 +1,6 @@
+// dtM4AWrite.c -- routines for writing MPEG-4 audio files and atoms to disk
+// (C) 2008 Ryan Joseph
+
 #include "dtM4AMuxer.h"
 
 BOOL writeSingleAtom(mpeg4atom_t* m4a, int filedes)
