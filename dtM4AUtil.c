@@ -22,13 +22,14 @@ BOOL atomCodeIsKnownParent(uint32_t code)
 
 BOOL fileIsValidM4AFile(int filedes)
 {
+	BOOL retVal = NO;
 	uint32_t header[3];
 	uint32_t size = sizeof(uint32_t) * 3;
 	
 	if (pread(filedes, header, size, 0) == size)
-		return (!memcmp(FTYP_ATOM_ID, &header[1], sizeof(uint32_t)) && !memcmp(M4A_FILE_ID, &header[2], sizeof(uint32_t)));
+		retVal = (!memcmp(FTYP_ATOM_ID, &header[1], sizeof(uint32_t)) && !memcmp(M4A_FILE_ID, &header[2], sizeof(uint32_t)));
 	
-	return NO;
+	return retVal;
 }
 
 mpeg4atom_t* findAtomWithName(mpeg4atom_t* m4a, char* atomName)
@@ -50,21 +51,16 @@ mpeg4atom_t* findAtomWithName(mpeg4atom_t* m4a, char* atomName)
 	return retAtom;
 }
 
-uint32_t peekAtNextAtomCode(mpeg4atom_t* curatom)
-{
-	if (curatom && curatom->data)
-		return *((uint32_t*)((char*)curatom->data + curatom->length - sizeof(uint32_t)));
-	
-	return 0;
-}
-
+// This routine would be extended to map all parent/child atom relationships
+// if the project spec req'd us to deal with all the atoms, or if I had a lot more time.
 char* nameOfParentAtom(uint32_t code)
 {
-	printf("NAME OF got 0x%x\n", code);
-	if (!memcmp("udta", &code, sizeof(uint32_t)))
-		return "moov";
+	char* retVal = NULL;
 	
-	return NULL;
+	if (!memcmp("udta", &code, sizeof(uint32_t)))
+		retVal = "moov";
+	
+	return retVal;
 }
 
 void freeMPEG4Atom(mpeg4atom_t* m4a)
@@ -81,33 +77,4 @@ void freeMPEG4File(mpeg4file_t* m4afile)
 {
 	freeMPEG4Atom(m4afile->rootAtom);
 	free(m4afile->fileData);
-}
-
-void printMPEG4AtomDescriptionToStdout(mpeg4atom_t* atom, const char* tabs)
-{
-	char code[5];
-	memcpy(code, &atom->code, 4);
-	code[4] = '\0';
-	
-	printf("%s'%s' <0x%x>:\tlength %d, data: 0x%x, parent: 0x%x, next: 0x%x, fChild: 0x%x\n",
-		   tabs, code, atom, atom->length, atom->data, atom->parent, atom->next, atom->firstChild);
-}
-
-void printMPEG4AtomToStdout(mpeg4atom_t* m4a, const char* tabs)
-{
-	printMPEG4AtomDescriptionToStdout(m4a, tabs);
-	
-	if (m4a->firstChild) {
-		char* moreTabs = (char*)malloc(strlen(tabs) + 1 + 2);
-		sprintf(moreTabs, "%s\t", tabs);
-		printMPEG4AtomToStdout(m4a->firstChild, moreTabs);
-	}
-	
-	if (m4a->next) printMPEG4AtomToStdout(m4a->next, tabs);
-}
-
-void printMPEG4FileToStdout(mpeg4file_t* file)
-{
-	printf("File length: %d\tdata: 0x%x\n", file->fileSize, file->fileData);
-	printMPEG4AtomToStdout(file->rootAtom, "");
 }

@@ -126,15 +126,11 @@ mpeg4file_t* readMPEG4FileFromPath(const char* path)
 		char* fileData = NULL;
 		ssize_t fileLength = 0;
 		
-		if (fileIsValidM4AFile(filedes)) {
-			printf("Valid M4A; reading...\n");
-			
+		if (fileIsValidM4AFile(filedes))
 			if ((fileLength = readFileIntoBuffer(filedes, (void**)&fileData)))
 				root = parseMPEG4Data(fileData, fileLength);
-		}
-		else {
-			fprintf(stderr, "Not a MPEG-4 audio file; exiting.\n");
-		}
+		
+		close(filedes);
 	}
 	
 	return root;

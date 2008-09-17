@@ -3,23 +3,7 @@
 
 #include "dtM4AMuxer.h"
 
-BOOL mogrifyAtomIntoFreeSpace(mpeg4atom_t* m4a, char* atomName)
-{
-	mpeg4atom_t* atom = findAtomWithName(m4a, atomName);
-	
-	if (atom) {
-		char* freeCode = "free";
-		
-		atom->code = *((uint32_t*)freeCode);
-		bzero(atom->data, atom->length - (sizeof(uint32_t) * 2));
-		
-		return YES;
-	}
-	
-	return NO;
-}
-
-BOOL removeAtomFromMPEG4ForReals(mpeg4atom_t* m4a, char* atomName)
+BOOL removeAtomFromMPEG4AndAdjustTree(mpeg4atom_t* m4a, char* atomName)
 {
 	mpeg4atom_t* atom = findAtomWithName(m4a, atomName);
 	mpeg4atom_t* stco = findAtomWithName(m4a, "stco");
@@ -35,10 +19,6 @@ BOOL removeAtomFromMPEG4ForReals(mpeg4atom_t* m4a, char* atomName)
 				parent->length -= atom->length;
 				*(((uint32_t*)parent->data) - 2) = htonl(parent->length);
 			}
-		}
-		
-		if (atom->next) {
-			// adjust the sibling chain here: will probably require that atoms have a 'previous' pointer too, dammit!
 		}
 		
 		// here we adjust the chunk offsets for the media data, given in the 'stco' atom
@@ -59,6 +39,5 @@ BOOL removeAtomFromMPEG4ForReals(mpeg4atom_t* m4a, char* atomName)
 
 BOOL removeAtomFromMPEG4(mpeg4file_t* m4afile, char* atomName)
 {
-	//return mogrifyAtomIntoFreeSpace(m4afile->rootAtom, atomName);
-	return removeAtomFromMPEG4ForReals(m4afile->rootAtom, atomName);
+	return removeAtomFromMPEG4AndAdjustTree(m4afile->rootAtom, atomName);
 }

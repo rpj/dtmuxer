@@ -14,6 +14,7 @@
 
 #define FTYP_ATOM_ID			"ftyp"
 #define M4A_FILE_ID				"M4A "
+#define OUTPUT_EXTENSION		"-nometa.m4a"
 
 typedef char BOOL;
 
@@ -47,11 +48,6 @@ BOOL atomCodeIsKnownParent(uint32_t);
 
 mpeg4atom_t* findAtomWithName(mpeg4atom_t*, char*);
 char* nameOfParentAtom(uint32_t code);
-uint32_t peekAtNextAtomCode(mpeg4atom_t* curatom);
 
 void freeMPEG4Atom(mpeg4atom_t*);
 void freeMPEG4File(mpeg4file_t* m4afile);
-
-void printMPEG4AtomToStdout(mpeg4atom_t*, const char*);
-void printMPEG4StructureToStdout(mpeg4atom_t*, const char*);
-void printMPEG4FileToStdout(mpeg4file_t* file);
