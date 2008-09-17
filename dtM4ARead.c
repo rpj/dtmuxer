@@ -38,10 +38,10 @@ mpeg4atom_t* parseMPEG4DataRec(void* data, ssize_t dataLen, ssize_t lastLen, mpe
 		atom->code = *(((uint32_t*)data) + 1);
 		atom->data = (uint32_t*)data + 2;
 		
-		// This algorithm for deciding parent/child relationships is a bit off; it doesn't affect the 
-		// overall functionality of the program because the tree gets built correctly "enough" to be valid
-		// when rewritten, but if I'd had more time I believe this function - and this code specifically -
-		// would be where I'd spend a lot more time. See note (1) later in this function for the other
+		// This algorithm for deciding parent/child relationships is a bit wonky, I admit; it doesn't affect the 
+		// correctness or functionality of the program because the tree gets built correctly "enough" to be valid
+		// when rewritten. However, if I had more time, I believe this function - and this code specifically -
+		// would be where I'd spend a lot of it. See note (1) later in this function for the other
 		// corresponding code that is involved in the parent/child determination.
 		mpeg4atom_t* temp = parent;
 		for (; temp && temp->parent; temp = temp->parent);
@@ -61,8 +61,8 @@ mpeg4atom_t* parseMPEG4DataRec(void* data, ssize_t dataLen, ssize_t lastLen, mpe
 		// The call to atomCodeIsKnownParent() is here to provide a preset mapping of what atoms should be considered
 		// parents. I've done things this way because of the fact that MPEG-4 audio files tend to break the "an atom
 		// is either a parent OR a content atom" rule, making parsing the data structure without any foreknowledge
-		// (such as this mapping) nearly impossible. Backtracking doesn't help, either, because the "if the current 
-		// atom's size is less than the last then it is a parent atom" doesn't hold consistently.
+		// (such as this mapping) quite difficult. Backtracking doesn't help, because the "if the current 
+		// atom's size is less than the last then it is a parent atom" rule doesn't hold consistently, either.
 		if (atomCodeIsKnownParent(atom->code)) {
 			uint32_t adjSize = sizeof(uint32_t) * 2;
 			

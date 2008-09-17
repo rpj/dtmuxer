@@ -31,7 +31,7 @@ int main (int argc, const char * argv[]) {
 		}
 	}
 	else {
-		fprintf(stderr, "Usage: %s [infile]\n\nIf successful, will produce a new file named '[infile]%s'\n", 
+		fprintf(stderr, "Usage: %s [infile]\n\nIf successful, will produce a new file named '[infile]%s' in the same directory as [infile].\n", 
 				argv[0], OUTPUT_EXTENSION);
 		retVal = -1;
 	}

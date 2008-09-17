@@ -14,7 +14,7 @@ BOOL removeAtomFromMPEG4AndAdjustTree(mpeg4atom_t* m4a, char* atomName)
 		if (parent) {
 			parent->firstChild = atom->next;
 			
-			// adjust atom lengths for the parent atom, it's parent (atom's grandparent), until no parent is found
+			// adjust atom lengths for the parent atom, its parent (atom's grandparent), until no parent is found
 			for (; parent; parent = parent->parent) {
 				parent->length -= atom->length;
 				*(((uint32_t*)parent->data) - 2) = htonl(parent->length);

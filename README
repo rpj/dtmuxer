@@ -1,0 +1,11 @@
+Run 'make' to build. A binary named 'dtMuxer' will be produced.
+
+Use like so:
+
+./dtMuxer inputFile.m4a
+
+If 'inputFile.m4a' is a valid MPEG-4 audio file with a metadata
+box (the 'meta' atom), said box will be removed and a new file
+named 'inputFile.m4a-nometa.m4a' will be produced in the same
+directory as the original file. The original file will never
+be modified, moved, removed, or otherwise molested in any way.
