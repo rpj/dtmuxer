@@ -46,6 +46,8 @@ BOOL fileIsValidM4AFile(int);
 BOOL atomCodeIsKnownParent(uint32_t);
 
 mpeg4atom_t* findAtomWithName(mpeg4atom_t*, char*);
+char* nameOfParentAtom(uint32_t code);
+uint32_t peekAtNextAtomCode(mpeg4atom_t* curatom);
 
 void freeMPEG4Atom(mpeg4atom_t*);
 void freeMPEG4File(mpeg4file_t* m4afile);

@@ -6,7 +6,7 @@
 // Note how this array only contains the known parent atoms necessary
 // to find and parse the 'meta' atom, which is what we're interested.
 // This is by design.
-static char* gKnownParentCodes[] = { "moov", "udta", NULL };
+static char* gKnownParentCodes[] = { "moov", "udta", "trak", "mdia", "minf", "stbl", NULL };
 
 BOOL atomCodeIsKnownParent(uint32_t code) 
 {
@@ -34,8 +34,9 @@ BOOL fileIsValidM4AFile(int filedes)
 mpeg4atom_t* findAtomWithName(mpeg4atom_t* m4a, char* atomName)
 {
 	mpeg4atom_t* retAtom = NULL;
+	printf("findWithName(%s)\n", atomName);
 	
-	if (m4a) {
+	if (m4a && atomName) {
 		if (!memcmp((uint32_t*)atomName, &m4a->code, sizeof(uint32_t)))
 			retAtom = m4a;
 		else {
@@ -50,12 +51,28 @@ mpeg4atom_t* findAtomWithName(mpeg4atom_t* m4a, char* atomName)
 	return retAtom;
 }
 
+uint32_t peekAtNextAtomCode(mpeg4atom_t* curatom)
+{
+	if (curatom && curatom->data)
+		return *((uint32_t*)((char*)curatom->data + curatom->length - sizeof(uint32_t)));
+	
+	return 0;
+}
+
+char* nameOfParentAtom(uint32_t code)
+{
+	printf("NAME OF got 0x%x\n", code);
+	if (!memcmp("udta", &code, sizeof(uint32_t)))
+		return "moov";
+	
+	return NULL;
+}
+
 void freeMPEG4Atom(mpeg4atom_t* m4a)
 {
 	if (m4a->firstChild) freeMPEG4Atom(m4a->firstChild);
 	
 	mpeg4atom_t* next = m4a->next;
-	printf("freeing 0x%x\n", m4a);
 	free(m4a);
 	
 	if (next) freeMPEG4Atom(next);
