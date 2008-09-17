@@ -34,13 +34,13 @@ BOOL writeAtomAndSiblingsToFile(mpeg4atom_t* m4a, int filedes)
 	return retVal;
 }
 
-BOOL writeMPEG4FileToPath(mpeg4atom_t* m4a, const char* path)
+BOOL writeMPEG4FileToPath(mpeg4file_t* m4afile, const char* path)
 {
 	BOOL retVal = NO;
 	int fileDesc = open(path, O_WRONLY | O_CREAT, S_IRUSR | S_IWUSR);
 	
-	if (m4a && path && fileDesc > 0) {
-		retVal = writeAtomAndSiblingsToFile(m4a, fileDesc);
+	if (m4afile && path && fileDesc > 0) {
+		retVal = writeAtomAndSiblingsToFile(m4afile->rootAtom, fileDesc);
 		close(fileDesc);
 	}
 	

@@ -4,12 +4,12 @@ int main (int argc, const char * argv[]) {
 	int retVal = 0;
 	
 	if (argc > 1) {
-		mpeg4atom_t* m4a = readMPEG4FileFromPath(argv[1]);
+		mpeg4file_t* m4a = readMPEG4FileFromPath(argv[1]);
 		
 		
 		if (m4a) { 
 			printf("\nMPEG4 structure:\n\n");
-			printMPEG4StructureToStdout(m4a, "");
+			printMPEG4FileToStdout(m4a);
 			printf("\n\n");
 			
 			printf("Writing pristine:\n");
@@ -17,7 +17,7 @@ int main (int argc, const char * argv[]) {
 			
 			if (removeAtomFromMPEG4(m4a, "meta")) {				
 				printf("\nMPEG4 structure after remove:\n\n");
-				printMPEG4StructureToStdout(m4a, "");
+				printMPEG4FileToStdout(m4a);
 				printf("\n\n");
 				
 				printf("Writing.\n");
@@ -26,6 +26,9 @@ int main (int argc, const char * argv[]) {
 			else {
 				printf("No 'meta' atom found, nothing to do; exiting.\n\n");
 			}
+			
+			printf("FREEING\n");
+			freeMPEG4File(m4a);
 		}
 	}
 	else {

@@ -26,10 +26,9 @@ BOOL removeAtomFromMPEG4ForReals(mpeg4atom_t* m4a, char* atomName)
 		if (parent) {
 			parent->firstChild = atom->next;
 			
-			for (; parent; parent = parent->parent) {
-				printf("Need to adjust length of 0x%x from %d to %d\n", parent, parent->length, parent->length - atom->length);
+			// adjust atom lengths for the parent atom, it's parent (atom's grandparent), until no parent is found
+			for (; parent; parent = parent->parent)
 				parent->length -= atom->length;
-			}
 		}
 		
 		if (atom->next) {
@@ -39,14 +38,14 @@ BOOL removeAtomFromMPEG4ForReals(mpeg4atom_t* m4a, char* atomName)
 		// must also adjust 'mdat' offset if it has moved (most likely!)
 		
 		// delete the memory for the atom, because it is no longer in the tree
-		free(atom);
+		freeMPEG4Atom(atom);
 	}
 	
 	return (atom != NULL);
 }
 
-BOOL removeAtomFromMPEG4(mpeg4atom_t* m4a, char* atomName)
+BOOL removeAtomFromMPEG4(mpeg4file_t* m4afile, char* atomName)
 {
-	return mogrifyAtomIntoFreeSpace(m4a, atomName);
-	//return removeAtomFromMPEG4ForReals(m4a, atomName);
+	return mogrifyAtomIntoFreeSpace(m4afile->rootAtom, atomName);
+	//return removeAtomFromMPEG4ForReals(m4afile->rootAtom, atomName);
 }

@@ -23,14 +23,20 @@ typedef struct mpeg4atom {
 	struct mpeg4atom*		firstChild;
 } mpeg4atom_t;
 
+typedef struct mpeg4file {
+	mpeg4atom_t*			rootAtom;
+	ssize_t					fileSize;
+	void*					fileData;
+} mpeg4file_t;
+
 // dtM4ARead.c
-mpeg4atom_t* readMPEG4FileFromPath(const char*);
+mpeg4file_t* readMPEG4FileFromPath(const char*);
 
 // dtM4AWrite.c
-BOOL writeMPEG4FileToPath(mpeg4atom_t*, const char*);
+BOOL writeMPEG4FileToPath(mpeg4file_t*, const char*);
 
 // dtM4AProc.c
-BOOL removeAtomFromMPEG4(mpeg4atom_t*, char*);
+BOOL removeAtomFromMPEG4(mpeg4file_t*, char*);
 
 // dtM4AUtil.c
 BOOL fileIsValidM4AFile(int);
@@ -38,5 +44,9 @@ BOOL atomCodeIsKnownParent(uint32_t);
 
 mpeg4atom_t* findAtomWithName(mpeg4atom_t*, char*);
 
+void freeMPEG4Atom(mpeg4atom_t*);
+void freeMPEG4File(mpeg4file_t* m4afile);
+
 void printMPEG4AtomToStdout(mpeg4atom_t*, const char*);
 void printMPEG4StructureToStdout(mpeg4atom_t*, const char*);
+void printMPEG4FileToStdout(mpeg4file_t* file);

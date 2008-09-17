@@ -47,7 +47,24 @@ mpeg4atom_t* findAtomWithName(mpeg4atom_t* m4a, char* atomName)
 	return retAtom;
 }
 
-void printMPEG4AtomToStdout(mpeg4atom_t* atom, const char* tabs)
+void freeMPEG4Atom(mpeg4atom_t* m4a)
+{
+	if (m4a->firstChild) freeMPEG4Atom(m4a->firstChild);
+	
+	mpeg4atom_t* next = m4a->next;
+	printf("freeing 0x%x\n", m4a);
+	free(m4a);
+	
+	if (next) freeMPEG4Atom(next);
+}
+
+void freeMPEG4File(mpeg4file_t* m4afile)
+{
+	freeMPEG4Atom(m4afile->rootAtom);
+	free(m4afile->fileData);
+}
+
+void printMPEG4AtomDescriptionToStdout(mpeg4atom_t* atom, const char* tabs)
 {
 	char code[5];
 	memcpy(code, &atom->code, 4);
@@ -57,15 +74,21 @@ void printMPEG4AtomToStdout(mpeg4atom_t* atom, const char* tabs)
 		   tabs, code, atom, atom->length, atom->data, atom->parent, atom->next, atom->firstChild);
 }
 
-void printMPEG4StructureToStdout(mpeg4atom_t* m4a, const char* tabs)
+void printMPEG4AtomToStdout(mpeg4atom_t* m4a, const char* tabs)
 {
-	printMPEG4AtomToStdout(m4a, tabs);
+	printMPEG4AtomDescriptionToStdout(m4a, tabs);
 	
 	if (m4a->firstChild) {
 		char* moreTabs = (char*)malloc(strlen(tabs) + 1 + 2);
 		sprintf(moreTabs, "%s\t", tabs);
-		printMPEG4StructureToStdout(m4a->firstChild, moreTabs);
+		printMPEG4AtomToStdout(m4a->firstChild, moreTabs);
 	}
 	
-	if (m4a->next) printMPEG4StructureToStdout(m4a->next, tabs);
+	if (m4a->next) printMPEG4AtomToStdout(m4a->next, tabs);
+}
+
+void printMPEG4FileToStdout(mpeg4file_t* file)
+{
+	printf("File length: %d\tdata: 0x%x\n", file->fileSize, file->fileData);
+	printMPEG4AtomToStdout(file->rootAtom, "");
 }

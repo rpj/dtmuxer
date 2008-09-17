@@ -76,14 +76,32 @@ mpeg4atom_t* parseMPEG4DataRec(void* data, ssize_t dataLen, ssize_t lastLen, mpe
 	return atom;
 }
 
-mpeg4atom_t* parseMPEG4Data(void* data, ssize_t length)
+// NOTE: frees the data passed in!
+mpeg4file_t* parseMPEG4Data(void* data, ssize_t length)
 {
-	return parseMPEG4DataRec(data, length, 0, NULL, NULL);
+	mpeg4file_t* newFile = NULL;
+	
+	if (data && length) {
+		newFile = (mpeg4file_t*)malloc(sizeof(struct mpeg4file));
+	
+		newFile->fileData = malloc(length);
+		
+		if (newFile->fileData) {
+			newFile->fileSize = length;
+			
+			memcpy(newFile->fileData, data, length);
+			free(data);
+			
+			newFile->rootAtom = parseMPEG4DataRec(newFile->fileData, length, 0, NULL, NULL);
+		}
+	}
+	
+	return newFile;
 }
 
-mpeg4atom_t* readMPEG4FileFromPath(const char* path)
+mpeg4file_t* readMPEG4FileFromPath(const char* path)
 {
-	mpeg4atom_t* root = NULL;
+	mpeg4file_t* root = NULL;
 	
 	int filedes = open(path, O_RDONLY);
 	
