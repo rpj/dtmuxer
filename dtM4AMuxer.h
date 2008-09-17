@@ -33,8 +33,10 @@ BOOL writeMPEG4FileToPath(mpeg4atom_t*, const char*);
 BOOL removeAtomFromMPEG4(mpeg4atom_t*, char*);
 
 // dtM4AUtil.c
-BOOL fileIsValidM4AFile(int filedes);
-BOOL atomCodeIsKnownParent(uint32_t code);
+BOOL fileIsValidM4AFile(int);
+BOOL atomCodeIsKnownParent(uint32_t);
 
-void printMPEG4AtomToStdout(mpeg4atom_t* atom, const char* tabs);
-void printMPEG4StructureToStdout(mpeg4atom_t* m4a, const char*);
+mpeg4atom_t* findAtomWithName(mpeg4atom_t*, char*);
+
+void printMPEG4AtomToStdout(mpeg4atom_t*, const char*);
+void printMPEG4StructureToStdout(mpeg4atom_t*, const char*);
